@@ -11,7 +11,6 @@ keywords: 博客, Rocher Zhang
 timezone: Asia/Beijing
 encoding: "utf-8"
 
-<<<<<<< HEAD
 # ---------------- #
 #      Author      #
 # ---------------- #
@@ -62,8 +61,6 @@ markdown: kramdown
 kramdown:
     input: GFM
 highlighter: rouge
-=======
->>>>>>> 9fe8d8300277faaa33a84f7b0848098e53660b26
 paginate: 8
 lsi: false
 quiet: false
