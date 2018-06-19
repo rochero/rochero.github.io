@@ -1,4 +1,5 @@
 ---
+layout: wiki
 title: OnlineJudge常见判定
 description: 刷题到最后都是需要英文基础的，看的懂错误是什么才能对症下药
 categories: [基础, 学习]
