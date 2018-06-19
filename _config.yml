@@ -4,8 +4,8 @@
 baseurl:
 url: https://rochero.github.io
 date_format: "ordinal"
-title: 无他，唯手熟尔
-subtitle: "编码人生"
+title: 编码人生
+subtitle: "无他，唯手熟尔"
 description: "Rocher's blogs"
 keywords: 博客, Rocher Zhang
 timezone: Asia/Beijing
@@ -43,16 +43,11 @@ navs:
 
   -
     href: /links/
-    label: 链接
+    label: 下载
 
   -
     href: /about/
     label: 关于
-
-# ---------------- #
-#       RSS        #
-# ---------------- #
-subscribe_rss: /feed.xml
 
 # ---------------- #
 #      Jekyll      #
