@@ -3,7 +3,6 @@ layout: page
 title: Wiki
 description: 吾生有涯，知也无涯
 keywords: 维基, Wiki
-comments: false
 menu: 维基
 permalink: /wiki/
 ---
