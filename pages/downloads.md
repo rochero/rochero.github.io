@@ -9,7 +9,7 @@ permalink: /downloads/
 
 
 
-[高质量C/C++编程指南](https：//github.com/rochero/blog/raw/master/guide_to_high_quality_CPP_and_C_programming.pdf)
+[高质量C/C++编程指南](https://github.com/rochero/blog/raw/master/guide_to_high_quality_CPP_and_C_programming.pdf)
 
 [nethack源代码](https://github.com/rochero/blog/raw/master/nethack-360-src.zip)
 
