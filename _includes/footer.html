@@ -42,7 +42,8 @@
 
     {% if page.mermaid %}
     <script src="{{ site.url }}/assets/js/mermaid.min.js"></script>
-    <script>mermaid.initialize({startOnLoad:true});</script>
+//    <script>mermaid.initialize({startOnLoad:true});</script>
+    <script>mermaid.init({noteMargin: 10});</script>
     {% endif %}
 
     {% if page.sequence %}
