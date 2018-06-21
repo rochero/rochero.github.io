@@ -4,9 +4,9 @@
 baseurl:
 url: https://rochero.github.io
 date_format: "ordinal"
-title: 编码人生
+title: 我的个人主页
 subtitle: "无他，唯手熟尔"
-description: "Rocher's blogs"
+description: "Rocher's Blog"
 keywords: 博客, Rocher Zhang
 timezone: Asia/Beijing
 encoding: "utf-8"
