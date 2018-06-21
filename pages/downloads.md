@@ -1,6 +1,6 @@
 ---
 layout: page
-title: downloads
+title: Downloads
 description: 一些杂物
 keywords: 下载, downloads
 menu: 下载

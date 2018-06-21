@@ -7,6 +7,8 @@ menu: 维基
 permalink: /wiki/
 ---
 
+> 吾生有涯，知也无涯
+>
 > 以有涯随无涯，如何？
 
 <ul class="listing">

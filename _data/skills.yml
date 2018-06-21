@@ -1,19 +1,29 @@
-- name: Software Engineer Keywords
+- name: 已学
   keywords:
-      - Java
+      - C语言
+
+- name: 在学
+  keywords:
+
+- name: 想学
+  keywords:
+      - 数据结构
+      - 算法
       - C++
+      - JAVA
+      - HTML+CSS
+      - Javascript
+      - 汇编语言
+      - 计算机组成原理
+      - 软件工程
+      - 编译原理
+      - 离散数学
+      - 概率论与数理统计
       - Python
-      - Design Patterns
+      - MatLab
+      - Photoshop
+      - 数学模型
+      - Unity
+      - 操作系统
+      - 数据库原理
 
-- name: Mobile Developer Keywords
-  keywords:
-      - Android
-      - Reverse Engineering
-
-- name: Windows Developer Keywords
-  keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
