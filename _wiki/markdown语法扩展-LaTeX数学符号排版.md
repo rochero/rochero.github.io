@@ -18,10 +18,10 @@ $\mathop{abc}\limits_1$
 2. ==平方根==和==n 次方根==（自动调整形式、仅符号形式）
 
 ```latex
-$\sqrt{x}\qquad\sqrt{x^2+\sqrt{y}} \qquad\sqrt[3]2\qquad\surd[x^2+y^2]$
+$\sqrt{x}\qquad\sqrt{x^2+\sqrt y} \qquad\sqrt[3]2\qquad\surd[x^2+y^2]$
 ```
 
-$\sqrt{x}\qquad\sqrt{x^2+\sqrt{y}} \qquad\sqrt[3]2\qquad\surd[x^2+y^2]$
+$\sqrt{x}\qquad\sqrt{x^2+\sqrt y} \qquad\sqrt[3]2\qquad\surd[x^2+y^2]$
 
 3. ==水平线==（上方、下方）
 
@@ -35,12 +35,12 @@ $\overline{m+n}\qquad \underline{m+n}$
 
 ```latex
 $f(x,y,z) = 3y^2z \left( 3+\frac{7x+5}{1+y^2} \right)$
-$\left.\frac{{\rm d}u}{{\rm d}x}\right|_{x=0}$
+$\left.{\rm d}u \over {\rm d}x \right|_{x=0}$
 ```
 
 $f(x,y,z) = 3y^2z\left ( 3+\frac{7x+5}{1+y^2} \right)$
 
-$ \left.\frac{{\rm d}u}{{\rm d}x}\right| _{x=0}$ 
+$ \left.{\rm d}u \over {\rm d}x \right|_{x=0}$ 
 
 5. ==水平大括号==
 
