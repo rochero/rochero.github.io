@@ -84,4 +84,4 @@ $$\chi(\lambda)=\left|\begin{array}{ccc}\lambda-a&-b&-c\\-d&\lambda-e&-f\\-g&-h&
 $$\left( \begin{array}{}a&b&c\\d&e&f\\g&h&i \end{array} \right)$$
 $$ \chi(\lambda) = \left| \begin{array}{ccc} \lambda - a & -b & -c \\ -d & \lambda - e & -f \\ -g & -h & \lambda - i \end{array} \right|$$
 
-详见[一份不太简短的$\LaTeX2_{\varepsilon}$介绍](/blog/lshort-cn.pdf)
+详见[一份不太简短的$\LaTeX2_{\varepsilon}$介绍](https://github.com/rochero/blog/raw/master/nshort.pdf)
