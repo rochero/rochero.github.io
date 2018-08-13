@@ -1,5 +1,6 @@
 ---
 title: The 50 most important PC games of all time
+layout: wiki
 ---
 
 
