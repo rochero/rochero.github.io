@@ -5,7 +5,7 @@ layout: wiki
 
 
 
-![](/DoomCover.jpg)
+![doomcover](/50ImportantGamesinPC/DoomCover.jpg)
 
 Imagine PC gaming today without Doom. Would we still be playing first-person shooters? Probably. But who knows what they would look like? Without Doom, an entire decade of gaming would've followed a very different path.
 
@@ -17,7 +17,7 @@ A few months ago we set out to highlight the 50 most important and influential P
 
 The most important PC games of all time changed how we make games. How we play games. And they changed us. To celebrate them, we did something a bit different on the following pages of this feature. We reached out to game designers—look out for Richard Garriott, John Carmack, Sid Meier, Chris Avellone, Jane Jensen, Tim Schafer, Cliff Bleszinski, Warren Spector and more—plus many former PC Gamer editors and a few other writers you may recognize to help celebrate the legacy of the PC. Enjoy!
 
-![](/SpaceWar.jpg)
+![](/50ImportantGamesinPC/SpaceWar.jpg)
 
 ### Spacewar!
 
@@ -33,7 +33,7 @@ In 1973, Larry Rosenthal had just graduated with a masters in electrical enginee
 
 I played “Space Wars” in my local arcade around that time. It was the first assembly language game I wrote for my Atari 800 as a high school kid in 1981 and it helped fuel my passion for programming and video games. That passion ultimately led me to Microsoft to build their game business and launch the original Xbox. *— Ed Fries*
 
-![](/TheOregonTrail.jpg)
+![](/50ImportantGamesinPC/TheOregonTrail.jpg)
 
 ### The Oregon Trail
 
@@ -49,7 +49,7 @@ And we loved it. Far from making us sensitive or understanding of the plight of 
 
 Yet, the fact that I remember this, the fact that Oregon Trail imparted a lesson about the harsh caprice of the journey west that I will never forget as long as I live, suggests that the game was doing something right. What most educators want is to make kids think about something other than themselves, to be able to see the world through someone else's eyes. Oregon Trail may have been a warped and unintentionally hilarious window into the past, but it was a window nonetheless. *— Rob Zacny*
 
-![](/ColossalCaveAdventure.jpg)
+![](/50ImportantGamesinPC/ColossalCaveAdventure.jpg)
 
 ### Colossal Cave Adventure
 
@@ -63,9 +63,9 @@ This kickstarted the adventure market, most notably leading to Ken and Roberta W
 
 Colossal Cave Adventure’s legacy also spread to other more ambitious games, including MUDs (Multi User Dungeons) that directly led to the invention of MMOs, from DikuMUDs like Everquest to the mighty World of Warcraft. Might all of these things happened anyway? Perhaps. But in our reality, they all owe a debt to Will Crowther’s love of caving, and his desire to share that experience with his daughters in the comfort and safety of virtual space. — *Richard Cobbett*
 
+![](/50ImportantGamesinPC/rogue.jpg)
 
-
-### ![Rogue](/Rogue.jpg)
+### Rogue
 
 **Released:** 1980 | **Developer:** Michael Toy, Glenn Wichman, Ken Arnold
 
@@ -75,7 +75,7 @@ Oddly, for the longest time, Rogue really wasn’t important. But it should have
 
 At the same time, the combination of elements can still offer surprises and nasty moments for even the most dedicated player, hundreds and hundreds of hours into any game. Nethack in particular (an evolution of Hack, itself an evolution of Rogue) is one of the most complex games this side of Dwarf Fortress, and not for nothing did it spawn the phrase ‘The Dev Team Thinks Of Everything’. Any time you play a game whose rules are complex enough to ask “Yes, but what happens if you DO hit the Beholder in the face with a custard pie?” you’re playing a game that probably owes at least some debt to Rogue—a game finally getting its long overdue dues. — *Richard Cobbett*
 
-![](/Zork.jpg)
+![](/50ImportantGamesinPC/Zork.jpg)
 
 ### Zork
 
@@ -93,7 +93,7 @@ You spend hours in front of the screen, finding hidden passageways, collecting i
 
 You do not exit. You almost never leave this room, except for meals. This is how you spend the summer of your thirteenth year. Playing Zork. Collecting clockwork canaries. Typing in random swear words to see what it would say. ("Such language in a high-class establishment like this!") I don't want to depress you, but this is probably the greatest summer of your life. Also, much of your career will be spent imitating this game. Good thing you didn't pirate it. *— Tim Schafer*
 
-![](/Wizardry.jpg)
+![](/50ImportantGamesinPC/Wizardry.jpg)
 
 ### Wizardry
 
@@ -107,7 +107,7 @@ How was Wizardry able to pull this off? For one, the world was laid out before y
 
 Wizardry, along with the early Ultimas, had the biggest influence on me as a game designer during that era. They were the shoulders of giants that I and other designers were able to stand on. *— Paul Neurath*
 
-![](/PinballConstructionSet.jpg)
+![](/50ImportantGamesinPC/PinballConstructionSet.jpg)
 
 ### Pinball Construction Set
 
@@ -121,7 +121,7 @@ Pinball machines sadly and quickly got shoved to the corners of the arcades once
 
 Pinball Construction Set was a landmark because it opened up the conversation and language about what a “game” could even be. It taught hundreds of thousands of gamers that creating a game could be just as much fun as playing one. Pinball Construction Set might be a bit more obscure than other games on this list, but is influence cannot be understated. Some of the games you probably love best—maybe even others here—just might possibly have been born in the brain of someone who got their first taste of game design from this remarkable, groundbreaking game. — *Jeff Green*
 
-![](/King'sQuest.jpg)
+![](/50ImportantGamesinPC/King'sQuest.jpg)
 
 ### King's Quest
 
@@ -141,7 +141,7 @@ Maybe the story isn't always 100% compelling, no, but King's Quest introduced th
 
 King Graham himself would go on to star in a sequel, King's Quest II: Romancing the Throne, as well as the fifth installment, Absence Makes the Heart Go Yonder. In 2015, Graham starred again in an entirely new series of King's Quest games, this time designed by The Odd Gentlemen. It's clear that—if sales, critical acclaim, and longevity have anything to do with it—the Royal Family of Daventry is indeed the "First Family" of computer gaming. It's a dynasty. *— Jenn Frank*
 
-![](/UltimaIV.jpg)
+![](/50ImportantGamesinPC/UltimaIV.jpg)
 
 ### Ultima IV
 
@@ -175,7 +175,7 @@ The feeling the game gave me. That’s the point. It came as close as any game h
 
 That’s all I’ve wanted to do for the last 32 years. Recreate D&D. And it all started with Ultima IV. Thanks Lord British, for everything. *— Warren Spector*
 
-![](/SimCity.jpg)
+![](/50ImportantGamesinPC/SimCity.jpg)
 
 ### SimCity
 
@@ -191,7 +191,7 @@ It was also the beginning, though no one knew it at the time, of a computer gami
 
 But SimCity was the first, and it still endures. It was the game that taught us that winning wasn’t everything—but fixing traffic jams is. *— Jeff Green*
 
-![](/CommanderKeen.jpg)
+![](/50ImportantGamesinPC/CommanderKeen.jpg)
 
 ### Commander Keen
 
@@ -207,7 +207,7 @@ Commander Keen wasn't my first game, but looking back it filled the same role th
 
 The PC didn’t have much of a culture of side scrolling games, but Keen led a brief shareware flowering. The innocent and fun tone remained a contrast to the grim and serious directions that soon dominated, and it probably stands out a little more in memories than the endless parade of military badass scenarios. *— John Carmack*
 
-![](/TheSecretofMonkeyIsland.jpg)
+![](/50ImportantGamesinPC/TheSecretofMonkeyIsland.jpg)
 
 ### The Secret of Monkey Island
 
@@ -223,7 +223,7 @@ The poster child for adventure games, I am not. By the time I had access to a re
 
 That game was damn near impenetrable, but I’ve never had more fun slamming my head against bad logic. I didn’t know walkthroughs were a thing yet, and spent months puzzling over rubber chickens and pulleys. I have pirate insults burned into my memory. They’ll come in handy someday, I’m sure. The dialogue was so witty and dark, the scenes so detailed and colorful, the characters were archetypes, but so easy to love—I felt like I’d stumbled onto something secret, mine, the birthplace of Freddy Fish and Pajama Sam, a personal right of passage into young adulthood. I tore through every Monkey Island, Sam and Max, Day of the Tentacle, every Scumm game I could. I pointed and clicked in my sleep. I’m still pointing, still clicking, still laughing at terrible puns. *— James Davenport*
 
-![](/Civilization.jpg)
+![](/50ImportantGamesinPC/Civilization.jpg)
 
 ### Civilization
 
@@ -237,7 +237,7 @@ But with Civilization, I immediately realized how potentially endless the game w
 
 Every other game I played was finite. They had fixed missions, fixed maps. They gave you objectives and the only thing you could do was succeed or fail at them. Civilization gave you a settler at the dawn of history and said, "Go see what's out there, and what you can make of it." *— Rob Zacny*
 
-![](/DuneII.jpg)
+![](/50ImportantGamesinPC/DuneII.jpg)
 
 ### Dune II
 
@@ -249,7 +249,7 @@ It might seem odd to convert Frank Herbert's magnificent Dune universe into a to
 
 In addition to the familiar houses of Atreides and Harkonnen, Westwood introduced the mercantile Ordos. The personality of each faction was expressed elegantly through unit design. The wealthy Harkonnen favour huge battle tanks while, in keeping with the novel, Atreides ally with the indigenous Fremen and wage guerilla warfare. The Ordos use gas to change enemy allegiance. Dune II didn't just establish the RTS template that would become the norm for decades, it did it with style and great respect for the source material. The rippling wormsign effect still fills me with fear for my harvesters. *— Tom Senior*
 
-![](/UltimaUnderworldTheStygianAbyss.jpg)
+![](/50ImportantGamesinPC/UltimaUnderworldTheStygianAbyss.jpg)
 
 ### Ultima Underworld: The Stygian Abyss
 
@@ -261,7 +261,7 @@ This title screamed in out of nowhere, and did something amazing—it created a 
 
 The story was a bit hacky (go rescue the Baron's daughter before she's sacrificed to a demon, the Slasher of Veils), but the design elements along the way outshine the main story and still shine to this day. On narrative alone, Ultima Underworld taught me how to speak a lizardman's language, I bantered with talking doors, and after fighting all the way to the one spirit in the game who could help me with the final boss, the spirit (Garamon) simply replied "I don't know. What do you think we should do?" And I sat and stared at the screen. The game was asking me how to solve it. Initially flummoxed by this twist, I proceeded to question and volunteer ways to defeat the big baddie, and I was floored. Ultima Underworld is one of the best examples (another being Fallout 1) of how innovation can make a game excel, and I consider Ultima Underworld to be one of the best RPGs and best games of all time. And hey, if you put corn to your torch, it made popcorn. How cool is that? *— Chris Avellone*
 
-![](/Wolfenstein 3D.jpg)
+![](/50ImportantGamesinPC/Wolfenstein 3D.jpg)
 
 ### Wolfenstein 3D
 
@@ -273,7 +273,7 @@ I can't remember my first reaction to Wolfenstein 3D. Being able to say that it 
 
 I carried Wolfenstein 3D around on a sacred floppy disk, taking it to sleepovers where my friends and I would take turns shooting Nazis and clicking on every wall in every room. One of my friends liked to say "Guten tag!" with every shot. I'm pretty sure if I said it to him today, he'd immediately think of Wolfenstein. Given my age, we must've been playing Wolf3D years after Doom had already come out, but I didn't even know Doom existed. Looking back, this was id's stepping stone to superstar status and the proving ground for them to make the most influential PC game of all time. It was pioneering technology and design that would be eclipsed just a year later. I didn't know that at the time—I just knew it was the coolest damn thing I'd ever seen. *— Wes Fenlon*
 
-![](/Myst.jpg)
+![](/50ImportantGamesinPC/Myst.jpg)
 
 ### Myst
 
@@ -308,7 +308,7 @@ Myst taught me just how much story telling could be done purely through visuals,
 
 I don’t think I really cared about video games until Myst. It wouldn’t run on my home PC, so most sessions were spent at a friend’s place after school and on weekends. At seven years old, it’s not like I knew exactly what we were doing. We pulled and twisted every gear and valve in sight, if only because we knew that it had an effect, even though we couldn’t always parse exactly what. I’m not sure we ever actually finished the game. It didn’t matter. Myst was the first time I was able to explore a contiguous, detailed space brimming with meaningfully interactive components. Our naive experimentation gave way to understanding in small bursts, and the simpler puzzles became our go-tos for a quick bit of satisfaction when we needed it. While Myst is considered one of the most influential puzzle games on the PC, for a younger audience, it was one of the most influential playgrounds around. *— James Davenport*
 
-![](/FrontierElite2.jpg)
+![](/50ImportantGamesinPC/FrontierElite2.jpg)
 
 ### Frontier: Elite 2
 
@@ -320,7 +320,7 @@ Elite 2 couldn’t live up to some of its promises, because of course it couldn�
 
 But! For the time, what it offered was still nothing short of astonishing. An actual universe, where you could make your way and your fortune working for or between the Federation and the Empire as you chose. The draw of those delicious high-end ships you could only drool at for most of the game. The tension of hauling narcotics and other contraband, or realising you’ve picked a fight with exactly the wrong pirate. Elite took everything the original game offered and dragged it into the present, while still feeling like the future. Simply experiencing the journey from the surface of a planet into deep space without interruption was worth the entry price—and that was just your first glimpse of what Elite 2 had to offer. A whole universe laid out in front of you, waiting to see what you wanted to do with it. — *Richard Cobbett*
 
-![](/Doom.jpg)
+![](/50ImportantGamesinPC/Doom.jpg)
 
 ### Doom
 
@@ -344,7 +344,7 @@ I don’t think it’s possible to overstate just how incredible it was to play 
 
 I lost months of my life in Doom, but I lost even more time in WadEd, a Doom level editor prone to frequent crashing. The fact that I could build worlds that represented what was going on in my head at the time, as an angsty, metal-loving teenager, was something I wish a lot of other people could experience. They can, though: Doom’s eminent modability not only makes it a game that people still play and develop for in 2016, but it also set the foundations for what the PC platform is so beloved for: the fact that after you play a game, you can get creative with it. *— Shaun Prescott*
 
-![](/WingCommanderIIIHeartoftheTiger.jpg)
+![](/50ImportantGamesinPC/WingCommanderIIIHeartoftheTiger.jpg)
 
 ### Wing Commander III: Heart of the Tiger
 
@@ -356,7 +356,7 @@ A space opera elevated by a glittering array of movie talent, Wing Commander III
 
 As well as nailing the Commander Shepard fantasy 18 years before Mass Effect, Wing Commander III was also a decent space dogfighting sim with customisable ships and heroic wingmen. The narrative interludes and missions interlocked beautifully, creating a game that was so much more than a mere interactive movie. Many games have tried to match Wing Commander's "cinematic" flair since, but without Mark Hamill and a range of actors in huge lion-man suits, they never really stood a chance. What a gem. *— Tom Senior*
 
-![](/UFOEnemyUnknown(X-COMUFODefense).jpg)
+![](/50ImportantGamesinPC/UFOEnemyUnknown(X-COMUFODefense).jpg)
 
 ### UFO: Enemy Unknown (X-COM: UFO Defense)
 
@@ -374,7 +374,7 @@ But for all of its unpredictability, X-Com was not cruel. It did not delight in 
 
 X-Com wasn’t a game, it was a fully contained world that existed behind your monitor, as subject to its own rules as you were. My experiences in X-Com, my memories there, are as authentic to me as any others I have from that time in my life. It was a forerunner of simulations today that trade in authenticity, like Day Z, and Dwarf Fortress. X-Com was, and still is, one of the most important games of all time. *— Jake Solomon*
 
-![](/Quake.jpg)
+![](/50ImportantGamesinPC/Quake.jpg)
 
 ### Quake
 
@@ -390,7 +390,7 @@ Though I ultimately became much more invested in Quake II—actually, far too in
 
 I remember looking at those blocky corridors and thinking that they could become *any place*, where you could do *anything* if you knew how. I made a lot of low-gravity tubes, but I also tried to make pretty places without any of the original maps’ stern architecture. And not even to release and play in: I just wanted to make somewhere new to be. I wonder if John Carmack and Michael Abrash felt similarly when they were programming these artificial realities, dreaming of the technology they’re making now at Oculus. id Software was not on the cutting edge by any fluke—they weren’t just interested in selling good software, they were establishing the incredible art of creating new *places*, and their work was a vital hub for the ever spreading map of digital geography. Like Rome, all roads lead to Quake. *— Tyler Wilde*
 
-![](/TombRaider.jpg)
+![](/50ImportantGamesinPC/TombRaider.jpg)
 
 ### Tomb Raider
 
@@ -408,7 +408,7 @@ And then you shoot a monkey. And an endangered wolf. Then a beautiful and majest
 
 tl;dr: TANK CONTROLS RULE! *— Tim Schafer*
 
-![](/Diablo.jpg)
+![](/50ImportantGamesinPC/Diablo.jpg)
 
 ### Diablo
 
@@ -420,7 +420,7 @@ Intoxicating atmosphere, genre-defining gameplay, and a cutting-edge multiplayer
 
 Diablo's randomly generated levels and randomly determined quests made for a uniquely replayable game, as well. There just wasn't anything out there that compared with assaulting Diablo's forces either alone or with your friends or strangers, as you set out to rid the town of Tristram of the monster waiting far beneath the ground. Today, Diablo's influence remains as strong as ever near on 20 years after the game's release. *— Greg Kasavin*
 
-![](/UltimaOnline.jpg)
+![](/50ImportantGamesinPC/UltimaOnline.jpg)
 
 ### Ultima Online
 
@@ -436,7 +436,7 @@ It barely ran on my parents' PC, and I was terrible at it. I didn't understand i
 
 It was incredible. *— Chris Thursten*
 
-![](/Half-Life.jpg)
+![](/50ImportantGamesinPC/Half-Life.jpg)
 
 ### Half-Life
 
@@ -460,7 +460,7 @@ There's plenty of shooting in Half-Life, of course, but what makes it so importa
 
 Like Doom before it, Half-Life helped shape shooters to come by showing us they could be about more than just the shooting. They can tell stories, they can teach by example, they can create a world that feels like it exists beyond the crosshairs of your gun. Half-Life laid out the blueprints that modern shooters are still using today. *— Chris Livingston*
 
-![](/StarCraftBroodWar.jpg)
+![](/50ImportantGamesinPC/StarCraftBroodWar.jpg)
 
 ### StarCraft: Brood War
 
@@ -474,7 +474,7 @@ StarCraft as a whole has fantastic progression, introducing a series of problems
 
 Brood War builds on the solid base of StarCraft, preserving all the best parts of the first game and giving you something deeper to think about. *— Sid Meier*
 
-![](/StarsiegeTribes.jpg)
+![](/50ImportantGamesinPC/StarsiegeTribes.jpg)
 
 ### Starsiege: Tribes
 
@@ -490,7 +490,7 @@ Tribes was doing this stuff in ‘98, a full year before the titans of that gene
 
 In a period known for incredibly high skill ceiling FPS games, Dynamix delivered one in which almost every shot (outdoors, anyway) felt like a skill shot and movement was a true discipline. *— Evan Lahti*
 
-![](/ThiefTheDarkProject.jpg)
+![](/50ImportantGamesinPC/ThiefTheDarkProject.jpg)
 
 ### Thief: The Dark Project
 
@@ -512,7 +512,7 @@ One of the most memorable moments in the game happens when, completely lost and 
 
 And so 2014's Thief, with its small, constrained levels, myriad fake doors, minimap and mission markers, is so important in that it shows us just why 1998's original stood out, and continues to stand out, as a game unlike other games. Mass market video game technology and design best practices have in many cases trended more toward simplified playable spaces and feature-forward user-friendliness, but it is just The Dark Project's opposition to these principles, its openness and impartiality, that defined it. To attempt to apply today's standards to Garrett and the City is, demonstrably, an exercise at odds with itself—an important lesson to remember. The world of a thief is by no means a friendly or welcoming one; the joy, in the end, is making it through that world on your own. *— Steve Gaynor*
 
-![](/Baldur'sGate.jpg)
+![](/50ImportantGamesinPC/Baldur'sGate.jpg)
 
 ### Baldur's Gate
 
@@ -526,7 +526,7 @@ It also spearheaded a push into D&D that would bring forth some of the best RPGs
 
 Through Bioware and Obsidian, Infinity Engine developers would go on to dominate the RPG landscape for over a decade. Neverwinter Nights, Knights of the Old Republic, Dragon Age: Origins and, of course, Pillars of Eternity. Nowadays we've moved beyond D&D, with systems better designed for digital gaming, but Baldur's Gate's richness and texture are still worth striving for. Massive, surprising, and full of wonderful characters, Baldur's Gate was an epic that shaped its genre. — *Phil Savage*
 
-![](/Everquest.jpg)
+![](/50ImportantGamesinPC/Everquest.jpg)
 
 ### Everquest
 
@@ -540,7 +540,7 @@ This was the first online game with a truly massive, fully 3D world. The allure 
 
 The sense of discovery in EverQuest was so powerful because there was so much at stake—if you died, not only did you lose a chunk of experience but you'd have to recover your equipment where you lost it, or else it'd be gone for good. Later games lightened up on this kind of penalty, but in EverQuest's day it made for one of the most gripping and memorable game experiences ever made. *— Greg Kasavin*
 
-![](/Counter-Strike.jpg)
+![](/50ImportantGamesinPC/Counter-Strike.jpg)
 
 ### Counter-Strike
 
@@ -564,7 +564,7 @@ To me, Counter-Strike brings back memories of high school computer labs and lunc
 
 The most sure-fire measure of Counter-Strike's importance, though, is that it never went away. After launching in 1999, it began a decades-long journey of improvement, update, and iteration. It's now 16 years old, and hundreds of thousands of players still log on every day to play the original Counter-Strike, its various iterations, or Counter-Strike: Global Offensive. Having a huge audience active in a game with set rules and mechanics was also instrumental to the rise of esports in the Western world. Counter-Strike continues to influence players and developers as one of the longest running, most popular multiplayer shooters in video game history. — *Ian Birnbaum*
 
-![](/SystemShock2.jpg)
+![](/50ImportantGamesinPC/SystemShock2.jpg)
 
 ### System Shock 2
 
@@ -580,7 +580,7 @@ It was an amazing, unforgettable experience, and one that few FPSs to date have 
 
 On a parting note, it had cyrokinetic monkeys. Cyrokinetic. Monkeys. And they were terrifying. Do you know how hard it is to sell an idea like that, let alone pull it off? Kudos to Irrational and Looking Glass. *— Chris Avellone*
 
-![](/QuakeIIIArena.jpg)
+![](/50ImportantGamesinPC/QuakeIIIArena.jpg)
 
 ### Quake III: Arena
 
@@ -594,7 +594,7 @@ Which isn’t to say I didn’t spend a huge amount of time just playing Quake I
 
 And even though id Software moved on to Quake Live, playing the original Quake III: Arena online is a cakewalk—the server browser works just like it did before Y2K destroyed all computers. Quake III is one of the last chunks of bedrock in the classic age of shooters and online multiplayer—a sturdy, preservable base for mods to take root in, and an example of how to design and develop an FPS that should be in any curriculum dealing with the medium. *— Tyler Wilde*
 
-![](/TheSims.jpg)
+![](/50ImportantGamesinPC/TheSims.jpg)
 
 ### The Sims
 
@@ -608,7 +608,7 @@ The issue: I was enjoying my Sim's struggles a lot more than my own, and so I co
 
 A lot of what The Sims gave me still sticks with me in bigger, grander games like Skyrim: the enjoyment of not playing as some powerful superbeing but just as a regular person, the oddly engrossing nature of living a quiet, mostly uneventful life in a game, the pleasure of being just a routine part of a simulation instead of some bizarre anomaly. Doing little chores and tasks, decorating a home, puttering around. Essentially, playing house. It's what we did as little kids, and The Sims tapped into that perfectly. *— Chris Livingston*
 
-![](/DeusEx.jpg)
+![](/50ImportantGamesinPC/DeusEx.jpg)
 
 ### Deus Ex
 
@@ -620,7 +620,7 @@ Deus Ex was the first game that made me realise how powerful games could be as s
 
 Even though the visuals have aged horribly, it's still very playable today. There's an internet joke that whenever someone mentions Deus Ex, someone will reinstall it. And it's true, because as I write this I have it downloading on Steam. You probably do too. It's amazing, and sad in a way, that 16 years later, few games can match Deus Ex's richness, complexity, and freedom. *— Andy Kelly*
 
-![](/MedalofHonorAlliedAssault.jpg)
+![](/50ImportantGamesinPC/MedalofHonorAlliedAssault.jpg)
 
 ### Medal of Honor: Allied Assault
 
@@ -632,7 +632,7 @@ This was the first FPS I played where I truly bought into the drama of what was 
 
 It was a showcase of how far 3D shooters had come on PC. My dad's PC at the time wasn't powerful enough handle Allied Assault, so I completed the whole thing at a friend's house over the weekend, and I remember both of us reloading checkpoints so we could play through the same moments again and again. The template for almost all modern shooter campaigns was set here by 2015, Inc, who of course went on to form Call of Duty developer Infinity Ward. While the scripted shooter campaign might seem a little tired by today's standards, when Allied Assault was released there was absolutely nothing like it. *– Samuel Roberts*
 
-![](/TheElderScrollsIIIMorrowind.jpg)
+![](/50ImportantGamesinPC/TheElderScrollsIIIMorrowind.jpg)
 
 ### The Elder Scrolls III: Morrowind
 
@@ -652,7 +652,7 @@ But the real reason it orked? Because it *worked*. Morrowind's landmass is signi
 
 Everything before this was iteration; everything after has been evolution. But Morrowind was the tipping point—the nexus between technology and design that made The Elder Scrolls, and Fallout, and hey, even Bethesda, everything that they are today. —*Andy Chalk*
 
-![](/Battlefield1942.jpg)
+![](/50ImportantGamesinPC/Battlefield1942.jpg)
 
 ### Battlefield 1942
 
@@ -670,7 +670,7 @@ Before BF1942, multiplayer shooters were constrained to the arena-based duels of
 
 BF1942 is also notable for its industrious mod community, which built amazing total conversions for the game without official mod support. Some of these placed players in entirely new combat theaters and eras, while others tapped into the physics engine to enable offbeat in-game stuntwork. An official SDK later bore mods like the venerated Desert Combat, which laid the foundation for DICE’s own modern combat sequel, Battlefield 2. — *Norman Chan*
 
-![](/DotA.jpg)
+![](/50ImportantGamesinPC/DotA.jpg)
 
 ### DotA
 
@@ -688,7 +688,7 @@ That modular nature would have other consequences, too. S2 and later Riot Games 
 
 DotA gave way to DotA-likes, and DotA-likes became MOBAs, and MOBAs are now the world's most popular form of videogame, a truly international phenomenon. That isn't bad for a WarCraft III map. *— Chris Thursten*
 
-![](/EVEOnline.jpg)
+![](/50ImportantGamesinPC/EVEOnline.jpg)
 
 ### EVE Online
 
@@ -700,7 +700,7 @@ Dozens of MMOs have mimicked World of Warcraft, and some have even succeeded. Bu
 
 It's less an MMO than a storytelling experiment conducted between CCP and its fanbase. A shared universe of complex political and economic factors; where intrigue and betrayal can spark seismic shifts in the power structure of its major players. Aside from the regularly-updated systems and in-game actions, EVE is an MMO about people, to the point that its most famous player—The Mittani—isn't technically a player. But while he doesn't log into the client and play the game, he does play the *game*, mobilising his forces in a way that is entirely in keeping with the spirit of the unique, anything-goes possibility space that CCP has created. — *Phil Savage*
 
-![](/SecondLife.jpg)
+![](/50ImportantGamesinPC/SecondLife.jpg)
 
 ### Second Life
 
@@ -732,7 +732,7 @@ Admittedly, I spent most of my time causing mischief. My friends and I took part
 
 But it was also a cool place to just hang out. I met some genuinely nice people there when I wasn't being a hideous little troll. Sometimes it was nice to find a public space and just wander around, looking at all the weird avatars and listening in on people's conversations. It's not quite the stuff of cyberpunk fiction, and a bit too glitchy, weird, and rubbish to really become mainstream (despite an appearance on The Office), but I have a special place in my heart for Second Life. *— Andy Kelly*
 
-![](/Half-Life2.jpg)
+![](/50ImportantGamesinPC/Half-Life2.jpg)
 
 ### Half-Life 2
 
@@ -746,7 +746,7 @@ Then I'm being handed a gravity gun and packed off to a place called Ravenholm, 
 
 Half-Life 2 always had a new trick up its sleeve, another identity it could assume. It understood that being an action hero isn't just about running around with guns, shooting everything you encounter. It's about a sense of adventure, a sense of omnicompetence. When you're Gordon Freeman, you're always the right man for the job. And that job is always going to be awesome and unexpected. *— Rob Zacny*
 
-![](/WorldofWarcraft.jpg)
+![](/50ImportantGamesinPC/WorldofWarcraft.jpg)
 
 ### World of Warcraft
 
@@ -760,7 +760,7 @@ Some people don’t like the look of WoW or complain about it being too cartoony
 
 No, it isn’t a perfect game. The gear grind is tedious and those of us with limited time to play are severely handicapped. One thing about Blizzard, though—they keep trying new things. They also learn and experiment and move forward. I suppose one of these days I’ll have had enough, finally get bored, and leave Azeroth behind. But not yet. Not just yet. Now pardon me, I have some dailies to do. *— Christy Marx*
 
-![](/DwarfFortress.jpg)
+![](/50ImportantGamesinPC/DwarfFortress.jpg)
 
 ### Dwarf Fortress
 
@@ -774,7 +774,7 @@ Characters rendered by its code have hopes, dreams and personalities.The world y
 
 There's no game that's as ambitious or, seemingly, humble. It's creators subsist on community donations and deepen their simulation year after year with little fanfare and no end in sight. It's hard to imagine another PC game ever matching, much less exceeding, the complexity of Slaves to Armok: God of Blood Chapter II: Dwarf Fortress. *— Wes Fenlon*
 
-![](/TeamFortress2.jpg)
+![](/50ImportantGamesinPC/TeamFortress2.jpg)
 
 ### Team Fortress 2
 
@@ -798,7 +798,7 @@ TF2’s updates aren’t content patches, they're happenings in the Team Fortres
 
 More than anything, TF2 became a textbook for how to support and sustain a modern game. — *Evan Lahti*
 
-![](/Spelunky(andSpelunkyHD).jpg)
+![](/50ImportantGamesinPC/Spelunky(andSpelunkyHD).jpg)
 
 ### Spelunky (and Spelunky HD)
 
@@ -816,7 +816,7 @@ In my humble opinion, Spelunky is a perfect video game. I can’t think of one s
 
 I think Spelunky was the first game to really drive home the fact that independent developers are capable of making a masterpiece. That sounds unfair perhaps (and you know, Minecraft), but every single tiny detail in Spelunky is there for a reason. It’s a finely wrought machine, completely shorn of the fluff so prevalent in modern blockbuster development. I don’t think it’s important because it prompted the revival of the rogue-like (so many modern rogue-likes are just games with permadeath). I think it’s important because it proves that our beloved medium is capable of brilliance without bearing a multi-million dollar budget. *— Shaun Prescott*
 
-![](/Minecraft.jpg)
+![](/50ImportantGamesinPC/Minecraft.jpg)
 
 ### Minecraft
 
@@ -834,7 +834,7 @@ I couldn’t even begin to guess how many hours I’ve put into Minecraft over t
 
 Whether or not you personally enjoy Minecraft, it has fundamentally changed what PC gaming is today. And with how many young people are learning about games, modding, and PC gaming through it, we’ve yet to see the full impact Minecraft will have on videogames as a whole. — *Tom Marks*
 
-![](/LeagueofLegends.jpg)
+![](/50ImportantGamesinPC/LeagueofLegends.jpg)
 
 ### League of Legends
 
@@ -846,7 +846,7 @@ In its heyday, World of Warcraft had 12 million subscribers. Minecraft has more 
 
 On its way to becoming the most popular game in the world, League has helped create the modern esports boom and almost single-handedly changed the monetization model of the games industry (and certainly inspired thousands of F2P wannabes who got it very wrong). It's spawned even more copycats than Grand Theft Auto III. For millions, it's not that game you're playing right now—it's that game you're *always* playing, for months or years at a stretch. And that makes it a powerful social force. For all the toxicity in online communities like LoL's, there's also a comforting reassurance that your crew will probably log on, same time every day, for a match or two. Or three. Or five. It's not like they'll be playing anything else, anyway. *— Wes Fenlon*
 
-![](/BrokenAge.png)
+![](/50ImportantGamesinPC/BrokenAge.png)
 
 ### Broken Age
 
@@ -860,7 +860,7 @@ There have been growing pains since then. Kickstarter projects have failed or di
 
 Even if Broken Age's Kickstarter hadn't single-handedly up-ended the business side of games, its [stellar documentary](https://www.youtube.com/playlist?list=PLIhLvue17Sd7F6pU2ByRRb0igiI-WKk3D) would stand on its own as the most insightful look into the game development process ever recorded. It's a must-watch for anyone who cares about how games are made, and may well outlive Broken Age itself. — *Wes Fenlon*
 
-![](/Honorablementions.jpg)
+![](/50ImportantGamesinPC/Honorablementions.jpg)
 
 ### Honorable mentions
 
@@ -872,7 +872,7 @@ Narrowing the list was a constant battle between "first" and "best"—doing some
 
 There are niches here and there that had their own monumentally important games, and it was hard to say how much those mattered in the grand scheme of things. Sims and wargames are lightly represented, but up against most of the games listed here, it was hard to argue for their inclusion. Hell, we even thought about Farmville... but to hell with Farmville.
 
-![](/Wasteland2.jpg)
+![](/50ImportantGamesinPC/Wasteland2.jpg)
 
 Finally, some honorable mentions: games that didn't quite make the cut, but still deserve a spot in the PC gaming scrapbook.
 
