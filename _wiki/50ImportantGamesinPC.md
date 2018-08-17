@@ -1,5 +1,5 @@
 ---
-title: The 50 most important PC games of all time
+title: The 50 Most Important PC Games of All Time-PCGamer
 layout: wiki
 ---
 
