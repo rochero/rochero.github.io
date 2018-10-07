@@ -4,12 +4,16 @@
 
 - name: 在学
   keywords:
+      - c++
+      - 数据结构
+      - 离散数学
+      - 概率论与数理统计
+      - Matlab
+      - 数学模型
 
 - name: 想学
   keywords:
-      - 数据结构
       - 算法
-      - C++
       - JAVA
       - HTML+CSS
       - Javascript
@@ -17,12 +21,8 @@
       - 计算机组成原理
       - 软件工程
       - 编译原理
-      - 离散数学
-      - 概率论与数理统计
       - Python
-      - MatLab
       - Photoshop
-      - 数学模型
       - Unity
       - 操作系统
       - 数据库原理
