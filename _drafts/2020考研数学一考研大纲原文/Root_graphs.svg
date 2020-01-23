@@ -1,0 +1,3741 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="600"
+   viewBox="0 0 800 600"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.44.1"
+   sodipodi:docname="exp.svg"
+   sodipodi:docbase="/srv/tmp-ed">
+  <metadata
+     id="metadata2195">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:window-height="830"
+     inkscape:window-width="903"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="1.0490384"
+     inkscape:cx="473.24572"
+     inkscape:cy="295.44816"
+     inkscape:window-x="360"
+     inkscape:window-y="279"
+     inkscape:current-layer="svg2" />
+  <desc
+     id="desc4">Produced by GNUPLOT 4.0 patchlevel 0 </desc>
+  <defs
+     id="defs6">
+    <circle
+       id="gpDot"
+       r="1" />
+    <path
+       id="gpPt0"
+       style="stroke-width:0.167"
+       d="M-1,0 h2 M0,-1 v2" />
+    <path
+       id="gpPt1"
+       style="stroke-width:0.167"
+       d="M-1,-1 L1,1 M1,-1 L-1,1" />
+    <path
+       id="gpPt2"
+       style="stroke-width:0.167"
+       d="M-1,0 L1,0 M0,-1 L0,1 M-1,-1 L1,1 M-1,1 L1,-1" />
+    <rect
+       id="gpPt3"
+       style="stroke-width:0.167"
+       x="-1"
+       y="-1"
+       width="2"
+       height="2" />
+    <use
+       xlink:href="#gpPt3"
+       id="gpPt4"
+       style="fill:currentColor; stroke:none" />
+    <circle
+       id="gpPt5"
+       style="stroke-width:0.167"
+       cx="0"
+       cy="0"
+       r="1" />
+    <use
+       xlink:href="#gpPt5"
+       id="gpPt6"
+       style="fill:currentColor; stroke:none" />
+    <path
+       id="gpPt7"
+       style="stroke-width:0.167"
+       d="M0,-1.33 L-1.33,0.67 L1.33,0.67 z" />
+    <use
+       xlink:href="#gpPt7"
+       id="gpPt8"
+       style="fill:currentColor; stroke:none" />
+    <use
+       xlink:href="#gpPt7"
+       id="gpPt9"
+       transform="rotate(180)" />
+    <use
+       xlink:href="#gpPt9"
+       id="gpPt10"
+       style="fill:currentColor; stroke:none" />
+    <use
+       xlink:href="#gpPt3"
+       id="gpPt11"
+       transform="rotate(45)" />
+    <use
+       xlink:href="#gpPt11"
+       id="gpPt12"
+       style="fill:currentColor; stroke:none" />
+  </defs>
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:1.00"
+     id="g22">
+    <path
+       d="M102,528 L108,528 M766,528 L760,528 "
+       id="path24" />
+    <g
+       transform="translate(91,534)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+       id="g26">
+      <text
+         id="text28"> 0</text>
+    </g>
+    <path
+       d="M102,477 L108,477 M766,477 L760,477 "
+       id="path30" />
+    <g
+       transform="translate(91,483)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+       id="g32">
+      <text
+         id="text34"> 0.1</text>
+    </g>
+    <path
+       d="M102,427 L108,427 M766,427 L760,427 "
+       id="path36" />
+    <g
+       transform="translate(91,433)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+       id="g38">
+      <text
+         id="text40"> 0.2</text>
+    </g>
+    <path
+       d="M102,376 L108,376 M766,376 L760,376 "
+       id="path42" />
+    <g
+       transform="translate(91,382)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+       id="g44">
+      <text
+         id="text46"> 0.3</text>
+    </g>
+    <path
+       d="M102,326 L108,326 M766,326 L760,326 "
+       id="path48" />
+    <g
+       transform="translate(91,332)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+       id="g50">
+      <text
+         id="text52"> 0.4</text>
+    </g>
+    <path
+       d="M102,275 L108,275 M766,275 L760,275 "
+       id="path54" />
+    <g
+       transform="translate(91,281)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+       id="g56">
+      <text
+         id="text58"> 0.5</text>
+    </g>
+    <path
+       d="M102,224 L108,224 M766,224 L760,224 "
+       id="path60" />
+    <g
+       transform="translate(91,230)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+       id="g62">
+      <text
+         id="text64"> 0.6</text>
+    </g>
+    <path
+       d="M102,174 L108,174 M766,174 L760,174 "
+       id="path66" />
+    <g
+       transform="translate(91,180)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+       id="g68">
+      <text
+         id="text70"> 0.7</text>
+    </g>
+    <path
+       d="M102,123 L108,123 M766,123 L760,123 "
+       id="path72" />
+    <g
+       transform="translate(91,129)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+       id="g74">
+      <text
+         id="text76"> 0.8</text>
+    </g>
+    <path
+       d="M102,73 L108,73 M766,73 L760,73 "
+       id="path78" />
+    <g
+       transform="translate(91,79)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+       id="g80">
+      <text
+         id="text82"> 0.9</text>
+    </g>
+    <path
+       d="M102,22 L108,22 M766,22 L760,22 "
+       id="path84" />
+    <g
+       transform="translate(91,28)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+       id="g86">
+      <text
+         id="text88"> 1</text>
+    </g>
+    <path
+       d="M102,528 L102,522 M102,22 L102,28 "
+       id="path90" />
+    <g
+       transform="translate(102,558)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g92">
+      <text
+         id="text94"> 0</text>
+    </g>
+    <path
+       d="M168,528 L168,522 M168,22 L168,28 "
+       id="path96" />
+    <g
+       transform="translate(168,558)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g98">
+      <text
+         id="text100"> 0.1</text>
+    </g>
+    <path
+       d="M235,528 L235,522 M235,22 L235,28 "
+       id="path102" />
+    <g
+       transform="translate(235,558)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g104">
+      <text
+         id="text106"> 0.2</text>
+    </g>
+    <path
+       d="M301,528 L301,522 M301,22 L301,28 "
+       id="path108" />
+    <g
+       transform="translate(301,558)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g110">
+      <text
+         id="text112"> 0.3</text>
+    </g>
+    <path
+       d="M368,528 L368,522 M368,22 L368,28 "
+       id="path114" />
+    <g
+       transform="translate(368,558)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g116">
+      <text
+         id="text118"> 0.4</text>
+    </g>
+    <path
+       d="M434,528 L434,522 M434,22 L434,28 "
+       id="path120" />
+    <g
+       transform="translate(434,558)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g122">
+      <text
+         id="text124"> 0.5</text>
+    </g>
+    <path
+       d="M500,528 L500,522 M500,22 L500,28 "
+       id="path126" />
+    <g
+       transform="translate(500,558)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g128">
+      <text
+         id="text130"> 0.6</text>
+    </g>
+    <path
+       d="M567,528 L567,522 M567,22 L567,28 "
+       id="path132" />
+    <g
+       transform="translate(567,558)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g134">
+      <text
+         id="text136"> 0.7</text>
+    </g>
+    <path
+       d="M633,528 L633,522 M633,22 L633,28 "
+       id="path138" />
+    <g
+       transform="translate(633,558)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g140">
+      <text
+         id="text142"> 0.8</text>
+    </g>
+    <path
+       d="M700,528 L700,522 M700,22 L700,28 "
+       id="path144" />
+    <g
+       transform="translate(700,558)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g146">
+      <text
+         id="text148"> 0.9</text>
+    </g>
+    <path
+       d="M766,528 L766,522 M766,22 L766,28 "
+       id="path150" />
+    <g
+       transform="translate(766,558)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g152">
+      <text
+         id="text154"> 1</text>
+    </g>
+    <path
+       d="M766,528 L760,528 "
+       id="path156" />
+    <g
+       transform="translate(777,534)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+       id="g158">
+      <text
+         id="text160" />
+    </g>
+    <path
+       d="M766,477 L760,477 "
+       id="path162" />
+    <g
+       transform="translate(777,483)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+       id="g164">
+      <text
+         id="text166" />
+    </g>
+    <path
+       d="M766,427 L760,427 "
+       id="path168" />
+    <g
+       transform="translate(777,433)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+       id="g170">
+      <text
+         id="text172" />
+    </g>
+    <path
+       d="M766,376 L760,376 "
+       id="path174" />
+    <g
+       transform="translate(777,382)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+       id="g176">
+      <text
+         id="text178" />
+    </g>
+    <path
+       d="M766,326 L760,326 "
+       id="path180" />
+    <g
+       transform="translate(777,332)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+       id="g182">
+      <text
+         id="text184" />
+    </g>
+    <path
+       d="M766,275 L760,275 "
+       id="path186" />
+    <g
+       transform="translate(777,281)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+       id="g188">
+      <text
+         id="text190" />
+    </g>
+    <path
+       d="M766,224 L760,224 "
+       id="path192" />
+    <g
+       transform="translate(777,230)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+       id="g194">
+      <text
+         id="text196" />
+    </g>
+    <path
+       d="M766,174 L760,174 "
+       id="path198" />
+    <g
+       transform="translate(777,180)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+       id="g200">
+      <text
+         id="text202" />
+    </g>
+    <path
+       d="M766,123 L760,123 "
+       id="path204" />
+    <g
+       transform="translate(777,129)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+       id="g206">
+      <text
+         id="text208" />
+    </g>
+    <path
+       d="M766,73 L760,73 "
+       id="path210" />
+    <g
+       transform="translate(777,79)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+       id="g212">
+      <text
+         id="text214" />
+    </g>
+    <path
+       d="M766,22 L760,22 "
+       id="path216" />
+    <g
+       transform="translate(777,28)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+       id="g218">
+      <text
+         id="text220" />
+    </g>
+    <path
+       d="M102,22 L102,28 "
+       id="path222" />
+    <g
+       transform="translate(102,28)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g224">
+      <text
+         id="text226" />
+    </g>
+    <path
+       d="M168,22 L168,28 "
+       id="path228" />
+    <g
+       transform="translate(168,28)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g230">
+      <text
+         id="text232" />
+    </g>
+    <path
+       d="M235,22 L235,28 "
+       id="path234" />
+    <g
+       transform="translate(235,28)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g236">
+      <text
+         id="text238" />
+    </g>
+    <path
+       d="M301,22 L301,28 "
+       id="path240" />
+    <g
+       transform="translate(301,28)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g242">
+      <text
+         id="text244" />
+    </g>
+    <path
+       d="M368,22 L368,28 "
+       id="path246" />
+    <g
+       transform="translate(368,28)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g248">
+      <text
+         id="text250" />
+    </g>
+    <path
+       d="M434,22 L434,28 "
+       id="path252" />
+    <g
+       transform="translate(434,28)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g254">
+      <text
+         id="text256" />
+    </g>
+    <path
+       d="M500,22 L500,28 "
+       id="path258" />
+    <g
+       transform="translate(500,28)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g260">
+      <text
+         id="text262" />
+    </g>
+    <path
+       d="M567,22 L567,28 "
+       id="path264" />
+    <g
+       transform="translate(567,28)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g266">
+      <text
+         id="text268" />
+    </g>
+    <path
+       d="M633,22 L633,28 "
+       id="path270" />
+    <g
+       transform="translate(633,28)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g272">
+      <text
+         id="text274" />
+    </g>
+    <path
+       d="M700,22 L700,28 "
+       id="path276" />
+    <g
+       transform="translate(700,28)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g278">
+      <text
+         id="text280" />
+    </g>
+    <path
+       d="M766,22 L766,28 "
+       id="path282" />
+    <g
+       transform="translate(766,28)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g284">
+      <text
+         id="text286" />
+    </g>
+    <path
+       d="M102,528 L766,528 L766,22 L102,22 L102,528 "
+       id="path288" />
+    <g
+       transform="translate(30,275) rotate(-90)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g290">
+      <text
+         id="text292">xⁿ</text>
+    </g>
+    <g
+       transform="translate(434,594)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+       id="g294">
+      <text
+         id="text296">x</text>
+    </g>
+    <g
+       transform="translate(235,129)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+       id="g298">
+      <text
+         id="text300">⅛</text>
+    </g>
+    <g
+       transform="translate(301,180)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+       id="g302">
+      <text
+         id="text304">¼</text>
+    </g>
+    <g
+       transform="translate(368,230)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+       id="g306">
+      <text
+         id="text308">½</text>
+    </g>
+    <g
+       transform="translate(434,281)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+       id="g310">
+      <text
+         id="text312">1</text>
+    </g>
+    <g
+       transform="translate(500,332)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+       id="g314">
+      <text
+         id="text316">2</text>
+    </g>
+    <g
+       transform="translate(567,382)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+       id="g318">
+      <text
+         id="text320">4</text>
+    </g>
+    <g
+       transform="translate(633,433)"
+       style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+       id="g322">
+      <text
+         id="text324">8</text>
+    </g>
+  </g>
+  <g
+     style="fill:none; color:red; stroke:currentColor; stroke-width:1.00"
+     id="g326">
+    <path
+       d="M 102,528 C 102.64373,448.67596 101.59669,346.11313 103.47569,290.00524 C 105.35469,233.89736 114.23721,213.85395 126,194 C 137.76279,174.14605 141.20689,172.15542 150,164 C 158.79311,155.84458 168.07799,148.62935 177,143 C 185.92201,137.37065 193.39206,132.63167 203,128 C 212.60794,123.36833 224.10268,118.35836 236,114 C 247.89732,109.64164 262.56583,104.77034 274,101 C 285.43417,97.229662 291.69791,95.671372 304,92 C 316.30209,88.328628 337.16455,83.77857 349.67245,81 C 362.18035,78.22143 369.62078,76.314325 381,74 C 392.37922,71.685675 405.67922,68.81953 417,67 C 428.32078,65.18047 438.25008,63.867593 448,62 C 457.74992,60.132407 465.5909,58.812549 476,57 C 486.4091,55.187451 499.69453,53.778217 511,52 C 522.30547,50.221783 533.04868,48.330845 544,47 C 554.95132,45.669155 566.20557,44.387794 578,43 C 589.79443,41.612206 602.70456,39.103555 614,38 C 625.29544,36.896445 635.33517,35.702883 645,35 C 654.66483,34.297117 663.77187,32.994762 672,32 C 680.22813,31.005238 685.27545,29.993442 695,29 C 704.72455,28.006558 719.7543,27.008333 730,26 C 740.2457,24.991667 750.43969,23.091629 756.67245,23 C 762.90521,22.908371 762.36152,21.382343 766,22"
+       id="path328"
+       sodipodi:nodetypes="czzzzzzzzzzzzzzzzzzzzzzz" />
+  </g>
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:1.00"
+     id="g330">
+    <path
+       d="M102,528 L766,528 L766,22 L102,22 L102,528 "
+       id="path332" />
+  </g>
+  <path
+     d="M102,528 L108,528 M766,528 L760,528 "
+     id="path334" />
+  <g
+     transform="translate(91,534)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g336">
+    <text
+       id="text338"> 0</text>
+  </g>
+  <path
+     d="M102,477 L108,477 M766,477 L760,477 "
+     id="path340" />
+  <g
+     transform="translate(91,483)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g342">
+    <text
+       id="text344"> 0.1</text>
+  </g>
+  <path
+     d="M102,427 L108,427 M766,427 L760,427 "
+     id="path346" />
+  <g
+     transform="translate(91,433)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g348">
+    <text
+       id="text350"> 0.2</text>
+  </g>
+  <path
+     d="M102,376 L108,376 M766,376 L760,376 "
+     id="path352" />
+  <g
+     transform="translate(91,382)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g354">
+    <text
+       id="text356"> 0.3</text>
+  </g>
+  <path
+     d="M102,326 L108,326 M766,326 L760,326 "
+     id="path358" />
+  <g
+     transform="translate(91,332)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g360">
+    <text
+       id="text362"> 0.4</text>
+  </g>
+  <path
+     d="M102,275 L108,275 M766,275 L760,275 "
+     id="path364" />
+  <g
+     transform="translate(91,281)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g366">
+    <text
+       id="text368"> 0.5</text>
+  </g>
+  <path
+     d="M102,224 L108,224 M766,224 L760,224 "
+     id="path370" />
+  <g
+     transform="translate(91,230)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g372">
+    <text
+       id="text374"> 0.6</text>
+  </g>
+  <path
+     d="M102,174 L108,174 M766,174 L760,174 "
+     id="path376" />
+  <g
+     transform="translate(91,180)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g378">
+    <text
+       id="text380"> 0.7</text>
+  </g>
+  <path
+     d="M102,123 L108,123 M766,123 L760,123 "
+     id="path382" />
+  <g
+     transform="translate(91,129)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g384">
+    <text
+       id="text386"> 0.8</text>
+  </g>
+  <path
+     d="M102,73 L108,73 M766,73 L760,73 "
+     id="path388" />
+  <g
+     transform="translate(91,79)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g390">
+    <text
+       id="text392"> 0.9</text>
+  </g>
+  <path
+     d="M102,22 L108,22 M766,22 L760,22 "
+     id="path394" />
+  <g
+     transform="translate(91,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g396">
+    <text
+       id="text398"> 1</text>
+  </g>
+  <path
+     d="M102,528 L102,522 M102,22 L102,28 "
+     id="path400" />
+  <g
+     transform="translate(102,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g402">
+    <text
+       id="text404"> 0</text>
+  </g>
+  <path
+     d="M168,528 L168,522 M168,22 L168,28 "
+     id="path406" />
+  <g
+     transform="translate(168,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g408">
+    <text
+       id="text410"> 0.1</text>
+  </g>
+  <path
+     d="M235,528 L235,522 M235,22 L235,28 "
+     id="path412" />
+  <g
+     transform="translate(235,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g414">
+    <text
+       id="text416"> 0.2</text>
+  </g>
+  <path
+     d="M301,528 L301,522 M301,22 L301,28 "
+     id="path418" />
+  <g
+     transform="translate(301,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g420">
+    <text
+       id="text422"> 0.3</text>
+  </g>
+  <path
+     d="M368,528 L368,522 M368,22 L368,28 "
+     id="path424" />
+  <g
+     transform="translate(368,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g426">
+    <text
+       id="text428"> 0.4</text>
+  </g>
+  <path
+     d="M434,528 L434,522 M434,22 L434,28 "
+     id="path430" />
+  <g
+     transform="translate(434,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g432">
+    <text
+       id="text434"> 0.5</text>
+  </g>
+  <path
+     d="M500,528 L500,522 M500,22 L500,28 "
+     id="path436" />
+  <g
+     transform="translate(500,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g438">
+    <text
+       id="text440"> 0.6</text>
+  </g>
+  <path
+     d="M567,528 L567,522 M567,22 L567,28 "
+     id="path442" />
+  <g
+     transform="translate(567,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g444">
+    <text
+       id="text446"> 0.7</text>
+  </g>
+  <path
+     d="M633,528 L633,522 M633,22 L633,28 "
+     id="path448" />
+  <g
+     transform="translate(633,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g450">
+    <text
+       id="text452"> 0.8</text>
+  </g>
+  <path
+     d="M700,528 L700,522 M700,22 L700,28 "
+     id="path454" />
+  <g
+     transform="translate(700,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g456">
+    <text
+       id="text458"> 0.9</text>
+  </g>
+  <path
+     d="M766,528 L766,522 M766,22 L766,28 "
+     id="path460" />
+  <g
+     transform="translate(766,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g462">
+    <text
+       id="text464"> 1</text>
+  </g>
+  <path
+     d="M766,528 L760,528 "
+     id="path466" />
+  <g
+     transform="translate(777,534)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g468">
+    <text
+       id="text470" />
+  </g>
+  <path
+     d="M766,477 L760,477 "
+     id="path472" />
+  <g
+     transform="translate(777,483)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g474">
+    <text
+       id="text476" />
+  </g>
+  <path
+     d="M766,427 L760,427 "
+     id="path478" />
+  <g
+     transform="translate(777,433)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g480">
+    <text
+       id="text482" />
+  </g>
+  <path
+     d="M766,376 L760,376 "
+     id="path484" />
+  <g
+     transform="translate(777,382)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g486">
+    <text
+       id="text488" />
+  </g>
+  <path
+     d="M766,326 L760,326 "
+     id="path490" />
+  <g
+     transform="translate(777,332)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g492">
+    <text
+       id="text494" />
+  </g>
+  <path
+     d="M766,275 L760,275 "
+     id="path496" />
+  <g
+     transform="translate(777,281)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g498">
+    <text
+       id="text500" />
+  </g>
+  <path
+     d="M766,224 L760,224 "
+     id="path502" />
+  <g
+     transform="translate(777,230)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g504">
+    <text
+       id="text506" />
+  </g>
+  <path
+     d="M766,174 L760,174 "
+     id="path508" />
+  <g
+     transform="translate(777,180)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g510">
+    <text
+       id="text512" />
+  </g>
+  <path
+     d="M766,123 L760,123 "
+     id="path514" />
+  <g
+     transform="translate(777,129)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g516">
+    <text
+       id="text518" />
+  </g>
+  <path
+     d="M766,73 L760,73 "
+     id="path520" />
+  <g
+     transform="translate(777,79)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g522">
+    <text
+       id="text524" />
+  </g>
+  <path
+     d="M766,22 L760,22 "
+     id="path526" />
+  <g
+     transform="translate(777,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g528">
+    <text
+       id="text530" />
+  </g>
+  <path
+     d="M102,22 L102,28 "
+     id="path532" />
+  <g
+     transform="translate(102,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g534">
+    <text
+       id="text536" />
+  </g>
+  <path
+     d="M168,22 L168,28 "
+     id="path538" />
+  <g
+     transform="translate(168,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g540">
+    <text
+       id="text542" />
+  </g>
+  <path
+     d="M235,22 L235,28 "
+     id="path544" />
+  <g
+     transform="translate(235,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g546">
+    <text
+       id="text548" />
+  </g>
+  <path
+     d="M301,22 L301,28 "
+     id="path550" />
+  <g
+     transform="translate(301,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g552">
+    <text
+       id="text554" />
+  </g>
+  <path
+     d="M368,22 L368,28 "
+     id="path556" />
+  <g
+     transform="translate(368,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g558">
+    <text
+       id="text560" />
+  </g>
+  <path
+     d="M434,22 L434,28 "
+     id="path562" />
+  <g
+     transform="translate(434,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g564">
+    <text
+       id="text566" />
+  </g>
+  <path
+     d="M500,22 L500,28 "
+     id="path568" />
+  <g
+     transform="translate(500,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g570">
+    <text
+       id="text572" />
+  </g>
+  <path
+     d="M567,22 L567,28 "
+     id="path574" />
+  <g
+     transform="translate(567,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g576">
+    <text
+       id="text578" />
+  </g>
+  <path
+     d="M633,22 L633,28 "
+     id="path580" />
+  <g
+     transform="translate(633,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g582">
+    <text
+       id="text584" />
+  </g>
+  <path
+     d="M700,22 L700,28 "
+     id="path586" />
+  <g
+     transform="translate(700,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g588">
+    <text
+       id="text590" />
+  </g>
+  <path
+     d="M766,22 L766,28 "
+     id="path592" />
+  <g
+     transform="translate(766,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g594">
+    <text
+       id="text596" />
+  </g>
+  <g
+     transform="translate(30,275) rotate(-90)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g600">
+    <text
+       id="text602">xⁿ</text>
+  </g>
+  <g
+     transform="translate(434,594)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g604">
+    <text
+       id="text606">x</text>
+  </g>
+  <g
+     transform="translate(235,129)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g608">
+    <text
+       id="text610">⅛</text>
+  </g>
+  <g
+     transform="translate(301,180)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g612">
+    <text
+       id="text614">¼</text>
+  </g>
+  <g
+     transform="translate(368,230)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g616">
+    <text
+       id="text618">½</text>
+  </g>
+  <g
+     transform="translate(434,281)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g620">
+    <text
+       id="text622">1</text>
+  </g>
+  <g
+     transform="translate(500,332)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g624">
+    <text
+       id="text626">2</text>
+  </g>
+  <g
+     transform="translate(567,382)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g628">
+    <text
+       id="text630">4</text>
+  </g>
+  <g
+     transform="translate(633,433)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g632">
+    <text
+       id="text634">8</text>
+  </g>
+  <g
+     style="fill:none; color:green; stroke:currentColor; stroke-width:1.00"
+     id="g636">
+    <path
+       d="M 102,528 C 103.33585,476.0195 102.31461,410.82942 108.08842,372.10212 C 113.86223,333.37482 121.06439,316.11563 130.52888,297.41337 C 139.99337,278.7111 145.71323,270.62179 157,257 C 168.28677,243.37821 182.91114,228.23615 197.49589,216.25206 C 212.08064,204.26797 227.05849,194.04875 242,185 C 256.94151,175.95125 272.08164,168.03244 286,161 C 299.91836,153.96756 313.30058,147.41645 324,143 C 334.69942,138.58355 340.00089,137.02702 350,133 C 359.99911,128.97298 374.08723,122.6864 385,119 C 395.91277,115.3136 404.91878,112.39558 415,109 C 425.08122,105.60442 434.50369,102.34471 445,99 C 455.49631,95.655294 467.14927,92.118205 478.67245,89 C 490.19564,85.881795 502.51723,82.341523 514.67245,79 C 526.82767,75.658477 539.85194,72.043696 552,69 C 564.14806,65.956304 576.24695,62.68867 588,60 C 599.75305,57.31133 612.76316,54.503153 624,52 C 635.23684,49.496847 645.39998,46.416144 657,44 C 668.60002,41.583856 681.35592,39.27007 692.67245,37 C 703.98898,34.72993 712.81097,32.683632 725,30 C 737.18903,27.316368 752.26241,24.95785 766,22"
+       id="path638"
+       sodipodi:nodetypes="czzzzzzzzzzzzzzzzzzzz" />
+  </g>
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:1.00"
+     id="g640">
+    <path
+       d="M102,528 L766,528 L766,22 L102,22 L102,528 "
+       id="path642" />
+  </g>
+  <path
+     d="M102,528 L108,528 M766,528 L760,528 "
+     id="path644" />
+  <g
+     transform="translate(91,534)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g646">
+    <text
+       id="text648"> 0</text>
+  </g>
+  <path
+     d="M102,477 L108,477 M766,477 L760,477 "
+     id="path650" />
+  <g
+     transform="translate(91,483)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g652">
+    <text
+       id="text654"> 0.1</text>
+  </g>
+  <path
+     d="M102,427 L108,427 M766,427 L760,427 "
+     id="path656" />
+  <g
+     transform="translate(91,433)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g658">
+    <text
+       id="text660"> 0.2</text>
+  </g>
+  <path
+     d="M102,376 L108,376 M766,376 L760,376 "
+     id="path662" />
+  <g
+     transform="translate(91,382)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g664">
+    <text
+       id="text666"> 0.3</text>
+  </g>
+  <path
+     d="M102,326 L108,326 M766,326 L760,326 "
+     id="path668" />
+  <g
+     transform="translate(91,332)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g670">
+    <text
+       id="text672"> 0.4</text>
+  </g>
+  <path
+     d="M102,275 L108,275 M766,275 L760,275 "
+     id="path674" />
+  <g
+     transform="translate(91,281)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g676">
+    <text
+       id="text678"> 0.5</text>
+  </g>
+  <path
+     d="M102,224 L108,224 M766,224 L760,224 "
+     id="path680" />
+  <g
+     transform="translate(91,230)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g682">
+    <text
+       id="text684"> 0.6</text>
+  </g>
+  <path
+     d="M102,174 L108,174 M766,174 L760,174 "
+     id="path686" />
+  <g
+     transform="translate(91,180)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g688">
+    <text
+       id="text690"> 0.7</text>
+  </g>
+  <path
+     d="M102,123 L108,123 M766,123 L760,123 "
+     id="path692" />
+  <g
+     transform="translate(91,129)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g694">
+    <text
+       id="text696"> 0.8</text>
+  </g>
+  <path
+     d="M102,73 L108,73 M766,73 L760,73 "
+     id="path698" />
+  <g
+     transform="translate(91,79)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g700">
+    <text
+       id="text702"> 0.9</text>
+  </g>
+  <path
+     d="M102,22 L108,22 M766,22 L760,22 "
+     id="path704" />
+  <g
+     transform="translate(91,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g706">
+    <text
+       id="text708"> 1</text>
+  </g>
+  <path
+     d="M102,528 L102,522 M102,22 L102,28 "
+     id="path710" />
+  <g
+     transform="translate(102,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g712">
+    <text
+       id="text714"> 0</text>
+  </g>
+  <path
+     d="M168,528 L168,522 M168,22 L168,28 "
+     id="path716" />
+  <g
+     transform="translate(168,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g718">
+    <text
+       id="text720"> 0.1</text>
+  </g>
+  <path
+     d="M235,528 L235,522 M235,22 L235,28 "
+     id="path722" />
+  <g
+     transform="translate(235,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g724">
+    <text
+       id="text726"> 0.2</text>
+  </g>
+  <path
+     d="M301,528 L301,522 M301,22 L301,28 "
+     id="path728" />
+  <g
+     transform="translate(301,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g730">
+    <text
+       id="text732"> 0.3</text>
+  </g>
+  <path
+     d="M368,528 L368,522 M368,22 L368,28 "
+     id="path734" />
+  <g
+     transform="translate(368,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g736">
+    <text
+       id="text738"> 0.4</text>
+  </g>
+  <path
+     d="M434,528 L434,522 M434,22 L434,28 "
+     id="path740" />
+  <g
+     transform="translate(434,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g742">
+    <text
+       id="text744"> 0.5</text>
+  </g>
+  <path
+     d="M500,528 L500,522 M500,22 L500,28 "
+     id="path746" />
+  <g
+     transform="translate(500,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g748">
+    <text
+       id="text750"> 0.6</text>
+  </g>
+  <path
+     d="M567,528 L567,522 M567,22 L567,28 "
+     id="path752" />
+  <g
+     transform="translate(567,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g754">
+    <text
+       id="text756"> 0.7</text>
+  </g>
+  <path
+     d="M633,528 L633,522 M633,22 L633,28 "
+     id="path758" />
+  <g
+     transform="translate(633,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g760">
+    <text
+       id="text762"> 0.8</text>
+  </g>
+  <path
+     d="M700,528 L700,522 M700,22 L700,28 "
+     id="path764" />
+  <g
+     transform="translate(700,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g766">
+    <text
+       id="text768"> 0.9</text>
+  </g>
+  <path
+     d="M766,528 L766,522 M766,22 L766,28 "
+     id="path770" />
+  <g
+     transform="translate(766,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g772">
+    <text
+       id="text774"> 1</text>
+  </g>
+  <path
+     d="M766,528 L760,528 "
+     id="path776" />
+  <g
+     transform="translate(777,534)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g778">
+    <text
+       id="text780" />
+  </g>
+  <path
+     d="M766,477 L760,477 "
+     id="path782" />
+  <g
+     transform="translate(777,483)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g784">
+    <text
+       id="text786" />
+  </g>
+  <path
+     d="M766,427 L760,427 "
+     id="path788" />
+  <g
+     transform="translate(777,433)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g790">
+    <text
+       id="text792" />
+  </g>
+  <path
+     d="M766,376 L760,376 "
+     id="path794" />
+  <g
+     transform="translate(777,382)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g796">
+    <text
+       id="text798" />
+  </g>
+  <path
+     d="M766,326 L760,326 "
+     id="path800" />
+  <g
+     transform="translate(777,332)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g802">
+    <text
+       id="text804" />
+  </g>
+  <path
+     d="M766,275 L760,275 "
+     id="path806" />
+  <g
+     transform="translate(777,281)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g808">
+    <text
+       id="text810" />
+  </g>
+  <path
+     d="M766,224 L760,224 "
+     id="path812" />
+  <g
+     transform="translate(777,230)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g814">
+    <text
+       id="text816" />
+  </g>
+  <path
+     d="M766,174 L760,174 "
+     id="path818" />
+  <g
+     transform="translate(777,180)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g820">
+    <text
+       id="text822" />
+  </g>
+  <path
+     d="M766,123 L760,123 "
+     id="path824" />
+  <g
+     transform="translate(777,129)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g826">
+    <text
+       id="text828" />
+  </g>
+  <path
+     d="M766,73 L760,73 "
+     id="path830" />
+  <g
+     transform="translate(777,79)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g832">
+    <text
+       id="text834" />
+  </g>
+  <path
+     d="M766,22 L760,22 "
+     id="path836" />
+  <g
+     transform="translate(777,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g838">
+    <text
+       id="text840" />
+  </g>
+  <path
+     d="M102,22 L102,28 "
+     id="path842" />
+  <g
+     transform="translate(102,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g844">
+    <text
+       id="text846" />
+  </g>
+  <path
+     d="M168,22 L168,28 "
+     id="path848" />
+  <g
+     transform="translate(168,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g850">
+    <text
+       id="text852" />
+  </g>
+  <path
+     d="M235,22 L235,28 "
+     id="path854" />
+  <g
+     transform="translate(235,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g856">
+    <text
+       id="text858" />
+  </g>
+  <path
+     d="M301,22 L301,28 "
+     id="path860" />
+  <g
+     transform="translate(301,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g862">
+    <text
+       id="text864" />
+  </g>
+  <path
+     d="M368,22 L368,28 "
+     id="path866" />
+  <g
+     transform="translate(368,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g868">
+    <text
+       id="text870" />
+  </g>
+  <path
+     d="M434,22 L434,28 "
+     id="path872" />
+  <g
+     transform="translate(434,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g874">
+    <text
+       id="text876" />
+  </g>
+  <path
+     d="M500,22 L500,28 "
+     id="path878" />
+  <g
+     transform="translate(500,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g880">
+    <text
+       id="text882" />
+  </g>
+  <path
+     d="M567,22 L567,28 "
+     id="path884" />
+  <g
+     transform="translate(567,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g886">
+    <text
+       id="text888" />
+  </g>
+  <path
+     d="M633,22 L633,28 "
+     id="path890" />
+  <g
+     transform="translate(633,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g892">
+    <text
+       id="text894" />
+  </g>
+  <path
+     d="M700,22 L700,28 "
+     id="path896" />
+  <g
+     transform="translate(700,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g898">
+    <text
+       id="text900" />
+  </g>
+  <path
+     d="M766,22 L766,28 "
+     id="path902" />
+  <g
+     transform="translate(766,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g904">
+    <text
+       id="text906" />
+  </g>
+  <g
+     transform="translate(30,275) rotate(-90)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g910">
+    <text
+       id="text912">xⁿ</text>
+  </g>
+  <g
+     transform="translate(434,594)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g914">
+    <text
+       id="text916">x</text>
+  </g>
+  <g
+     transform="translate(235,129)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g918">
+    <text
+       id="text920">⅛</text>
+  </g>
+  <g
+     transform="translate(301,180)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g922">
+    <text
+       id="text924">¼</text>
+  </g>
+  <g
+     transform="translate(368,230)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g926">
+    <text
+       id="text928">½</text>
+  </g>
+  <g
+     transform="translate(434,281)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g930">
+    <text
+       id="text932">1</text>
+  </g>
+  <g
+     transform="translate(500,332)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g934">
+    <text
+       id="text936">2</text>
+  </g>
+  <g
+     transform="translate(567,382)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g938">
+    <text
+       id="text940">4</text>
+  </g>
+  <g
+     transform="translate(633,433)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g942">
+    <text
+       id="text944">8</text>
+  </g>
+  <g
+     style="fill:none; color:blue; stroke:currentColor; stroke-width:1.00"
+     id="g946">
+    <path
+       d="M 102,528 C 101.99749,500.62716 108.31827,472.73839 118.40563,448.37748 C 128.49299,424.01657 146.70283,396.34289 157.74794,381.50411 C 168.79305,366.66533 171.94408,362.45669 179,355 C 186.05592,347.54331 190.41332,343.0759 198,336 C 205.58668,328.9241 215.17973,319.23479 224,311 C 232.82027,302.76521 237.74633,298.09833 252,287 C 266.25367,275.90167 294.6426,255.3145 310,245 C 325.3574,234.6855 332.41409,229.57318 343,223 C 353.58591,216.42682 363.6017,210.10618 374.67245,204 C 385.7432,197.89382 398.12544,190.03081 409,184 C 419.87456,177.96919 425.95501,174.60004 440,167 C 454.04499,159.39996 479.51961,146.70935 495,139 C 510.48039,131.29065 519.74534,126.9056 532,121 C 544.25466,115.0944 556.61621,109.14511 568,104 C 579.38379,98.854891 588.5436,95.104718 600,90 C 611.4564,84.895282 624.70529,78.952711 636,74 C 647.29471,69.047289 656.94712,65.5077 668,61 C 679.05288,56.4923 690.32673,51.632651 702,47 C 713.67327,42.367349 726.2978,37.09073 737,33 C 747.7022,28.90927 756.66822,26.032696 766,22"
+       id="path948"
+       sodipodi:nodetypes="czzzzzzzzzzzzzzzzzzzz" />
+  </g>
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:1.00"
+     id="g950">
+    <path
+       d="M102,528 L766,528 L766,22 L102,22 L102,528 "
+       id="path952" />
+  </g>
+  <path
+     d="M102,528 L108,528 M766,528 L760,528 "
+     id="path954" />
+  <g
+     transform="translate(91,534)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g956">
+    <text
+       id="text958"> 0</text>
+  </g>
+  <path
+     d="M102,477 L108,477 M766,477 L760,477 "
+     id="path960" />
+  <g
+     transform="translate(91,483)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g962">
+    <text
+       id="text964"> 0.1</text>
+  </g>
+  <path
+     d="M102,427 L108,427 M766,427 L760,427 "
+     id="path966" />
+  <g
+     transform="translate(91,433)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g968">
+    <text
+       id="text970"> 0.2</text>
+  </g>
+  <path
+     d="M102,376 L108,376 M766,376 L760,376 "
+     id="path972" />
+  <g
+     transform="translate(91,382)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g974">
+    <text
+       id="text976"> 0.3</text>
+  </g>
+  <path
+     d="M102,326 L108,326 M766,326 L760,326 "
+     id="path978" />
+  <g
+     transform="translate(91,332)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g980">
+    <text
+       id="text982"> 0.4</text>
+  </g>
+  <path
+     d="M102,275 L108,275 M766,275 L760,275 "
+     id="path984" />
+  <g
+     transform="translate(91,281)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g986">
+    <text
+       id="text988"> 0.5</text>
+  </g>
+  <path
+     d="M102,224 L108,224 M766,224 L760,224 "
+     id="path990" />
+  <g
+     transform="translate(91,230)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g992">
+    <text
+       id="text994"> 0.6</text>
+  </g>
+  <path
+     d="M102,174 L108,174 M766,174 L760,174 "
+     id="path996" />
+  <g
+     transform="translate(91,180)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g998">
+    <text
+       id="text1000"> 0.7</text>
+  </g>
+  <path
+     d="M102,123 L108,123 M766,123 L760,123 "
+     id="path1002" />
+  <g
+     transform="translate(91,129)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1004">
+    <text
+       id="text1006"> 0.8</text>
+  </g>
+  <path
+     d="M102,73 L108,73 M766,73 L760,73 "
+     id="path1008" />
+  <g
+     transform="translate(91,79)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1010">
+    <text
+       id="text1012"> 0.9</text>
+  </g>
+  <path
+     d="M102,22 L108,22 M766,22 L760,22 "
+     id="path1014" />
+  <g
+     transform="translate(91,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1016">
+    <text
+       id="text1018"> 1</text>
+  </g>
+  <path
+     d="M102,528 L102,522 M102,22 L102,28 "
+     id="path1020" />
+  <g
+     transform="translate(102,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1022">
+    <text
+       id="text1024"> 0</text>
+  </g>
+  <path
+     d="M168,528 L168,522 M168,22 L168,28 "
+     id="path1026" />
+  <g
+     transform="translate(168,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1028">
+    <text
+       id="text1030"> 0.1</text>
+  </g>
+  <path
+     d="M235,528 L235,522 M235,22 L235,28 "
+     id="path1032" />
+  <g
+     transform="translate(235,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1034">
+    <text
+       id="text1036"> 0.2</text>
+  </g>
+  <path
+     d="M301,528 L301,522 M301,22 L301,28 "
+     id="path1038" />
+  <g
+     transform="translate(301,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1040">
+    <text
+       id="text1042"> 0.3</text>
+  </g>
+  <path
+     d="M368,528 L368,522 M368,22 L368,28 "
+     id="path1044" />
+  <g
+     transform="translate(368,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1046">
+    <text
+       id="text1048"> 0.4</text>
+  </g>
+  <path
+     d="M434,528 L434,522 M434,22 L434,28 "
+     id="path1050" />
+  <g
+     transform="translate(434,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1052">
+    <text
+       id="text1054"> 0.5</text>
+  </g>
+  <path
+     d="M500,528 L500,522 M500,22 L500,28 "
+     id="path1056" />
+  <g
+     transform="translate(500,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1058">
+    <text
+       id="text1060"> 0.6</text>
+  </g>
+  <path
+     d="M567,528 L567,522 M567,22 L567,28 "
+     id="path1062" />
+  <g
+     transform="translate(567,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1064">
+    <text
+       id="text1066"> 0.7</text>
+  </g>
+  <path
+     d="M633,528 L633,522 M633,22 L633,28 "
+     id="path1068" />
+  <g
+     transform="translate(633,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1070">
+    <text
+       id="text1072"> 0.8</text>
+  </g>
+  <path
+     d="M700,528 L700,522 M700,22 L700,28 "
+     id="path1074" />
+  <g
+     transform="translate(700,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1076">
+    <text
+       id="text1078"> 0.9</text>
+  </g>
+  <path
+     d="M766,528 L766,522 M766,22 L766,28 "
+     id="path1080" />
+  <g
+     transform="translate(766,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1082">
+    <text
+       id="text1084"> 1</text>
+  </g>
+  <path
+     d="M766,528 L760,528 "
+     id="path1086" />
+  <g
+     transform="translate(777,534)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1088">
+    <text
+       id="text1090" />
+  </g>
+  <path
+     d="M766,477 L760,477 "
+     id="path1092" />
+  <g
+     transform="translate(777,483)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1094">
+    <text
+       id="text1096" />
+  </g>
+  <path
+     d="M766,427 L760,427 "
+     id="path1098" />
+  <g
+     transform="translate(777,433)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1100">
+    <text
+       id="text1102" />
+  </g>
+  <path
+     d="M766,376 L760,376 "
+     id="path1104" />
+  <g
+     transform="translate(777,382)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1106">
+    <text
+       id="text1108" />
+  </g>
+  <path
+     d="M766,326 L760,326 "
+     id="path1110" />
+  <g
+     transform="translate(777,332)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1112">
+    <text
+       id="text1114" />
+  </g>
+  <path
+     d="M766,275 L760,275 "
+     id="path1116" />
+  <g
+     transform="translate(777,281)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1118">
+    <text
+       id="text1120" />
+  </g>
+  <path
+     d="M766,224 L760,224 "
+     id="path1122" />
+  <g
+     transform="translate(777,230)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1124">
+    <text
+       id="text1126" />
+  </g>
+  <path
+     d="M766,174 L760,174 "
+     id="path1128" />
+  <g
+     transform="translate(777,180)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1130">
+    <text
+       id="text1132" />
+  </g>
+  <path
+     d="M766,123 L760,123 "
+     id="path1134" />
+  <g
+     transform="translate(777,129)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1136">
+    <text
+       id="text1138" />
+  </g>
+  <path
+     d="M766,73 L760,73 "
+     id="path1140" />
+  <g
+     transform="translate(777,79)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1142">
+    <text
+       id="text1144" />
+  </g>
+  <path
+     d="M766,22 L760,22 "
+     id="path1146" />
+  <g
+     transform="translate(777,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1148">
+    <text
+       id="text1150" />
+  </g>
+  <path
+     d="M102,22 L102,28 "
+     id="path1152" />
+  <g
+     transform="translate(102,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1154">
+    <text
+       id="text1156" />
+  </g>
+  <path
+     d="M168,22 L168,28 "
+     id="path1158" />
+  <g
+     transform="translate(168,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1160">
+    <text
+       id="text1162" />
+  </g>
+  <path
+     d="M235,22 L235,28 "
+     id="path1164" />
+  <g
+     transform="translate(235,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1166">
+    <text
+       id="text1168" />
+  </g>
+  <path
+     d="M301,22 L301,28 "
+     id="path1170" />
+  <g
+     transform="translate(301,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1172">
+    <text
+       id="text1174" />
+  </g>
+  <path
+     d="M368,22 L368,28 "
+     id="path1176" />
+  <g
+     transform="translate(368,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1178">
+    <text
+       id="text1180" />
+  </g>
+  <path
+     d="M434,22 L434,28 "
+     id="path1182" />
+  <g
+     transform="translate(434,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1184">
+    <text
+       id="text1186" />
+  </g>
+  <path
+     d="M500,22 L500,28 "
+     id="path1188" />
+  <g
+     transform="translate(500,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1190">
+    <text
+       id="text1192" />
+  </g>
+  <path
+     d="M567,22 L567,28 "
+     id="path1194" />
+  <g
+     transform="translate(567,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1196">
+    <text
+       id="text1198" />
+  </g>
+  <path
+     d="M633,22 L633,28 "
+     id="path1200" />
+  <g
+     transform="translate(633,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1202">
+    <text
+       id="text1204" />
+  </g>
+  <path
+     d="M700,22 L700,28 "
+     id="path1206" />
+  <g
+     transform="translate(700,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1208">
+    <text
+       id="text1210" />
+  </g>
+  <path
+     d="M766,22 L766,28 "
+     id="path1212" />
+  <g
+     transform="translate(766,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1214">
+    <text
+       id="text1216" />
+  </g>
+  <g
+     transform="translate(30,275) rotate(-90)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1220">
+    <text
+       id="text1222">xⁿ</text>
+  </g>
+  <g
+     transform="translate(434,594)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1224">
+    <text
+       id="text1226">x</text>
+  </g>
+  <g
+     transform="translate(235,129)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1228">
+    <text
+       id="text1230">⅛</text>
+  </g>
+  <g
+     transform="translate(301,180)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1232">
+    <text
+       id="text1234">¼</text>
+  </g>
+  <g
+     transform="translate(368,230)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1236">
+    <text
+       id="text1238">½</text>
+  </g>
+  <g
+     transform="translate(434,281)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1240">
+    <text
+       id="text1242">1</text>
+  </g>
+  <g
+     transform="translate(500,332)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1244">
+    <text
+       id="text1246">2</text>
+  </g>
+  <g
+     transform="translate(567,382)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1248">
+    <text
+       id="text1250">4</text>
+  </g>
+  <g
+     transform="translate(633,433)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1252">
+    <text
+       id="text1254">8</text>
+  </g>
+  <g
+     style="fill:none; color:cyan; stroke:currentColor; stroke-width:1.00"
+     id="g1256">
+    <path
+       d="M 102,528 C 117.78915,515.75439 126.86289,509.80378 149.74794,491.50411 C 172.63299,473.20444 220.5994,439.06966 243,421 C 265.4006,402.93034 272.11103,398.25579 288,386 C 303.88897,373.74421 323.22513,360.95902 339,348 C 354.77487,335.04098 368.83416,324.86041 386.49589,311.25206 C 404.15761,297.64371 421.63418,284.17807 445,266 C 468.36582,247.82193 508.95242,219.54585 528,204 C 547.04759,188.45415 545.94681,190.03649 563.49589,176.25206 C 581.04497,162.46764 608.64797,141.8252 634,122 C 659.35203,102.1748 697.10709,75.787646 718,59 C 738.89291,42.212354 755.25583,30.456692 763,24 C 770.74417,17.543308 765.3909,23.209008 766,22"
+       id="path1258"
+       sodipodi:nodetypes="czzzzzzzzzzzz" />
+  </g>
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:1.00"
+     id="g1260">
+    <path
+       d="M102,528 L766,528 L766,22 L102,22 L102,528 "
+       id="path1262" />
+  </g>
+  <path
+     d="M102,528 L108,528 M766,528 L760,528 "
+     id="path1264" />
+  <g
+     transform="translate(91,534)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1266">
+    <text
+       id="text1268"> 0</text>
+  </g>
+  <path
+     d="M102,477 L108,477 M766,477 L760,477 "
+     id="path1270" />
+  <g
+     transform="translate(91,483)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1272">
+    <text
+       id="text1274"> 0.1</text>
+  </g>
+  <path
+     d="M102,427 L108,427 M766,427 L760,427 "
+     id="path1276" />
+  <g
+     transform="translate(91,433)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1278">
+    <text
+       id="text1280"> 0.2</text>
+  </g>
+  <path
+     d="M102,376 L108,376 M766,376 L760,376 "
+     id="path1282" />
+  <g
+     transform="translate(91,382)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1284">
+    <text
+       id="text1286"> 0.3</text>
+  </g>
+  <path
+     d="M102,326 L108,326 M766,326 L760,326 "
+     id="path1288" />
+  <g
+     transform="translate(91,332)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1290">
+    <text
+       id="text1292"> 0.4</text>
+  </g>
+  <path
+     d="M102,275 L108,275 M766,275 L760,275 "
+     id="path1294" />
+  <g
+     transform="translate(91,281)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1296">
+    <text
+       id="text1298"> 0.5</text>
+  </g>
+  <path
+     d="M102,224 L108,224 M766,224 L760,224 "
+     id="path1300" />
+  <g
+     transform="translate(91,230)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1302">
+    <text
+       id="text1304"> 0.6</text>
+  </g>
+  <path
+     d="M102,174 L108,174 M766,174 L760,174 "
+     id="path1306" />
+  <g
+     transform="translate(91,180)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1308">
+    <text
+       id="text1310"> 0.7</text>
+  </g>
+  <path
+     d="M102,123 L108,123 M766,123 L760,123 "
+     id="path1312" />
+  <g
+     transform="translate(91,129)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1314">
+    <text
+       id="text1316"> 0.8</text>
+  </g>
+  <path
+     d="M102,73 L108,73 M766,73 L760,73 "
+     id="path1318" />
+  <g
+     transform="translate(91,79)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1320">
+    <text
+       id="text1322"> 0.9</text>
+  </g>
+  <path
+     d="M102,22 L108,22 M766,22 L760,22 "
+     id="path1324" />
+  <g
+     transform="translate(91,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1326">
+    <text
+       id="text1328"> 1</text>
+  </g>
+  <path
+     d="M102,528 L102,522 M102,22 L102,28 "
+     id="path1330" />
+  <g
+     transform="translate(102,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1332">
+    <text
+       id="text1334"> 0</text>
+  </g>
+  <path
+     d="M168,528 L168,522 M168,22 L168,28 "
+     id="path1336" />
+  <g
+     transform="translate(168,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1338">
+    <text
+       id="text1340"> 0.1</text>
+  </g>
+  <path
+     d="M235,528 L235,522 M235,22 L235,28 "
+     id="path1342" />
+  <g
+     transform="translate(235,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1344">
+    <text
+       id="text1346"> 0.2</text>
+  </g>
+  <path
+     d="M301,528 L301,522 M301,22 L301,28 "
+     id="path1348" />
+  <g
+     transform="translate(301,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1350">
+    <text
+       id="text1352"> 0.3</text>
+  </g>
+  <path
+     d="M368,528 L368,522 M368,22 L368,28 "
+     id="path1354" />
+  <g
+     transform="translate(368,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1356">
+    <text
+       id="text1358"> 0.4</text>
+  </g>
+  <path
+     d="M434,528 L434,522 M434,22 L434,28 "
+     id="path1360" />
+  <g
+     transform="translate(434,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1362">
+    <text
+       id="text1364"> 0.5</text>
+  </g>
+  <path
+     d="M500,528 L500,522 M500,22 L500,28 "
+     id="path1366" />
+  <g
+     transform="translate(500,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1368">
+    <text
+       id="text1370"> 0.6</text>
+  </g>
+  <path
+     d="M567,528 L567,522 M567,22 L567,28 "
+     id="path1372" />
+  <g
+     transform="translate(567,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1374">
+    <text
+       id="text1376"> 0.7</text>
+  </g>
+  <path
+     d="M633,528 L633,522 M633,22 L633,28 "
+     id="path1378" />
+  <g
+     transform="translate(633,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1380">
+    <text
+       id="text1382"> 0.8</text>
+  </g>
+  <path
+     d="M700,528 L700,522 M700,22 L700,28 "
+     id="path1384" />
+  <g
+     transform="translate(700,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1386">
+    <text
+       id="text1388"> 0.9</text>
+  </g>
+  <path
+     d="M766,528 L766,522 M766,22 L766,28 "
+     id="path1390" />
+  <g
+     transform="translate(766,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1392">
+    <text
+       id="text1394"> 1</text>
+  </g>
+  <path
+     d="M766,528 L760,528 "
+     id="path1396" />
+  <g
+     transform="translate(777,534)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1398">
+    <text
+       id="text1400" />
+  </g>
+  <path
+     d="M766,477 L760,477 "
+     id="path1402" />
+  <g
+     transform="translate(777,483)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1404">
+    <text
+       id="text1406" />
+  </g>
+  <path
+     d="M766,427 L760,427 "
+     id="path1408" />
+  <g
+     transform="translate(777,433)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1410">
+    <text
+       id="text1412" />
+  </g>
+  <path
+     d="M766,376 L760,376 "
+     id="path1414" />
+  <g
+     transform="translate(777,382)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1416">
+    <text
+       id="text1418" />
+  </g>
+  <path
+     d="M766,326 L760,326 "
+     id="path1420" />
+  <g
+     transform="translate(777,332)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1422">
+    <text
+       id="text1424" />
+  </g>
+  <path
+     d="M766,275 L760,275 "
+     id="path1426" />
+  <g
+     transform="translate(777,281)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1428">
+    <text
+       id="text1430" />
+  </g>
+  <path
+     d="M766,224 L760,224 "
+     id="path1432" />
+  <g
+     transform="translate(777,230)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1434">
+    <text
+       id="text1436" />
+  </g>
+  <path
+     d="M766,174 L760,174 "
+     id="path1438" />
+  <g
+     transform="translate(777,180)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1440">
+    <text
+       id="text1442" />
+  </g>
+  <path
+     d="M766,123 L760,123 "
+     id="path1444" />
+  <g
+     transform="translate(777,129)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1446">
+    <text
+       id="text1448" />
+  </g>
+  <path
+     d="M766,73 L760,73 "
+     id="path1450" />
+  <g
+     transform="translate(777,79)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1452">
+    <text
+       id="text1454" />
+  </g>
+  <path
+     d="M766,22 L760,22 "
+     id="path1456" />
+  <g
+     transform="translate(777,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1458">
+    <text
+       id="text1460" />
+  </g>
+  <path
+     d="M102,22 L102,28 "
+     id="path1462" />
+  <g
+     transform="translate(102,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1464">
+    <text
+       id="text1466" />
+  </g>
+  <path
+     d="M168,22 L168,28 "
+     id="path1468" />
+  <g
+     transform="translate(168,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1470">
+    <text
+       id="text1472" />
+  </g>
+  <path
+     d="M235,22 L235,28 "
+     id="path1474" />
+  <g
+     transform="translate(235,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1476">
+    <text
+       id="text1478" />
+  </g>
+  <path
+     d="M301,22 L301,28 "
+     id="path1480" />
+  <g
+     transform="translate(301,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1482">
+    <text
+       id="text1484" />
+  </g>
+  <path
+     d="M368,22 L368,28 "
+     id="path1486" />
+  <g
+     transform="translate(368,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1488">
+    <text
+       id="text1490" />
+  </g>
+  <path
+     d="M434,22 L434,28 "
+     id="path1492" />
+  <g
+     transform="translate(434,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1494">
+    <text
+       id="text1496" />
+  </g>
+  <path
+     d="M500,22 L500,28 "
+     id="path1498" />
+  <g
+     transform="translate(500,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1500">
+    <text
+       id="text1502" />
+  </g>
+  <path
+     d="M567,22 L567,28 "
+     id="path1504" />
+  <g
+     transform="translate(567,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1506">
+    <text
+       id="text1508" />
+  </g>
+  <path
+     d="M633,22 L633,28 "
+     id="path1510" />
+  <g
+     transform="translate(633,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1512">
+    <text
+       id="text1514" />
+  </g>
+  <path
+     d="M700,22 L700,28 "
+     id="path1516" />
+  <g
+     transform="translate(700,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1518">
+    <text
+       id="text1520" />
+  </g>
+  <path
+     d="M766,22 L766,28 "
+     id="path1522" />
+  <g
+     transform="translate(766,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1524">
+    <text
+       id="text1526" />
+  </g>
+  <g
+     transform="translate(30,275) rotate(-90)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1530">
+    <text
+       id="text1532">xⁿ</text>
+  </g>
+  <g
+     transform="translate(434,594)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1534">
+    <text
+       id="text1536">x</text>
+  </g>
+  <g
+     transform="translate(235,129)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1538">
+    <text
+       id="text1540">⅛</text>
+  </g>
+  <g
+     transform="translate(301,180)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1542">
+    <text
+       id="text1544">¼</text>
+  </g>
+  <g
+     transform="translate(368,230)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1546">
+    <text
+       id="text1548">½</text>
+  </g>
+  <g
+     transform="translate(434,281)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1550">
+    <text
+       id="text1552">1</text>
+  </g>
+  <g
+     transform="translate(500,332)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1554">
+    <text
+       id="text1556">2</text>
+  </g>
+  <g
+     transform="translate(567,382)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1558">
+    <text
+       id="text1560">4</text>
+  </g>
+  <g
+     transform="translate(633,433)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1562">
+    <text
+       id="text1564">8</text>
+  </g>
+  <g
+     style="fill:none; color:#157545; stroke:currentColor; stroke-width:1.00"
+     id="g1566">
+    <path
+       d="M 102,528 C 114.4602,528.77768 128.17736,527.69248 138,527 C 147.82264,526.30752 151.01687,525.53929 161,524 C 170.98313,522.46071 185.69263,519.62357 197.49589,517.25206 C 209.29915,514.88055 218.41184,512.45928 230,509 C 241.58816,505.54072 254.64166,501.19982 266,497 C 277.35834,492.80018 288.27389,488.57408 298,484 C 307.72611,479.42592 315.65838,475.29309 324,471 C 332.34162,466.70691 341.73494,462.63973 349.67245,458 C 357.60996,453.36027 365.38651,447.79167 373,443 C 380.61349,438.20833 382.66484,437.426 396,429 C 409.33516,420.574 438.38959,399.29695 451,389 C 463.61041,378.70305 466.4496,376.80509 474.49589,369.25206 C 482.54217,361.69902 492.01418,353.42177 501,345 C 509.98582,336.57823 520.72098,327.07117 529,319 C 537.27902,310.92883 542.74943,305.40708 551.49589,296.25206 C 560.24235,287.09704 572.12286,274.1347 581.74794,263.50411 C 591.37302,252.87353 596.13934,247.90632 609,233 C 621.86066,218.09368 646.10452,188.4142 659.1826,171.8174 C 672.26067,155.22061 677.06514,148.93381 687,135 C 696.93486,121.06619 710.58218,101.6142 719,90 C 727.41782,78.385795 729.91806,75.1078 738,64 C 746.08194,52.8922 756.64806,35.988451 766,22"
+       id="path1568"
+       sodipodi:nodetypes="czzzzzzzzzzzzzzzzzzzzzz" />
+  </g>
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:1.00"
+     id="g1570">
+    <path
+       d="M102,528 L766,528 L766,22 L102,22 L102,528 "
+       id="path1572" />
+  </g>
+  <path
+     d="M102,528 L108,528 M766,528 L760,528 "
+     id="path1574" />
+  <g
+     transform="translate(91,534)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1576">
+    <text
+       id="text1578"> 0</text>
+  </g>
+  <path
+     d="M102,477 L108,477 M766,477 L760,477 "
+     id="path1580" />
+  <g
+     transform="translate(91,483)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1582">
+    <text
+       id="text1584"> 0.1</text>
+  </g>
+  <path
+     d="M102,427 L108,427 M766,427 L760,427 "
+     id="path1586" />
+  <g
+     transform="translate(91,433)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1588">
+    <text
+       id="text1590"> 0.2</text>
+  </g>
+  <path
+     d="M102,376 L108,376 M766,376 L760,376 "
+     id="path1592" />
+  <g
+     transform="translate(91,382)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1594">
+    <text
+       id="text1596"> 0.3</text>
+  </g>
+  <path
+     d="M102,326 L108,326 M766,326 L760,326 "
+     id="path1598" />
+  <g
+     transform="translate(91,332)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1600">
+    <text
+       id="text1602"> 0.4</text>
+  </g>
+  <path
+     d="M102,275 L108,275 M766,275 L760,275 "
+     id="path1604" />
+  <g
+     transform="translate(91,281)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1606">
+    <text
+       id="text1608"> 0.5</text>
+  </g>
+  <path
+     d="M102,224 L108,224 M766,224 L760,224 "
+     id="path1610" />
+  <g
+     transform="translate(91,230)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1612">
+    <text
+       id="text1614"> 0.6</text>
+  </g>
+  <path
+     d="M102,174 L108,174 M766,174 L760,174 "
+     id="path1616" />
+  <g
+     transform="translate(91,180)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1618">
+    <text
+       id="text1620"> 0.7</text>
+  </g>
+  <path
+     d="M102,123 L108,123 M766,123 L760,123 "
+     id="path1622" />
+  <g
+     transform="translate(91,129)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1624">
+    <text
+       id="text1626"> 0.8</text>
+  </g>
+  <path
+     d="M102,73 L108,73 M766,73 L760,73 "
+     id="path1628" />
+  <g
+     transform="translate(91,79)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1630">
+    <text
+       id="text1632"> 0.9</text>
+  </g>
+  <path
+     d="M102,22 L108,22 M766,22 L760,22 "
+     id="path1634" />
+  <g
+     transform="translate(91,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1636">
+    <text
+       id="text1638"> 1</text>
+  </g>
+  <path
+     d="M102,528 L102,522 M102,22 L102,28 "
+     id="path1640" />
+  <g
+     transform="translate(102,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1642">
+    <text
+       id="text1644"> 0</text>
+  </g>
+  <path
+     d="M168,528 L168,522 M168,22 L168,28 "
+     id="path1646" />
+  <g
+     transform="translate(168,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1648">
+    <text
+       id="text1650"> 0.1</text>
+  </g>
+  <path
+     d="M235,528 L235,522 M235,22 L235,28 "
+     id="path1652" />
+  <g
+     transform="translate(235,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1654">
+    <text
+       id="text1656"> 0.2</text>
+  </g>
+  <path
+     d="M301,528 L301,522 M301,22 L301,28 "
+     id="path1658" />
+  <g
+     transform="translate(301,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1660">
+    <text
+       id="text1662"> 0.3</text>
+  </g>
+  <path
+     d="M368,528 L368,522 M368,22 L368,28 "
+     id="path1664" />
+  <g
+     transform="translate(368,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1666">
+    <text
+       id="text1668"> 0.4</text>
+  </g>
+  <path
+     d="M434,528 L434,522 M434,22 L434,28 "
+     id="path1670" />
+  <g
+     transform="translate(434,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1672">
+    <text
+       id="text1674"> 0.5</text>
+  </g>
+  <path
+     d="M500,528 L500,522 M500,22 L500,28 "
+     id="path1676" />
+  <g
+     transform="translate(500,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1678">
+    <text
+       id="text1680"> 0.6</text>
+  </g>
+  <path
+     d="M567,528 L567,522 M567,22 L567,28 "
+     id="path1682" />
+  <g
+     transform="translate(567,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1684">
+    <text
+       id="text1686"> 0.7</text>
+  </g>
+  <path
+     d="M633,528 L633,522 M633,22 L633,28 "
+     id="path1688" />
+  <g
+     transform="translate(633,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1690">
+    <text
+       id="text1692"> 0.8</text>
+  </g>
+  <path
+     d="M700,528 L700,522 M700,22 L700,28 "
+     id="path1694" />
+  <g
+     transform="translate(700,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1696">
+    <text
+       id="text1698"> 0.9</text>
+  </g>
+  <path
+     d="M766,528 L766,522 M766,22 L766,28 "
+     id="path1700" />
+  <g
+     transform="translate(766,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1702">
+    <text
+       id="text1704"> 1</text>
+  </g>
+  <path
+     d="M766,528 L760,528 "
+     id="path1706" />
+  <g
+     transform="translate(777,534)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1708">
+    <text
+       id="text1710" />
+  </g>
+  <path
+     d="M766,477 L760,477 "
+     id="path1712" />
+  <g
+     transform="translate(777,483)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1714">
+    <text
+       id="text1716" />
+  </g>
+  <path
+     d="M766,427 L760,427 "
+     id="path1718" />
+  <g
+     transform="translate(777,433)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1720">
+    <text
+       id="text1722" />
+  </g>
+  <path
+     d="M766,376 L760,376 "
+     id="path1724" />
+  <g
+     transform="translate(777,382)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1726">
+    <text
+       id="text1728" />
+  </g>
+  <path
+     d="M766,326 L760,326 "
+     id="path1730" />
+  <g
+     transform="translate(777,332)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1732">
+    <text
+       id="text1734" />
+  </g>
+  <path
+     d="M766,275 L760,275 "
+     id="path1736" />
+  <g
+     transform="translate(777,281)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1738">
+    <text
+       id="text1740" />
+  </g>
+  <path
+     d="M766,224 L760,224 "
+     id="path1742" />
+  <g
+     transform="translate(777,230)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1744">
+    <text
+       id="text1746" />
+  </g>
+  <path
+     d="M766,174 L760,174 "
+     id="path1748" />
+  <g
+     transform="translate(777,180)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1750">
+    <text
+       id="text1752" />
+  </g>
+  <path
+     d="M766,123 L760,123 "
+     id="path1754" />
+  <g
+     transform="translate(777,129)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1756">
+    <text
+       id="text1758" />
+  </g>
+  <path
+     d="M766,73 L760,73 "
+     id="path1760" />
+  <g
+     transform="translate(777,79)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1762">
+    <text
+       id="text1764" />
+  </g>
+  <path
+     d="M766,22 L760,22 "
+     id="path1766" />
+  <g
+     transform="translate(777,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1768">
+    <text
+       id="text1770" />
+  </g>
+  <path
+     d="M102,22 L102,28 "
+     id="path1772" />
+  <g
+     transform="translate(102,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1774">
+    <text
+       id="text1776" />
+  </g>
+  <path
+     d="M168,22 L168,28 "
+     id="path1778" />
+  <g
+     transform="translate(168,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1780">
+    <text
+       id="text1782" />
+  </g>
+  <path
+     d="M235,22 L235,28 "
+     id="path1784" />
+  <g
+     transform="translate(235,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1786">
+    <text
+       id="text1788" />
+  </g>
+  <path
+     d="M301,22 L301,28 "
+     id="path1790" />
+  <g
+     transform="translate(301,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1792">
+    <text
+       id="text1794" />
+  </g>
+  <path
+     d="M368,22 L368,28 "
+     id="path1796" />
+  <g
+     transform="translate(368,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1798">
+    <text
+       id="text1800" />
+  </g>
+  <path
+     d="M434,22 L434,28 "
+     id="path1802" />
+  <g
+     transform="translate(434,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1804">
+    <text
+       id="text1806" />
+  </g>
+  <path
+     d="M500,22 L500,28 "
+     id="path1808" />
+  <g
+     transform="translate(500,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1810">
+    <text
+       id="text1812" />
+  </g>
+  <path
+     d="M567,22 L567,28 "
+     id="path1814" />
+  <g
+     transform="translate(567,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1816">
+    <text
+       id="text1818" />
+  </g>
+  <path
+     d="M633,22 L633,28 "
+     id="path1820" />
+  <g
+     transform="translate(633,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1822">
+    <text
+       id="text1824" />
+  </g>
+  <path
+     d="M700,22 L700,28 "
+     id="path1826" />
+  <g
+     transform="translate(700,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1828">
+    <text
+       id="text1830" />
+  </g>
+  <path
+     d="M766,22 L766,28 "
+     id="path1832" />
+  <g
+     transform="translate(766,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1834">
+    <text
+       id="text1836" />
+  </g>
+  <g
+     transform="translate(30,275) rotate(-90)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1840">
+    <text
+       id="text1842">xⁿ</text>
+  </g>
+  <g
+     transform="translate(434,594)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1844">
+    <text
+       id="text1846">x</text>
+  </g>
+  <g
+     transform="translate(235,129)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1848">
+    <text
+       id="text1850">⅛</text>
+  </g>
+  <g
+     transform="translate(301,180)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1852">
+    <text
+       id="text1854">¼</text>
+  </g>
+  <g
+     transform="translate(368,230)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1856">
+    <text
+       id="text1858">½</text>
+  </g>
+  <g
+     transform="translate(434,281)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1860">
+    <text
+       id="text1862">1</text>
+  </g>
+  <g
+     transform="translate(500,332)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1864">
+    <text
+       id="text1866">2</text>
+  </g>
+  <g
+     transform="translate(567,382)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1868">
+    <text
+       id="text1870">4</text>
+  </g>
+  <g
+     transform="translate(633,433)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g1872">
+    <text
+       id="text1874">8</text>
+  </g>
+  <g
+     style="fill:none; color:#000094; stroke:currentColor; stroke-width:1.00"
+     id="g1876">
+    <path
+       d="M 102,528 C 141,528 192.74531,529.33044 219,528 C 245.25469,526.66956 247.55287,526.94738 262,526 C 276.44713,525.05262 294.53121,524.63267 306,524 C 317.46879,523.36733 320.86118,522.29563 331,521 C 341.13882,519.70437 355.59594,517.12681 367,515 C 378.40406,512.87319 388.45065,510.69956 399,508 C 409.54935,505.30044 420.1526,502.18033 431,498 C 441.8474,493.81967 452.96669,488.71706 464,483 C 475.03331,477.28294 485.87226,471.30606 496,465 C 506.12774,458.69394 515.60251,453.06677 525,445 C 534.39749,436.93323 544.54185,428.28632 554,419 C 563.45815,409.71368 571.25398,401.08378 582,389 C 592.74602,376.91622 605.04836,362.19628 617,345 C 628.95164,327.80372 643.40263,305.12056 654,286 C 664.59737,266.87944 673.27626,250.67762 682.52888,231.41337 C 691.78149,212.14912 701.71001,190.58153 710.52888,170.41337 C 719.34774,150.24521 727.99626,127.4957 734.81126,109.75497 C 741.62626,92.014244 746.418,78.076499 751.74794,63.504113 C 757.07788,48.931726 761.19655,35.801306 766,22"
+       id="path1878"
+       sodipodi:nodetypes="czzzzzzzzzzzzzzzzzzz" />
+  </g>
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:1.00"
+     id="g1880">
+    <path
+       d="M102,528 L766,528 L766,22 L102,22 L102,528 "
+       id="path1882" />
+  </g>
+  <path
+     d="M102,528 L108,528 M766,528 L760,528 "
+     id="path1884" />
+  <g
+     transform="translate(91,534)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1886">
+    <text
+       id="text1888"> 0</text>
+  </g>
+  <path
+     d="M102,477 L108,477 M766,477 L760,477 "
+     id="path1890" />
+  <g
+     transform="translate(91,483)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1892">
+    <text
+       id="text1894"> 0.1</text>
+  </g>
+  <path
+     d="M102,427 L108,427 M766,427 L760,427 "
+     id="path1896" />
+  <g
+     transform="translate(91,433)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1898">
+    <text
+       id="text1900"> 0.2</text>
+  </g>
+  <path
+     d="M102,376 L108,376 M766,376 L760,376 "
+     id="path1902" />
+  <g
+     transform="translate(91,382)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1904">
+    <text
+       id="text1906"> 0.3</text>
+  </g>
+  <path
+     d="M102,326 L108,326 M766,326 L760,326 "
+     id="path1908" />
+  <g
+     transform="translate(91,332)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1910">
+    <text
+       id="text1912"> 0.4</text>
+  </g>
+  <path
+     d="M102,275 L108,275 M766,275 L760,275 "
+     id="path1914" />
+  <g
+     transform="translate(91,281)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1916">
+    <text
+       id="text1918"> 0.5</text>
+  </g>
+  <path
+     d="M102,224 L108,224 M766,224 L760,224 "
+     id="path1920" />
+  <g
+     transform="translate(91,230)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1922">
+    <text
+       id="text1924"> 0.6</text>
+  </g>
+  <path
+     d="M102,174 L108,174 M766,174 L760,174 "
+     id="path1926" />
+  <g
+     transform="translate(91,180)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1928">
+    <text
+       id="text1930"> 0.7</text>
+  </g>
+  <path
+     d="M102,123 L108,123 M766,123 L760,123 "
+     id="path1932" />
+  <g
+     transform="translate(91,129)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1934">
+    <text
+       id="text1936"> 0.8</text>
+  </g>
+  <path
+     d="M102,73 L108,73 M766,73 L760,73 "
+     id="path1938" />
+  <g
+     transform="translate(91,79)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1940">
+    <text
+       id="text1942"> 0.9</text>
+  </g>
+  <path
+     d="M102,22 L108,22 M766,22 L760,22 "
+     id="path1944" />
+  <g
+     transform="translate(91,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:end"
+     id="g1946">
+    <text
+       id="text1948"> 1</text>
+  </g>
+  <path
+     d="M102,528 L102,522 M102,22 L102,28 "
+     id="path1950" />
+  <g
+     transform="translate(102,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1952">
+    <text
+       id="text1954"> 0</text>
+  </g>
+  <path
+     d="M168,528 L168,522 M168,22 L168,28 "
+     id="path1956" />
+  <g
+     transform="translate(168,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1958">
+    <text
+       id="text1960"> 0.1</text>
+  </g>
+  <path
+     d="M235,528 L235,522 M235,22 L235,28 "
+     id="path1962" />
+  <g
+     transform="translate(235,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1964">
+    <text
+       id="text1966"> 0.2</text>
+  </g>
+  <path
+     d="M301,528 L301,522 M301,22 L301,28 "
+     id="path1968" />
+  <g
+     transform="translate(301,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1970">
+    <text
+       id="text1972"> 0.3</text>
+  </g>
+  <path
+     d="M368,528 L368,522 M368,22 L368,28 "
+     id="path1974" />
+  <g
+     transform="translate(368,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1976">
+    <text
+       id="text1978"> 0.4</text>
+  </g>
+  <path
+     d="M434,528 L434,522 M434,22 L434,28 "
+     id="path1980" />
+  <g
+     transform="translate(434,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1982">
+    <text
+       id="text1984"> 0.5</text>
+  </g>
+  <path
+     d="M500,528 L500,522 M500,22 L500,28 "
+     id="path1986" />
+  <g
+     transform="translate(500,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1988">
+    <text
+       id="text1990"> 0.6</text>
+  </g>
+  <path
+     d="M567,528 L567,522 M567,22 L567,28 "
+     id="path1992" />
+  <g
+     transform="translate(567,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g1994">
+    <text
+       id="text1996"> 0.7</text>
+  </g>
+  <path
+     d="M633,528 L633,522 M633,22 L633,28 "
+     id="path1998" />
+  <g
+     transform="translate(633,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g2000">
+    <text
+       id="text2002"> 0.8</text>
+  </g>
+  <path
+     d="M700,528 L700,522 M700,22 L700,28 "
+     id="path2004" />
+  <g
+     transform="translate(700,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g2006">
+    <text
+       id="text2008"> 0.9</text>
+  </g>
+  <path
+     d="M766,528 L766,522 M766,22 L766,28 "
+     id="path2010" />
+  <g
+     transform="translate(766,558)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g2012">
+    <text
+       id="text2014"> 1</text>
+  </g>
+  <path
+     d="M766,528 L760,528 "
+     id="path2016" />
+  <g
+     transform="translate(777,534)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g2018">
+    <text
+       id="text2020" />
+  </g>
+  <path
+     d="M766,477 L760,477 "
+     id="path2022" />
+  <g
+     transform="translate(777,483)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g2024">
+    <text
+       id="text2026" />
+  </g>
+  <path
+     d="M766,427 L760,427 "
+     id="path2028" />
+  <g
+     transform="translate(777,433)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g2030">
+    <text
+       id="text2032" />
+  </g>
+  <path
+     d="M766,376 L760,376 "
+     id="path2034" />
+  <g
+     transform="translate(777,382)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g2036">
+    <text
+       id="text2038" />
+  </g>
+  <path
+     d="M766,326 L760,326 "
+     id="path2040" />
+  <g
+     transform="translate(777,332)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g2042">
+    <text
+       id="text2044" />
+  </g>
+  <path
+     d="M766,275 L760,275 "
+     id="path2046" />
+  <g
+     transform="translate(777,281)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g2048">
+    <text
+       id="text2050" />
+  </g>
+  <path
+     d="M766,224 L760,224 "
+     id="path2052" />
+  <g
+     transform="translate(777,230)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g2054">
+    <text
+       id="text2056" />
+  </g>
+  <path
+     d="M766,174 L760,174 "
+     id="path2058" />
+  <g
+     transform="translate(777,180)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g2060">
+    <text
+       id="text2062" />
+  </g>
+  <path
+     d="M766,123 L760,123 "
+     id="path2064" />
+  <g
+     transform="translate(777,129)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g2066">
+    <text
+       id="text2068" />
+  </g>
+  <path
+     d="M766,73 L760,73 "
+     id="path2070" />
+  <g
+     transform="translate(777,79)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g2072">
+    <text
+       id="text2074" />
+  </g>
+  <path
+     d="M766,22 L760,22 "
+     id="path2076" />
+  <g
+     transform="translate(777,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g2078">
+    <text
+       id="text2080" />
+  </g>
+  <path
+     d="M102,22 L102,28 "
+     id="path2082" />
+  <g
+     transform="translate(102,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g2084">
+    <text
+       id="text2086" />
+  </g>
+  <path
+     d="M168,22 L168,28 "
+     id="path2088" />
+  <g
+     transform="translate(168,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g2090">
+    <text
+       id="text2092" />
+  </g>
+  <path
+     d="M235,22 L235,28 "
+     id="path2094" />
+  <g
+     transform="translate(235,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g2096">
+    <text
+       id="text2098" />
+  </g>
+  <path
+     d="M301,22 L301,28 "
+     id="path2100" />
+  <g
+     transform="translate(301,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g2102">
+    <text
+       id="text2104" />
+  </g>
+  <path
+     d="M368,22 L368,28 "
+     id="path2106" />
+  <g
+     transform="translate(368,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g2108">
+    <text
+       id="text2110" />
+  </g>
+  <path
+     d="M434,22 L434,28 "
+     id="path2112" />
+  <g
+     transform="translate(434,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g2114">
+    <text
+       id="text2116" />
+  </g>
+  <path
+     d="M500,22 L500,28 "
+     id="path2118" />
+  <g
+     transform="translate(500,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g2120">
+    <text
+       id="text2122" />
+  </g>
+  <path
+     d="M567,22 L567,28 "
+     id="path2124" />
+  <g
+     transform="translate(567,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g2126">
+    <text
+       id="text2128" />
+  </g>
+  <path
+     d="M633,22 L633,28 "
+     id="path2130" />
+  <g
+     transform="translate(633,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g2132">
+    <text
+       id="text2134" />
+  </g>
+  <path
+     d="M700,22 L700,28 "
+     id="path2136" />
+  <g
+     transform="translate(700,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g2138">
+    <text
+       id="text2140" />
+  </g>
+  <path
+     d="M766,22 L766,28 "
+     id="path2142" />
+  <g
+     transform="translate(766,28)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g2144">
+    <text
+       id="text2146" />
+  </g>
+  <path
+     transform="matrix(0,-1,1,0,0,0)"
+     style="font-size:16px;text-anchor:middle;fill:black;stroke:none;font-family:Verdana"
+     d="M -275.09375,30 L -276.94531,30 L -279.42188,26.648438 L -281.91406,30 L -283.625,30 L -280.21875,25.648438 L -283.59375,21.273438 L -281.74219,21.273438 L -279.28125,24.570312 L -276.8125,21.273438 L -275.09375,21.273438 L -278.52344,25.570312 L -275.09375,30 M -267.07812,25.671875 L -268.42188,25.671875 L -268.42188,21.507812 C -268.42188,21.143238 -268.44011,20.822926 -268.47656,20.546875 C -268.51303,20.270843 -268.58594,20.039072 -268.69531,19.851562 C -268.8099,19.664073 -268.96876,19.526052 -269.17188,19.4375 C -269.3698,19.343761 -269.63542,19.296886 -269.96875,19.296875 C -270.3073,19.296886 -270.66146,19.385427 -271.03125,19.5625 C -271.39584,19.734385 -271.7474,19.950531 -272.08594,20.210938 L -272.08594,25.671875 L -273.42188,25.671875 L -273.42188,18.335938 L -272.08594,18.335938 L -272.08594,19.148438 C -271.69532,18.825532 -271.28907,18.575532 -270.86719,18.398438 C -270.44532,18.216158 -270.01563,18.125012 -269.57812,18.125 C -268.77605,18.125012 -268.15886,18.367199 -267.72656,18.851562 C -267.29428,19.33074 -267.07813,20.015635 -267.07812,20.90625 L -267.07812,25.671875"
+     id="text2152" />
+  <g
+     transform="translate(434,594)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:middle"
+     id="g2154">
+    <text
+       id="text2156">x</text>
+  </g>
+  <path
+     style="font-size:16px;text-anchor:start;fill:black;stroke:none;font-family:Verdana"
+     d="M 239.25781,124.58594 L 237.96875,124.58594 L 237.96875,119.26562 L 236.33594,119.26562 L 236.33594,118.35156 C 236.86719,118.35157 237.29687,118.29428 237.625,118.17969 C 237.95312,118.06512 238.14062,117.78387 238.1875,117.33594 L 239.25781,117.33594 L 239.25781,124.58594 M 246.01562,117.36719 L 239.92188,129 L 238.63281,129 L 244.72656,117.36719 L 246.01562,117.36719 M 250.02344,127.03906 C 250.02342,127.66927 249.7578,128.19531 249.22656,128.61719 C 248.70051,129.03385 248.03384,129.24219 247.22656,129.24219 C 246.35676,129.24219 245.67186,129.03646 245.17188,128.625 C 244.67707,128.20833 244.42968,127.6875 244.42969,127.0625 C 244.42968,126.65104 244.55207,126.28907 244.79688,125.97656 C 245.04166,125.66407 245.39582,125.40886 245.85938,125.21094 L 245.85938,125.17969 C 245.43228,124.96615 245.12759,124.72917 244.94531,124.46875 C 244.76301,124.20834 244.67187,123.89323 244.67188,123.52344 C 244.67187,122.97136 244.91145,122.51303 245.39062,122.14844 C 245.87499,121.77865 246.49218,121.59376 247.24219,121.59375 C 248.01822,121.59376 248.64061,121.77084 249.10938,122.125 C 249.58332,122.47396 249.8203,122.91928 249.82031,123.46094 C 249.8203,123.78907 249.71613,124.11719 249.50781,124.44531 C 249.29946,124.76823 248.98176,125.02084 248.55469,125.20312 L 248.55469,125.23438 C 249.05988,125.4375 249.42967,125.67969 249.66406,125.96094 C 249.90363,126.23698 250.02342,126.59636 250.02344,127.03906 M 248.53906,123.59375 C 248.53905,123.32813 248.42447,123.10157 248.19531,122.91406 C 247.97134,122.72657 247.65363,122.63282 247.24219,122.63281 C 246.87759,122.63282 246.57291,122.71615 246.32812,122.88281 C 246.08853,123.04428 245.96874,123.26563 245.96875,123.54688 C 245.96874,123.7448 246.03124,123.92448 246.15625,124.08594 C 246.28124,124.24219 246.46093,124.3724 246.69531,124.47656 C 246.81509,124.52865 246.96874,124.59636 247.15625,124.67969 C 247.34374,124.75782 247.55728,124.82553 247.79688,124.88281 C 248.09374,124.69011 248.29165,124.49219 248.39062,124.28906 C 248.48957,124.08073 248.53905,123.84896 248.53906,123.59375 M 248.72656,127.03125 C 248.72655,126.77084 248.65363,126.56511 248.50781,126.41406 C 248.36717,126.25782 248.12499,126.10157 247.78125,125.94531 C 247.66145,125.89323 247.48697,125.83073 247.25781,125.75781 C 247.02863,125.6849 246.80468,125.60938 246.58594,125.53125 C 246.28384,125.69792 246.05988,125.90365 245.91406,126.14844 C 245.76822,126.38802 245.6953,126.63281 245.69531,126.88281 C 245.6953,127.26823 245.84895,127.58594 246.15625,127.83594 C 246.46353,128.08073 246.82551,128.20313 247.24219,128.20312 C 247.66405,128.20313 248.01561,128.10156 248.29688,127.89844 C 248.58332,127.69531 248.72655,127.40625 248.72656,127.03125"
+     id="text2160" />
+  <g
+     transform="translate(301,180)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g2162">
+    <text
+       id="text2164">¼</text>
+  </g>
+  <g
+     transform="translate(368,230)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g2166">
+    <text
+       id="text2168">½</text>
+  </g>
+  <g
+     transform="translate(434,281)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g2170">
+    <text
+       id="text2172">1</text>
+  </g>
+  <g
+     transform="translate(500,332)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g2174">
+    <text
+       id="text2176">2</text>
+  </g>
+  <g
+     transform="translate(567,382)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g2178">
+    <text
+       id="text2180">4</text>
+  </g>
+  <g
+     transform="translate(633,433)"
+     style="stroke:none; fill:black; font-family:Verdana; font-size:16.00; text-anchor:start"
+     id="g2182">
+    <text
+       id="text2184">8</text>
+  </g>
+  <g
+     style="fill:none; color:#FF9900; stroke:currentColor; stroke-width:1.00"
+     id="g2186">
+    <path
+       d="M 102,528 C 195,528 326.74195,529.3438 381,528 C 435.25805,526.6562 414.52908,527.04689 429,526 C 443.47092,524.95311 457.42281,524.90806 469,524 C 480.57719,523.09194 486.96802,521.64798 497,520 C 507.03198,518.35202 518.06136,517.08926 528,514 C 537.93864,510.91074 546.24848,507.96931 557,503 C 567.75152,498.03069 581.3251,491.29808 592,484 C 602.6749,476.70192 609.26499,469.85289 619.49589,459.25206 C 629.72679,448.65122 641.30696,433.80757 651.1826,417.8174 C 661.05823,401.82723 670.02985,385.1125 678.92771,363.60844 C 687.82558,342.10438 698.75139,312.91868 706,290 C 713.24861,267.08132 717.20431,253.48208 724.24227,226.89433 C 731.28022,200.30657 740.03969,160.84844 746.23652,130.34436 C 752.43335,99.84028 759.55674,62.523519 762.20744,44.340463 C 764.85814,26.157407 765.63514,29.639543 766,22"
+       id="path2188"
+       sodipodi:nodetypes="czzzzzzzzzzzzzzz" />
+  </g>
+  <g
+     style="fill:none; color:black; stroke:currentColor; stroke-width:1.00"
+     id="g2190">
+    <path
+       d="M102,528 L766,528 L766,22 L102,22 L102,528 "
+       id="path2192" />
+  </g>
+</svg>
