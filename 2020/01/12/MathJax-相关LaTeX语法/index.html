@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="常见符号的写法1. 指数和下标(左上、左下、右上、右下、正上、正下)123$$a_1\qquad x^2\qquad e^&amp;#123;-\alpha t&amp;#125;\qquad e^&amp;#123;x^2&amp;#125;\neq&amp;#123;e^x&amp;#125;^2$$$$\sideset&amp;#123;^1_2&amp;#125;&amp;#123;^3_4&amp;#125;\bigotimes$$$$\mathop&amp;#123;ab">
+<meta property="og:type" content="article">
+<meta property="og:title" content="mathjax-LaTeX 语法">
+<meta property="og:url" content="https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/index.html">
+<meta property="og:site_name" content="PJ Zhang">
+<meta property="og:description" content="常见符号的写法1. 指数和下标(左上、左下、右上、右下、正上、正下)123$$a_1\qquad x^2\qquad e^&amp;#123;-\alpha t&amp;#125;\qquad e^&amp;#123;x^2&amp;#125;\neq&amp;#123;e^x&amp;#125;^2$$$$\sideset&amp;#123;^1_2&amp;#125;&amp;#123;^3_4&amp;#125;\bigotimes$$$$\mathop&amp;#123;ab">
+<meta property="og:locale">
+<meta property="article:published_time" content="2020-01-12T05:59:10.393Z">
+<meta property="article:modified_time" content="2022-04-24T12:25:41.585Z">
+<meta property="article:author" content="PJ Zhang">
+<meta property="article:tag" content="数学">
+<meta property="article:tag" content="工具">
+<meta property="article:tag" content="LaTeX">
+<meta property="article:tag" content="mathjax">
+<meta name="twitter:card" content="summary">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>mathjax-LaTeX 语法</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <script>localStorage.getItem("dark_mode")==="dark"&&document.write(`<link rel="stylesheet" href="${location.origin}/css/dark.css">`)</script>
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+		<script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({
+			tex2jax: {
+			  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+			  inlineMath: [['$','$']]
+			}
+		  });
+		</script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+	
+<meta name="generator" content="Hexo 6.1.0"><link rel="alternate" href="/atom.xml" title="PJ Zhang" type="application/atom+xml">
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="菜单"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="菜单"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="顶部" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">首页</a></li><!--
+     --><!--
+       --><li><a href="/about">关于</a></li><!--
+     --><!--
+       --><li><a href="/archives/">归档</a></li><!--
+     --><!--
+       --><li><a href="/categories/">分类</a></li><!--
+     --><!--
+       --><li><a href="/tags">标签</a></li><!--
+     --><!--
+       --><li><a href="/search">搜索</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="上一篇" href="/2020/02/27/%E7%BE%8E%E5%BC%8F%E8%8B%B1%E8%AF%AD%E5%9B%BD%E9%99%85%E9%9F%B3%E6%A0%87%E8%A1%A8/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="下一篇" href="/2020/01/12/%E4%B8%89%E8%A7%92%E5%87%BD%E6%95%B0%E5%B8%B8%E7%94%A8%E5%85%AC%E5%BC%8F/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="回到顶部" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon"><i class="fa fa-moon" id="dark-btn" aria-hidden="true" onmouseover="$('#i-dark').toggle()" onmouseout="$('#i-dark').toggle()"></i></a></li>
+        <li><a class="icon" target="_blank" rel="noopener" href="/atom.xml" aria-label="订阅博客"><i class="fas fa-rss"></i></a></li>
+        <li><a class="icon" aria-label="分享文章" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">上一篇</span>
+      <span id="i-next" class="info" style="display:none;">下一篇</span>
+      <span id="i-top" class="info" style="display:none;">回到顶部</span>
+      <span id="i-dark" class="info" style="display: none;">切换模式</span>
+      <span id="i-share" class="info" style="display:none;">分享文章</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/&text=mathjax-LaTeX 语法"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/&title=mathjax-LaTeX 语法"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/&is_video=false&description=mathjax-LaTeX 语法"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=mathjax-LaTeX 语法&body=Check out this article: https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/&title=mathjax-LaTeX 语法"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/&title=mathjax-LaTeX 语法"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/&title=mathjax-LaTeX 语法"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/&title=mathjax-LaTeX 语法"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/&name=mathjax-LaTeX 语法&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/&t=mathjax-LaTeX 语法"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E7%AC%A6%E5%8F%B7%E7%9A%84%E5%86%99%E6%B3%95"><span class="toc-number">1.</span> <span class="toc-text">常见符号的写法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E6%8C%87%E6%95%B0%E5%92%8C%E4%B8%8B%E6%A0%87-%E5%B7%A6%E4%B8%8A%E3%80%81%E5%B7%A6%E4%B8%8B%E3%80%81%E5%8F%B3%E4%B8%8A%E3%80%81%E5%8F%B3%E4%B8%8B%E3%80%81%E6%AD%A3%E4%B8%8A%E3%80%81%E6%AD%A3%E4%B8%8B"><span class="toc-number">1.1.</span> <span class="toc-text">1. 指数和下标(左上、左下、右上、右下、正上、正下)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%B9%B3%E6%96%B9%E6%A0%B9%E5%92%8Cn-%E6%AC%A1%E6%96%B9%E6%A0%B9%EF%BC%88%E8%87%AA%E5%8A%A8%E8%B0%83%E6%95%B4%E5%BD%A2%E5%BC%8F%E3%80%81%E4%BB%85%E7%AC%A6%E5%8F%B7%E5%BD%A2%E5%BC%8F%EF%BC%89"><span class="toc-number">1.2.</span> <span class="toc-text">2. 平方根和n 次方根（自动调整形式、仅符号形式）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E6%B0%B4%E5%B9%B3%E7%BA%BF%EF%BC%88%E4%B8%8A%E6%96%B9%E3%80%81%E4%B8%8B%E6%96%B9%EF%BC%89"><span class="toc-number">1.3.</span> <span class="toc-text">3. 水平线（上方、下方）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E6%8B%AC%E5%8F%B7%EF%BC%88%E5%A4%A7%E5%B0%8F%E8%B0%83%E6%95%B4%E3%80%81%E9%9A%90%E8%97%8F%E5%BD%A2%E5%BC%8F%EF%BC%89"><span class="toc-number">1.4.</span> <span class="toc-text">4. 括号（大小调整、隐藏形式）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E6%B0%B4%E5%B9%B3%E5%A4%A7%E6%8B%AC%E5%8F%B7"><span class="toc-number">1.5.</span> <span class="toc-text">5. 水平大括号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-%E5%85%AC%E5%BC%8F%E5%A4%A7%E6%8B%AC%E5%8F%B7"><span class="toc-number">1.6.</span> <span class="toc-text">6. 公式大括号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-%E5%90%91%E9%87%8F"><span class="toc-number">1.7.</span> <span class="toc-text">7. 向量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-%E5%88%86%E6%95%B0"><span class="toc-number">1.8.</span> <span class="toc-text">8. 分数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#9-%E7%9C%81%E7%95%A5%E5%8F%B7%EF%BC%88%E4%B8%8E%E5%BA%95%E7%BA%BF%E5%AF%B9%E9%BD%90%E3%80%81%E4%B8%8E%E4%B8%AD%E7%BA%BF%E5%AF%B9%E9%BD%90%EF%BC%89"><span class="toc-number">1.9.</span> <span class="toc-text">9. 省略号（与底线对齐、与中线对齐）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#10-%E7%A7%AF%E5%88%86%E8%BF%90%E7%AE%97%E7%AC%A6%E5%92%8C%E6%B1%82%E5%92%8C%E8%BF%90%E7%AE%97%E7%AC%A6%E5%92%8C%E4%B9%98%E7%A7%AF%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">1.10.</span> <span class="toc-text">10. 积分运算符和求和运算符和乘积运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#11-%E6%9E%81%E9%99%90"><span class="toc-number">1.11.</span> <span class="toc-text">11. 极限</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#12-%E5%A4%9A%E8%A1%8C%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F"><span class="toc-number">1.12.</span> <span class="toc-text">12. 多行数学公式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#13-%E7%9F%A9%E9%98%B5"><span class="toc-number">1.13.</span> <span class="toc-text">13. 矩阵</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-number">2.</span> <span class="toc-text">注意事项</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        mathjax-LaTeX 语法
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">PJ Zhang</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2020-01-12T05:59:10.393Z" itemprop="datePublished">2020-01-12</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/%E4%BD%8E%E5%88%9B/">低创</a> › <a class="category-link" href="/categories/%E4%BD%8E%E5%88%9B/%E7%AC%94%E8%AE%B0/">笔记</a> › <a class="category-link" href="/categories/%E8%AE%B0%E4%BA%8B/">记事</a> › <a class="category-link" href="/categories/%E8%AE%B0%E4%BA%8B/%E8%A7%84%E5%88%99/">规则</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link-link" href="/tags/LaTeX/" rel="tag">LaTeX</a>, <a class="tag-link-link" href="/tags/mathjax/" rel="tag">mathjax</a>, <a class="tag-link-link" href="/tags/%E5%B7%A5%E5%85%B7/" rel="tag">工具</a>, <a class="tag-link-link" href="/tags/%E6%95%B0%E5%AD%A6/" rel="tag">数学</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <h2 id="常见符号的写法"><a href="#常见符号的写法" class="headerlink" title="常见符号的写法"></a>常见符号的写法</h2><h3 id="1-指数和下标-左上、左下、右上、右下、正上、正下"><a href="#1-指数和下标-左上、左下、右上、右下、正上、正下" class="headerlink" title="1. 指数和下标(左上、左下、右上、右下、正上、正下)"></a>1. 指数和下标(左上、左下、右上、右下、正上、正下)</h3><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span>a<span class="built_in">_</span>1<span class="keyword">\qquad</span> x<span class="built_in">^</span>2<span class="keyword">\qquad</span> e<span class="built_in">^</span>&#123;-<span class="keyword">\alpha</span> t&#125;<span class="keyword">\qquad</span> e<span class="built_in">^</span>&#123;x<span class="built_in">^</span>2&#125;<span class="keyword">\neq</span>&#123;e<span class="built_in">^</span>x&#125;<span class="built_in">^</span>2<span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span><span class="keyword">\sideset</span>&#123;<span class="built_in">^</span>1<span class="built_in">_</span>2&#125;&#123;<span class="built_in">^</span>3<span class="built_in">_</span>4&#125;<span class="keyword">\bigotimes</span><span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span><span class="keyword">\mathop</span>&#123;abc&#125;<span class="keyword">\limits</span><span class="built_in">_</span>1<span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>$$a_1\qquad x^2\qquad e^{-\alpha t}\qquad e^{x^2}\neq{e^x}^2$$<br>$$\sideset{^1_2}{^3_4}\bigotimes$$<br>$$\mathop{abc}\limits_1$$</p>
+<h3 id="2-平方根和n-次方根（自动调整形式、仅符号形式）"><a href="#2-平方根和n-次方根（自动调整形式、仅符号形式）" class="headerlink" title="2. 平方根和n 次方根（自动调整形式、仅符号形式）"></a>2. 平方根和n 次方根（自动调整形式、仅符号形式）</h3><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span><span class="keyword">\sqrt</span>&#123;x&#125;<span class="keyword">\qquad</span><span class="keyword">\sqrt</span>&#123;x<span class="built_in">^</span>2+<span class="keyword">\sqrt</span> y&#125; <span class="keyword">\qquad</span><span class="keyword">\sqrt</span>[3]2<span class="keyword">\qquad</span><span class="keyword">\surd</span>[x<span class="built_in">^</span>2+y<span class="built_in">^</span>2]<span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>$$\sqrt{x}\qquad\sqrt{x^2+\sqrt y} \qquad\sqrt[3]2\qquad\surd[x^2+y^2]$$</p>
+<h3 id="3-水平线（上方、下方）"><a href="#3-水平线（上方、下方）" class="headerlink" title="3. 水平线（上方、下方）"></a>3. 水平线（上方、下方）</h3><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span><span class="keyword">\overline</span>&#123;m+n&#125;<span class="keyword">\qquad</span> <span class="keyword">\underline</span>&#123;m+n&#125;<span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>$$\overline{m+n}\qquad \underline{m+n}$$</p>
+<h3 id="4-括号（大小调整、隐藏形式）"><a href="#4-括号（大小调整、隐藏形式）" class="headerlink" title="4. 括号（大小调整、隐藏形式）"></a>4. 括号（大小调整、隐藏形式）</h3><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span>f(x,y,z) = 3y<span class="built_in">^</span>2z <span class="keyword">\left</span>( 3+<span class="keyword">\frac</span>&#123;7x+5&#125;&#123;1+y<span class="built_in">^</span>2&#125; <span class="keyword">\right</span>)<span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span><span class="keyword">\left</span>.&#123;<span class="keyword">\rm</span> d&#125;u <span class="keyword">\over</span> &#123;<span class="keyword">\rm</span> d&#125;x <span class="keyword">\right</span>|<span class="built_in">_</span>&#123;x=0&#125;<span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>$$f(x,y,z) &#x3D; 3y^2z\left ( 3+\frac{7x+5}{1+y^2} \right)$$<br>$$ \left.{\rm d}u \over {\rm d}x \right|_{x&#x3D;0}$$</p>
+<h3 id="5-水平大括号"><a href="#5-水平大括号" class="headerlink" title="5. 水平大括号"></a>5. 水平大括号</h3><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span><span class="keyword">\underbrace</span>&#123;a+b+<span class="keyword">\dots</span>+z&#125;<span class="built_in">_</span>&#123;26&#125; <span class="keyword">\qquad</span> <span class="keyword">\overbrace</span>&#123;0+1+<span class="keyword">\dots</span>+9&#125;<span class="built_in">^</span>&#123;10&#125;<span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>$$\underbrace{a+b+\dots+z}_{26}\qquad \overbrace{0+1+\dots+9}^{10}$$</p>
+<h3 id="6-公式大括号"><a href="#6-公式大括号" class="headerlink" title="6. 公式大括号"></a>6. 公式大括号</h3><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span>f(x)=<span class="keyword">\left</span><span class="keyword">\\</span>&#123;<span class="keyword">\begin</span>&#123;aligned&#125;x <span class="built_in">&amp;</span>=<span class="built_in">&amp;</span> <span class="keyword">\cos</span>(t) <span class="keyword">\\</span><span class="keyword">\\</span>y <span class="built_in">&amp;</span>=<span class="built_in">&amp;</span> <span class="keyword">\sin</span>(t) <span class="keyword">\\</span><span class="keyword">\\</span>z <span class="built_in">&amp;</span>=<span class="built_in">&amp;</span> <span class="keyword">\frac</span> xy<span class="keyword">\end</span>&#123;aligned&#125;<span class="keyword">\right</span>.<span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span>F<span class="built_in">^</span>&#123;HLLC&#125;=<span class="keyword">\left</span><span class="keyword">\\</span>&#123;<span class="keyword">\begin</span>&#123;array&#125;&#123;rcl&#125;F<span class="built_in">_</span>L<span class="built_in">&amp;</span><span class="built_in">&amp;</span>&#123;0&lt;S<span class="built_in">_</span>L&#125;<span class="keyword">\\</span><span class="keyword">\\</span>F<span class="built_in">^</span>*<span class="built_in">_</span>L<span class="built_in">&amp;</span><span class="built_in">&amp;</span>&#123;S<span class="built_in">_</span>L <span class="keyword">\leq</span> 0 &lt; S<span class="built_in">_</span>M&#125;<span class="keyword">\\</span><span class="keyword">\\</span>F<span class="built_in">^</span>*<span class="built_in">_</span>R<span class="built_in">&amp;</span><span class="built_in">&amp;</span>&#123;S<span class="built_in">_</span>M<span class="keyword">\leq</span>0&lt;S<span class="built_in">_</span>R&#125;<span class="keyword">\\</span><span class="keyword">\\</span>F<span class="built_in">_</span>R<span class="built_in">&amp;</span><span class="built_in">&amp;</span>S<span class="built_in">_</span>R<span class="keyword">\leq</span>0 <span class="keyword">\end</span>&#123;array&#125;<span class="keyword">\right</span>.<span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span>f(x)=<span class="keyword">\begin</span>&#123;cases&#125;0<span class="built_in">&amp;</span>&#123;x=0&#125;<span class="keyword">\\</span><span class="keyword">\\</span> 1<span class="built_in">&amp;</span>&#123;x<span class="keyword">\neq</span> 0&#125;<span class="keyword">\end</span>&#123;cases&#125;<span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>$$f(x)&#x3D;\left\{\begin{aligned}x &amp;&#x3D;&amp; \cos(t) \\y &amp;&#x3D;&amp; \sin(t) \\z &amp;&#x3D;&amp; \frac xy\end{aligned}\right.$$<br>$$F^{HLLC}&#x3D;\left\{\begin{array}{rcl}F_L&amp;&amp;{0&lt;S_L} \\F^*_L&amp;&amp;{S_L \leq 0 &lt; S_M} \\F^*_R&amp;&amp;{S_M\leq0&lt;S_R} \\F_R&amp;&amp;S_R\leq0 \end{array}\right.$$</p>
+<p>$$f(x)&#x3D;\begin{cases}0&amp;{x&#x3D;0} \\ 1&amp;{x\neq 0}\end{cases}$$</p>
+<h3 id="7-向量"><a href="#7-向量" class="headerlink" title="7. 向量"></a>7. 向量</h3><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span><span class="keyword">\vec</span> a<span class="keyword">\qquad</span> <span class="keyword">\overrightarrow</span> &#123;AB&#125;<span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>$$\vec a\qquad \overrightarrow {AB}$$</p>
+<h3 id="8-分数"><a href="#8-分数" class="headerlink" title="8. 分数"></a>8. 分数</h3><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span>1<span class="keyword">\frac</span>&#123;1&#125;&#123;2&#125;hours<span class="keyword">\qquad</span> <span class="keyword">\frac</span>&#123;x<span class="built_in">^</span>2&#125;&#123;k+1&#125; <span class="keyword">\qquad</span> x<span class="built_in">^</span>&#123;<span class="keyword">\frac</span>&#123;2&#125;&#123;k+1&#125;&#125; <span class="keyword">\qquad</span> x<span class="built_in">^</span>&#123;1/2&#125;<span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span>1 <span class="keyword">\over</span> 2<span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>$$1\frac12hours\qquad \frac{x^2}{k+1} \qquad x^{\frac{2}{k+1}} \qquad x^{1&#x2F;2}$$<br>$$1 \over 2$$</p>
+<h3 id="9-省略号（与底线对齐、与中线对齐）"><a href="#9-省略号（与底线对齐、与中线对齐）" class="headerlink" title="9. 省略号（与底线对齐、与中线对齐）"></a>9. 省略号（与底线对齐、与中线对齐）</h3><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span>f(x<span class="built_in">_</span>1,x<span class="built_in">_</span>x,<span class="keyword">\ldots</span>,x<span class="built_in">_</span>n) = x<span class="built_in">_</span>1<span class="built_in">^</span>2 + x<span class="built_in">_</span>2<span class="built_in">^</span>2 + <span class="keyword">\cdots</span> + x<span class="built_in">_</span>n<span class="built_in">^</span>2 <span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>$$f(x_1,x_x,\ldots,x_n) &#x3D; x_1^2 + x_2^2 + \cdots + x_n^2 $$ </p>
+<h3 id="10-积分运算符和求和运算符和乘积运算符"><a href="#10-积分运算符和求和运算符和乘积运算符" class="headerlink" title="10. 积分运算符和求和运算符和乘积运算符"></a>10. 积分运算符和求和运算符和乘积运算符</h3><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span><span class="keyword">\sum</span><span class="built_in">_</span>&#123;x=1&#125;<span class="built_in">^</span>&#123;n&#125;<span class="keyword">\qquad</span> <span class="keyword">\sum</span><span class="keyword">\limits</span><span class="built_in">_</span>&#123;i=1&#125;<span class="built_in">^</span>n <span class="keyword">\qquad</span> <span class="keyword">\int</span><span class="built_in">_</span>0<span class="built_in">^</span>&#123;<span class="keyword">\frac</span><span class="keyword">\pi</span>2&#125; <span class="keyword">\qquad</span> <span class="keyword">\prod</span><span class="keyword">\limits</span><span class="built_in">_</span><span class="keyword">\epsilon</span><span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>$$\sum_{x&#x3D;1}^{n}\qquad \sum\limits_{i&#x3D;1}^n \qquad \int_0^{\frac\pi2} \qquad \prod\limits_\epsilon$$</p>
+<h3 id="11-极限"><a href="#11-极限" class="headerlink" title="11. 极限"></a>11. 极限</h3><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span><span class="keyword">\lim</span><span class="keyword">\limits</span><span class="built_in">_</span>&#123;n<span class="keyword">\rightarrow</span>+<span class="keyword">\infty</span>&#125;<span class="keyword">\frac</span> 1&#123;n(n+1)&#125;<span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>$$\lim\limits_{n\rightarrow+\infty}\frac 1{n(n+1)}$$</p>
+<h3 id="12-多行数学公式"><a href="#12-多行数学公式" class="headerlink" title="12. 多行数学公式"></a>12. 多行数学公式</h3><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span><span class="keyword">\begin</span>&#123;eqnarray&#125;<span class="keyword">\cos</span> 2<span class="keyword">\theta</span> <span class="built_in">&amp;</span> = <span class="built_in">&amp;</span> cos<span class="built_in">^</span>2 <span class="keyword">\theta</span> - <span class="keyword">\sin</span><span class="built_in">^</span>2 <span class="keyword">\theta</span> <span class="keyword">\\</span><span class="keyword">\\</span> <span class="built_in">&amp;</span> = <span class="built_in">&amp;</span> 2 cos<span class="built_in">^</span>2 <span class="keyword">\theta</span>- 1.<span class="keyword">\end</span>&#123;eqnarray&#125;<span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>$$\begin{eqnarray}\cos2\theta&amp;&#x3D;&amp; \cos^2\theta-\sin^2\theta \\ &amp; &#x3D; &amp; 2 \cos^2\theta-1.\end{eqnarray}$$</p>
+<h3 id="13-矩阵"><a href="#13-矩阵" class="headerlink" title="13. 矩阵"></a>13. 矩阵</h3><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">$</span><span class="built_in">$</span><span class="keyword">\left</span>( <span class="keyword">\begin</span>&#123;array&#125;&#123;&#125;a<span class="built_in">&amp;</span>b<span class="built_in">&amp;</span>c <span class="keyword">\\</span><span class="keyword">\\</span> d<span class="built_in">&amp;</span>e<span class="built_in">&amp;</span>f <span class="keyword">\\</span><span class="keyword">\\</span> g<span class="built_in">&amp;</span>h<span class="built_in">&amp;</span>i <span class="keyword">\end</span>&#123;array&#125; <span class="keyword">\right</span>)<span class="built_in">$</span><span class="built_in">$</span></span><br><span class="line"><span class="built_in">$</span><span class="built_in">$</span><span class="keyword">\chi</span>(<span class="keyword">\lambda</span>)=<span class="keyword">\left</span>|<span class="keyword">\begin</span>&#123;array&#125;&#123;ccc&#125;<span class="keyword">\lambda</span>-a<span class="built_in">&amp;</span>-b<span class="built_in">&amp;</span>-c<span class="keyword">\-</span>d<span class="built_in">&amp;</span><span class="keyword">\lambda</span>-e<span class="built_in">&amp;</span>-f<span class="keyword">\-</span>g<span class="built_in">&amp;</span>-h<span class="built_in">&amp;</span><span class="keyword">\lambda</span>-i <span class="keyword">\end</span>&#123;array&#125;<span class="keyword">\right</span>|<span class="built_in">$</span><span class="built_in">$</span></span><br></pre></td></tr></table></figure>
+<p>$$\left( \begin{array}{}a&amp;b&amp;c \\ d&amp;e&amp;f \\ g&amp;h&amp;i \end{array} \right)$$<br>$$ \chi(\lambda) &#x3D; \left| \begin{array}{ccc} \lambda - a &amp; -b &amp; -c \\ -d &amp; \lambda - e &amp; -f \\ -g &amp; -h &amp; \lambda - i \end{array} \right|$$</p>
+<h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2><ul>
+<li>由于mathjax的配置以及网页渲染的方式各不相同，公式中的<code>\\</code>可能被转义成<code>\</code>，这是需要<code>\\\\</code>来表达<code>\\</code>。</li>
+<li>渲染后的公式可能会过长导致显示不全，这时需要对公式所属元素配置CSS，一种解决方案如下：<figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-class">.MJXc-display</span></span><br><span class="line">  <span class="attribute">overflow-x</span>: scroll</span><br><span class="line">  <span class="attribute">overflow-y</span>: hidden</span><br></pre></td></tr></table></figure>
+详见<a target="_blank" rel="noopener" href="https://github.com/rochero/blog/raw/master/nshort.pdf">一份不太简短的$\LaTeX2_{\varepsilon}$介绍</a></li>
+</ul>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">首页</a></li>
+         
+          <li><a href="/about">关于</a></li>
+         
+          <li><a href="/archives/">归档</a></li>
+         
+          <li><a href="/categories/">分类</a></li>
+         
+          <li><a href="/tags">标签</a></li>
+         
+          <li><a href="/search">搜索</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E7%AC%A6%E5%8F%B7%E7%9A%84%E5%86%99%E6%B3%95"><span class="toc-number">1.</span> <span class="toc-text">常见符号的写法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E6%8C%87%E6%95%B0%E5%92%8C%E4%B8%8B%E6%A0%87-%E5%B7%A6%E4%B8%8A%E3%80%81%E5%B7%A6%E4%B8%8B%E3%80%81%E5%8F%B3%E4%B8%8A%E3%80%81%E5%8F%B3%E4%B8%8B%E3%80%81%E6%AD%A3%E4%B8%8A%E3%80%81%E6%AD%A3%E4%B8%8B"><span class="toc-number">1.1.</span> <span class="toc-text">1. 指数和下标(左上、左下、右上、右下、正上、正下)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%B9%B3%E6%96%B9%E6%A0%B9%E5%92%8Cn-%E6%AC%A1%E6%96%B9%E6%A0%B9%EF%BC%88%E8%87%AA%E5%8A%A8%E8%B0%83%E6%95%B4%E5%BD%A2%E5%BC%8F%E3%80%81%E4%BB%85%E7%AC%A6%E5%8F%B7%E5%BD%A2%E5%BC%8F%EF%BC%89"><span class="toc-number">1.2.</span> <span class="toc-text">2. 平方根和n 次方根（自动调整形式、仅符号形式）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E6%B0%B4%E5%B9%B3%E7%BA%BF%EF%BC%88%E4%B8%8A%E6%96%B9%E3%80%81%E4%B8%8B%E6%96%B9%EF%BC%89"><span class="toc-number">1.3.</span> <span class="toc-text">3. 水平线（上方、下方）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E6%8B%AC%E5%8F%B7%EF%BC%88%E5%A4%A7%E5%B0%8F%E8%B0%83%E6%95%B4%E3%80%81%E9%9A%90%E8%97%8F%E5%BD%A2%E5%BC%8F%EF%BC%89"><span class="toc-number">1.4.</span> <span class="toc-text">4. 括号（大小调整、隐藏形式）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E6%B0%B4%E5%B9%B3%E5%A4%A7%E6%8B%AC%E5%8F%B7"><span class="toc-number">1.5.</span> <span class="toc-text">5. 水平大括号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-%E5%85%AC%E5%BC%8F%E5%A4%A7%E6%8B%AC%E5%8F%B7"><span class="toc-number">1.6.</span> <span class="toc-text">6. 公式大括号</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-%E5%90%91%E9%87%8F"><span class="toc-number">1.7.</span> <span class="toc-text">7. 向量</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#8-%E5%88%86%E6%95%B0"><span class="toc-number">1.8.</span> <span class="toc-text">8. 分数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#9-%E7%9C%81%E7%95%A5%E5%8F%B7%EF%BC%88%E4%B8%8E%E5%BA%95%E7%BA%BF%E5%AF%B9%E9%BD%90%E3%80%81%E4%B8%8E%E4%B8%AD%E7%BA%BF%E5%AF%B9%E9%BD%90%EF%BC%89"><span class="toc-number">1.9.</span> <span class="toc-text">9. 省略号（与底线对齐、与中线对齐）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#10-%E7%A7%AF%E5%88%86%E8%BF%90%E7%AE%97%E7%AC%A6%E5%92%8C%E6%B1%82%E5%92%8C%E8%BF%90%E7%AE%97%E7%AC%A6%E5%92%8C%E4%B9%98%E7%A7%AF%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="toc-number">1.10.</span> <span class="toc-text">10. 积分运算符和求和运算符和乘积运算符</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#11-%E6%9E%81%E9%99%90"><span class="toc-number">1.11.</span> <span class="toc-text">11. 极限</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#12-%E5%A4%9A%E8%A1%8C%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F"><span class="toc-number">1.12.</span> <span class="toc-text">12. 多行数学公式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#13-%E7%9F%A9%E9%98%B5"><span class="toc-number">1.13.</span> <span class="toc-text">13. 矩阵</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-number">2.</span> <span class="toc-text">注意事项</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/&text=mathjax-LaTeX 语法"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/&title=mathjax-LaTeX 语法"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/&is_video=false&description=mathjax-LaTeX 语法"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=mathjax-LaTeX 语法&body=Check out this article: https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/&title=mathjax-LaTeX 语法"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/&title=mathjax-LaTeX 语法"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/&title=mathjax-LaTeX 语法"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/&title=mathjax-LaTeX 语法"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/&name=mathjax-LaTeX 语法&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://rochero.github.io/2020/01/12/MathJax-%E7%9B%B8%E5%85%B3LaTeX%E8%AF%AD%E6%B3%95/&t=mathjax-LaTeX 语法"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      <a id="dark-mobile" class="icon"><i class="fa fa-sun" id="dark-btn" aria-hidden="true"></i> 切换</a>
+      <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> 菜单</a>
+      <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> 目录</a>
+      <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> 分享</a>
+      <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> 回到顶部</a>
+    </div>
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    版权 &copy;
+    
+    
+    2022
+    PJ Zhang
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">首页</a></li><!--
+     --><!--
+       --><li><a href="/about">关于</a></li><!--
+     --><!--
+       --><li><a href="/archives/">归档</a></li><!--
+     --><!--
+       --><li><a href="/categories/">分类</a></li><!--
+     --><!--
+       --><li><a href="/tags">标签</a></li><!--
+     --><!--
+       --><li><a href="/search">搜索</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script> 
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"复制到粘贴板\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    // set language label
+    $(".btn-copy").attr("aria-label", function(){return $(this).parent(".highlight").attr("class").replace("highlight ","")+": 复制到粘贴板"})
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "复制成功");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>

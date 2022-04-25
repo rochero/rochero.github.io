@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="1-1：整数值用%d输出，实数用%f输出。1-2：整数&#x2F;整数&#x3D;整数，浮点数&#x2F;浮点数&#x3D;浮点数。1-3：scanf中的占位符和变量的数据类型应一一对应，且每个变量前需要加&amp;符号。1-4：在算法竞赛中，输入前不要打印提示信息。输出完毕后应立即终止程序，不要等待用户按键，因为输入输出过程都是自动的，没有人工干预。1-5：在算法竞赛中不要使用头文件conio.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="刘汝佳算法竞赛指南-hints">
+<meta property="og:url" content="https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/index.html">
+<meta property="og:site_name" content="PJ Zhang">
+<meta property="og:description" content="1-1：整数值用%d输出，实数用%f输出。1-2：整数&#x2F;整数&#x3D;整数，浮点数&#x2F;浮点数&#x3D;浮点数。1-3：scanf中的占位符和变量的数据类型应一一对应，且每个变量前需要加&amp;符号。1-4：在算法竞赛中，输入前不要打印提示信息。输出完毕后应立即终止程序，不要等待用户按键，因为输入输出过程都是自动的，没有人工干预。1-5：在算法竞赛中不要使用头文件conio.">
+<meta property="og:locale">
+<meta property="article:published_time" content="2018-08-08T16:00:00.000Z">
+<meta property="article:modified_time" content="2022-04-24T12:14:33.121Z">
+<meta property="article:author" content="PJ Zhang">
+<meta property="article:tag" content="算法">
+<meta property="article:tag" content="书">
+<meta property="article:tag" content="C&#x2F;C++">
+<meta name="twitter:card" content="summary">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>刘汝佳算法竞赛指南-hints</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <script>localStorage.getItem("dark_mode")==="dark"&&document.write(`<link rel="stylesheet" href="${location.origin}/css/dark.css">`)</script>
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+		<script type="text/x-mathjax-config">
+		  MathJax.Hub.Config({
+			tex2jax: {
+			  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+			  inlineMath: [['$','$']]
+			}
+		  });
+		</script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
+	
+<meta name="generator" content="Hexo 6.1.0"><link rel="alternate" href="/atom.xml" title="PJ Zhang" type="application/atom+xml">
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="菜单"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="菜单"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="顶部" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">首页</a></li><!--
+     --><!--
+       --><li><a href="/about">关于</a></li><!--
+     --><!--
+       --><li><a href="/archives/">归档</a></li><!--
+     --><!--
+       --><li><a href="/categories/">分类</a></li><!--
+     --><!--
+       --><li><a href="/tags">标签</a></li><!--
+     --><!--
+       --><li><a href="/search">搜索</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="上一篇" href="/2018/10/01/%E6%B1%89%E8%AF%BA%E5%A1%94%E9%97%AE%E9%A2%98/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="下一篇" href="/2018/06/15/%E5%A4%A7%E6%95%B0%E9%98%B6%E4%B9%98/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="回到顶部" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon"><i class="fa fa-moon" id="dark-btn" aria-hidden="true" onmouseover="$('#i-dark').toggle()" onmouseout="$('#i-dark').toggle()"></i></a></li>
+        <li><a class="icon" target="_blank" rel="noopener" href="/atom.xml" aria-label="订阅博客"><i class="fas fa-rss"></i></a></li>
+        <li><a class="icon" aria-label="分享文章" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">上一篇</span>
+      <span id="i-next" class="info" style="display:none;">下一篇</span>
+      <span id="i-top" class="info" style="display:none;">回到顶部</span>
+      <span id="i-dark" class="info" style="display: none;">切换模式</span>
+      <span id="i-share" class="info" style="display:none;">分享文章</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/&text=刘汝佳算法竞赛指南-hints"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/&title=刘汝佳算法竞赛指南-hints"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/&is_video=false&description=刘汝佳算法竞赛指南-hints"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=刘汝佳算法竞赛指南-hints&body=Check out this article: https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/&title=刘汝佳算法竞赛指南-hints"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/&title=刘汝佳算法竞赛指南-hints"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/&title=刘汝佳算法竞赛指南-hints"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/&title=刘汝佳算法竞赛指南-hints"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/&name=刘汝佳算法竞赛指南-hints&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/&t=刘汝佳算法竞赛指南-hints"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        刘汝佳算法竞赛指南-hints
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">PJ Zhang</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2018-08-08T16:00:00.000Z" itemprop="datePublished">2018-08-09</time>
+        
+      
+    </div>
+
+
+      
+    <div class="article-category">
+        <i class="fas fa-archive"></i>
+        <a class="category-link" href="/categories/%E8%AE%B0%E4%BA%8B/">记事</a> › <a class="category-link" href="/categories/%E8%AE%B0%E4%BA%8B/%E6%8C%87%E5%8D%97/">指南</a> › <a class="category-link" href="/categories/%E8%BD%AC%E8%BD%BD/">转载</a>
+    </div>
+
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link-link" href="/tags/C-C/" rel="tag">C/C++</a>, <a class="tag-link-link" href="/tags/%E4%B9%A6/" rel="tag">书</a>, <a class="tag-link-link" href="/tags/%E7%AE%97%E6%B3%95/" rel="tag">算法</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>1-1：整数值用%d输出，实数用%f输出。<br>1-2：整数&#x2F;整数&#x3D;整数，浮点数&#x2F;浮点数&#x3D;浮点数。<br>1-3：<code>scanf</code>中的占位符和变量的数据类型应一一对应，且每个变量前需要加<code>&amp;</code>符号。<br>1-4：在算法竞赛中，输入前不要打印提示信息。输出完毕后应立即终止程序，不要等待用户按键，因为输入输出过程都是自动的，没有人工干预。<br>1-5：在算法竞赛中不要使用头文件<code>conio.h</code>，包括<code>getch()</code>、<code>clrscr()</code>等函数。<br>1-6：在算法竞赛中，每行输出均应以回车符结束，包括最后一行。除非特别说明，每行的行首不应有空格，但行末通常可以有多余空格。另外，输出的每两个数或者字符串之间应以单个空格隔开。<br>1-7：尽量用<code>const</code>关键字声明常数。<br>1-8：赋值是个动作，先计算右边的值，再赋给左边的变量，覆盖它原来的值。<br>1-9：<code>printf</code>的格式字符串中可以包含其他可打印符号，打印时原样输出。<br>1-10：算法竞赛的题目应当是严密的，各种情况下的输出均应有严格规定。如果在比赛中发现题目有漏洞，应向相关人员询问，尽量不要自己随意假定。<br>1-11：赋值<code>a = b</code>之后，变量a原来的值被覆盖，而b的值不变。<br>1-12：可以通过手工模拟的方法理解程序的执行方式，重点在于记录每条语句执行之后各个变量的值。<br>1-13：交换两个变量的三变量法适用范围广，推荐使用。<br>1-14：算法竞赛是在比谁能更好地解决问题，而不是在比谁写的程序看上去更高级。<br>1-15：<code>if</code>语句的基本格式为：<code>if</code>（条件）语句1；<code>else</code>语句2。<br>1-16：<code>if</code>语句的条件是一个逻辑表达式，它的值可能为真，也可能为假。单个整数值也可以表示真假，其中0为假，其他值为真。<br>1-17：C语言中的逻辑运算符都是短路运算符。一旦能够确定整个表达式的值，就不再继续计算。<br>1-18：算法竞赛的目标是编程对任意输入均得到正确的结果，而不仅是样例数据。<br>1-19：如果有多个并列、情况不交叉的条件需要一一处理，可以用<code>else if</code>语句。<br>1-20：适当在程序中编写注释不仅能让其他用户更快地搞懂你的程序，还能帮你自己理清思路。<br>1-21：可以用花括号把若干条语句组合成一个整体。这些语句仍然按顺序执行。 </p>
+<p>2-1：<code>for</code>循环的格式为：<code>for</code>（初始化；条件；调整）循环体；<br>2-2：尽管<code>for</code>循环反复执行相同的语句，但这些语句每次的执行效果往往不同。<br>2-3：编写程序时，要特别留意“当前行”的跳转和变量的改变。<br>2-4：建议尽量缩短变量的定义范围。例如，在for循环的初始化部分定义循环变量。<br>2-5：不拘一格地使用伪代码来思考和描述算法是一种值得推荐的做法。<br>2-6：把伪代码改写成代码时，一般先选择较为容易的任务来完成。<br>2-7：浮点运算可能存在误差。在进行浮点数比较时，应考虑到浮点误差。<br>2-8：<code>while</code>循环的格式为“<code>while</code>（条件）循环体；”。<br>2-9：当需要统计某种事物的个数时，可以用一个变量来充当计数器。<br>2-10：不要忘记测试。一个看上去正确的程序可能隐含错误。<br>2-11：在观察无法找出错误时，可以用“输出中间结果”的方法查错。<br>2-12：C99并没有规定<code>int</code>类型的确切大小，但在当前流行的竞赛平台中，<code>int</code>都是32位整数，范围是-2147483648～2147483647。<br>2-13：<code>long long</code>在Linux下的输入输出格式符为<code>％lld</code>，但Windows平台中有时为<code>％I64d</code>。为保险起见，可以用后面介绍的C＋＋流，或者编写自定义输入输出函数。<br>2-14：<code>do-while</code>循环的格式为“<code>do</code>{循环体}<code>while</code>（条件）；”，其中循环体至少执行一次，每次执行完循环体后判断条件，当条件满足时继续循环。<br>2-15：在循环体开始处定义的变量，每次执行循环体时会重新声明并初始化。<br>2-16：要计算只包含加法、减法和乘法的整数表达式除以正整数n的余数，可以在每步计算之后对n取余，结果不变。<br>2-17：可以使用<code>time.h</code>和<code>clock（）</code>函数获得程序运行时间。常数<code>CLOCKS_PER_SEC</code>和操作系统相关，请不要直接使用<code>clock（）</code>的返回值，而应总是除以<code>CLOCKS_PER_SEC</code>。<br>2-18：很多程序的运行时间与规模n存在着近似的简单关系。可以通过计时函数来发现或验证这一关系。<br>2-19：在Windows下，输入完毕后先按<code>Enter</code>键，再按<code>Ctrl＋Z</code>键，最后再按<code>Enter</code>键，即可结束输入。在Linux下，输入完毕后按<code>Ctrl＋D</code>键即可结束输入。<br>2-20：变量在未赋值之前的值是不确定的。特别地，它不一定等于0。<br>2-21：请在比赛之前了解文件读写的相关规定：是标准输入输出（也称标准I&#x2F;O，即直接读键盘、写屏幕），还是文件输入输出？如果是文件输入输出，是否禁止用重定向方式访问文件？<br>2-22：在算法竞赛中，选手应严格遵守比赛的文件名规定，包括程序文件名和输入输出文件名。不要弄错大小写，不要拼错文件名，不要使用绝对路径或相对路径。<br>2-23：在算法竞赛中，有经验的选手往往会使用条件编译指令并且将重要的测试语句注释掉而非删除。<br>2-24：在算法竞赛中，如果不允许使用重定向方式读写数据，应使用<code>fopen</code>和<code>fscanf/fprintf</code>进行输入输出。<br>2-25：在算法竞赛中，偶尔会出现输入输出错误的情况。如果程序鲁棒性强，有时能在数据有瑕疵的情况下仍然给出正确的结果。程序的鲁棒性在工程中也非常重要。<br>2-26：在多数据的题目中，一个常见的错误是：在计算完一组数据后某些变量没有重置，影响到下组数据的求解。<br>2-27：当嵌套的两个代码块中有同名变量时，内层的变量会屏蔽外层变量，有时会引起十分隐蔽的错误。<br>2-28：用编译选项-Wall编译程序时，会给出很多（但不是所有）警告信息，以帮助程序员查错。但这并不能解决所有的问题：有些“错误”程序是合法的，只是这些动作不是所期望的。  </p>
+<p>3-1：语句“<code>int a[maxn]</code>”声明了一个包含maxn个整型变量的数组，即a[0]，a[1]，…，a[maxn-1]，但不包含a[maxn]。maxn必须是常数，不能是变量。<br>3-2：在算法竞赛中，常常难以精确计算出需要的数组大小，数组一般会声明得稍大一些。在空间够用的前提下，浪费一点不会有太大影响。<br>3-3：对于变量n，n＋＋和＋＋n都会给n加1，但当它们用在一个表达式中时，行为有所差别：n＋＋会使用加1前的值计算表达式，而＋＋n会使用加1后的值计算表达式。“＋＋”运算符是C语言的特色之一。<br>3-4：比较大的数组应尽量声明在<code>main</code>函数外，否则程序可能无法运行。<br>3-5：可以用“<code>int a[maxn][maxm]</code>”生成一个整型的二维数组，其中maxn和maxm不必相等。这个数组共有maxn×maxm个元素，分别为a[0][0], a[0][1],…, a[0][maxm-1], a[1][0],a[1][1],…,a[1][maxm-1],…,a[maxn-1][0],a[maxn-1][1],…, a[maxn-1][maxm -1]。<br>3-6：可以利用C语言简洁的语法，但前提是保持代码的可读性。<br>3-7：在很多情况下，最好是在做一件事之前检查是不是可以做，而不要做完再后悔。因为“悔棋”往往比较麻烦。<br>3-8：C语言中的字符型用关键字char表示，它实际存储的是字符的ASCII码。字符常量可以用单引号法表示。在语法上可以把字符当作int型使用。<br>3-9：在“<code>scanf(&quot;%s&quot;, s)</code>”中，不要在s前面加上“&amp;”符号。如果是字符串数组<code>char s\[maxn][maxl]</code>，可以用“<code>scanf(&quot;%s&quot;, s[i])</code>”读取第i个字符串。注意，“<code>scanf(&quot;%s&quot;, s)</code>”遇到空白字符会停下来。<br>3-10：可以用<code>sprintf</code>把信息输出到字符串，用法和<code>printf</code>、<code>fprintf</code>类似。但应当保证字符串足够大，可以容纳输出信息。<br>3-11：C语言中的字符串是以“\0”结尾的字符数组，可以用<code>strlen(s)</code>返回字符串s中结束标记之前的字符个数。字符串中的各个字符是s[0], s[1],…,s[strlen(s)-1]。<br>3-12：由于字符串的本质是数组，它也不是“一等公民”，只能用<code>strcpy(a, b)</code>, <code>strcmp(a, b)</code>, <code>strcat(a, b)</code>来执行“赋值”、“比较”和“连接”操作，而不能用“&#x3D;”、“&#x3D;&#x3D;”、“&lt;&#x3D;”、“+”等运算符。上述函数都在<code>string.h</code>中声明。<br>3-13：滥用“++”、“—”、“+&#x3D;”等可以修改变量值的运算符很容易带来隐蔽的错误。建议每条语句最多只用一次这种运算符，并且所修改的变量在整条语句中只出现一次。<br>3-14：使用<code>fgetc(fin)</code>可以从打开的文件fin中读取一个字符。一般情况下应当在检查它不是EOF后再将其转换成char值。从标准输入读取一个字符可以用<code>getchar</code>，它等价于<code>fgetc(stdin)</code>。<br>3-15：在使用<code>fgetc</code>和<code>getchar</code>时，应该避免写出和操作系统相关的程序。<br>3-16：”<code>fgets(buf, maxn, fin)</code>“将读取完整的一行放在字符数组buf中。应当保证buf足够存放下文件的一行内容。除了在文件结束前没有遇到“\n”这种特殊情况外，buf总是以“\n”结尾。当一个字符都没有读到时，<code>fgets</code>返回NULL。<br>3-17：C语言并不禁止程序读写”非法内存”。例如，声明的是<code>char s[100]</code>，完全可以赋值<code>s[10000] = &#39;a&#39;</code>（甚至-Wall也不会警告），但后果自负。<br>3-18：C语言中的<code>gets(s)</code>存在缓冲区溢出漏洞，不推荐使用。在C11标准里，该函数已被正式删除。<br>3-19：善用常量数组往往能简化代码。定义常量数组时无须指明大小，编译器会计算。<br>3-20：头文件<code>ctype.h</code>中定义的<code>isalpha</code>、<code>isdigit</code>、<code>isprint</code>等工具可以用来判断字符的属性，而<code>toupper</code>、<code>tolower</code>等工具可以用来转换大小写。如果ch是大写字母，则ch-‘A’就是它在字母表中的序号（A的序号是0，B的序号是1，依此类推）；类似地，如果ch是数字，则ch-‘0’就是这个数字的数值本身。<br>3-21：字符还可以直接用ASCII码表示。如果用八进制，应该写成：“\o”，“\oo”或“\ooo”（o为一个八进制数字）；如果用十六进制，应该写成“\xh”（h为十六进制数字串）。<br>3-22：在多数计算机内部，整数采用的是补码表示法。  </p>
+<p>4-1：C语言中的数学函数可以定义成“返回类型 函数名(参数列表) { 函数体 }”，其中函数体的最后一条语句应该是“<code>return</code> 表达式；”。<br>4-2：函数的参数和返回值最好是“一等公民”，如<code>int</code>、<code>char</code>或者<code>double</code>等。其他“非一等公民”作为参数和返回值要复杂一些。如果函数不需要返回值，则返回类型应写成<code>void</code>。<br>4-3：如果在执行函数的过程中碰到了return语句，将直接退出这个函数，不去执行后面的语句。相反，如果在执行过程中始终没有return语句，则会返回一个不确定的值。幸好，-Wall可以捕捉到这一可疑情况并产生警告。<br>4-4：在算法竞赛中，请总是让main函数返回0。<br>4-5：在C语言中，定义结构体的方法为“struct 结构体名称{ 域定义 };”，注意花括号的后面还有一个分号。<br>4-6：为了使用方便，往往用“typedef struct { 域定义; }类型名;”的方式定义一个新类型名。这样，就可以像原生数据类型一样使用这个自定义类型。<br>4-7：即使最终答案在所选择的数据类型范围之内，计算的中间结果仍然可能溢出。<br>4-8：对复杂的表达式进行化简有时不仅能减少计算量，还能减少甚至避免中间结果溢出。<br>4-9：建议把谓词（用来判断某事物是否具有某种特性的函数）命名成“is_xxx”的形式，返回int值，非0表示真，0表示假。<br>4-10：编写函数时，应尽量保证该函数能对任何合法参数得到正确的结果。如若不然，应在显著位置标明函数的缺陷，以避免误用。<br>4-11：函数的形参和在函数内声明的变量都是该函数的局部变量。无法访问其他函数的局部变量。局部变量的存储空间是临时分配的，函数执行完毕时，局部变量的空间将被释放，其中的值无法保留到下次使用。在函数外声明的变量是全局变量，可以被任何函数使用。操作全局变量有风险，应谨慎使用。<br>4-12：C语言用调用栈（Call Stack）来描述函数之间的调用关系。调用栈由栈帧（Stack Frame）组成，每个栈帧对应着一个未运行完的函数。在gdb中可以用backtrace（简称bt）命令打印所有栈帧信息。若要用p命令打印一个非当前栈帧的局部变量，可以用frame命令选择另一个栈帧。<br>4-13：C语言的变量都是放在内存中的，而内存中的每个字节都有一个称为地址（address）的编号。每个变量都占有一定数目的字节（可用sizeof运算符获得），其中第一个字节的地址称为变量的地址。<br>4-14：用int* a声明的变量a是指向int型变量的指针。赋值a &#x3D; &amp;b的含义是把变量b的地址存放在指针a中，表达式*a代表a指向的变量，既可以放在赋值符号的左边（左值），也可以放在右边（右值）。<br>4-15：千万不要滥用指针，这不仅会把自己搞糊涂，还会让程序产生各种奇怪的错误。事实上，本书的程序会很少使用指针。<br>4-16：以数组为参数调用函数时，实际上只有数组首地址传递给了函数，需要另加一个参数表示元素个数。除了把数组首地址本身作为实参外，还可以利用指针加减法把其他元素的首地址传递给函数。<br>4-17：C语言支持递归，即函数可以直接或间接地调用自己。但要注意为递归函数编写终止条件，否则将产生无限递归。<br>4-18：由于使用了调用栈，C语言支持递归。在C语言中，调用自己和调用其他函数并没有本质不同。<br>4-19：在可执行文件中，正文段（Text Segment）用于储存指令，数据段（Data Segment）用于储存已初始化的全局变量，BSS段（BSS Segment）用于储存未赋值的全局变量所需的空间。<br>4-20：在运行时，程序会动态创建一个堆栈段，里面存放着调用栈，因此保存着函数的调用关系和局部变量。<br>4-21：在Linux中，栈大小并没有储存在可执行程序中，只能用ulimit命令修改；在Windows中，栈大小储存在可执行程序中，用gcc编译时可以通过-Wl,–stack&#x3D;&lt;byte count&gt;指定。  </p>
+<p>5-1：C＋＋的精华与糟粕并存。本章介绍的C＋＋特性是算法竞赛中最常用的部分，虽然不是解题所必需的，但值得学习。<br>5-2：C＋＋能编译大多数C语言程序。虽然C语言中大多数头文件在C＋＋中仍然可以使用，但推荐的方法是在C头文件之前加一个小写的c字母，然后去掉.h后缀。<br>5-3：C＋＋中可以使用流简化输入输出操作。标准输入输出流在头文件iostream中定义，存在于名称空间std中。如果使用了using namespace std语句，则可以直接使用。<br>5-4：C＋＋中的引用就是变量的“别名”，它可以在一定程度上代替C中的指针。例如，可以用“传引用”的方式让函数内直接修改实参。<br>5-5：C＋＋在string头文件里定义了string类型，直接支持流式读写。string有很多方便的函数和运算符，但速度有些慢。<br>5-6：可以把string作为流进行读写，定义在sstream头文件中。<br>5-7：C＋＋中的结构体除了可以拥有成员变量（用a.x的方式访问）之外，还可以拥有成员函数（用a.add（1，2）的方式访问）。为了简单起见，本书中只使用struct而不使用class，但struct的很多概念和写法同样适用于class。<br>5-8：C＋＋中的结构体可以有一个或多个构造函数，在声明变量时调用。<br>5-9：C＋＋中的函数（不只是构造函数）参数可以拥有默认值。<br>5-10：在C＋＋结构体的成员函数中，this是指向当前对象的指针。<br>5-11：algorithm头文件中的sort可以给任意对象排序，包括内置类型和自定义类型，前提是类型定义了“&lt;”运算符。排序之后可以用lower_bound查找大于或等于x的第一个位置。待排序／查找的元素可以放在数组里，也可以放在vector里。<br>5-12：vector头文件中的vector是一个不定长数组，可以用clear( )清空，resize( )改变大小，用push_back( )和pop_back( )在尾部添加和删除元素，用empty( )测试是否为空。vector之间可以直接赋值或者作为函数的返回值，像是“一等公民”一样。<br>5-13：set头文件中的set和map头文件中的map分别是集合与映射。二者都支持insert、find、count和remove操作，并且可以按照从小到大的顺序循环遍历其中的元素。map还提供了“[]”运算符，使得map可以像数组一样使用。事实上，map也称为“关联数组”。<br>5-14：STL的stack头文件提供了栈，用“stack&lt;int&gt;s”方式定义，用push( )和pop( )实现元素的入栈和出栈操作，top( )取栈顶元素（但不删除）。<br>5-15：STL的queue头文件提供了队列，用“queue&lt;int&gt;s”方式定义，用push( )和pop( )进行元素的入队和出队操作，front( )取队首元素（但不删除）。<br>5-16：STL的queue头文件提供了优先队列，用“priority_queue&lt;int&gt;s”方式定义，用push( )和pop( )进行元素的入队和出队操作，top( )取队首元素（但不删除）。<br>5-17：库不一定没有bug，使用之前测试库是一个好习惯。<br>5-18：cstdlib中的rand( )可生成闭区间[0，RAND_MAX]内均匀分布的随机整数，其中RAND_MAX至少为32767。如果要生成更大的随机整数，在精度要求不太高的情况下可以用rand( )的结果“放大”得到。<br>5-19：可以用cstdlib中的srand函数初始化随机数种子。如果需要程序每次执行时使用一个不同的种子，可以用ctime中的time（NULL）为参数调用srand。一般来说，只在程序执行的开头调用一次srand。<br>5-20：把vector作为参数或者返回值时，应尽量改成用引用方式传递参数，以避免不必要的值被复制。<br>5-21：C＋＋支持函数重载，但函数的参数类型必须不同（不能只有返回值类型不同）。<br>5-22：测试时往往使用assert。其用法是“assert（表达式）”，当表达式为假时强行终止程序，并给出错误提示。<br>5-23：可以给结构体重载赋值运算符，使得用起来更方便。<br>5-24：可以给结构体声明一些属于该结构体类型的静态成员变量，方法是加上static修饰符。静态成员变量在结构体外部使用时要写成“结构体名：：静态成员变量名”。  </p>
+<p>6-1：如果要在“队列”两端进行插入和删除，可以用STL中的双端队列deque。<br>6-2：简单的表达式解析可以借助栈来完成。<br>6-3：在数组中频繁移动元素是很低效的，如有可能，可以使用链表。<br>6-4：为了方便起见，常常在链表的第一个元素之前放一个虚拟结点。<br>6-5：在双向链表这样的复杂链式结构中，往往会编写一些辅助函数用来设置链接关系。<br>6-6：如果数据结构上的某一个操作很耗时，有时可以用加标记的方式处理，而不需要真的执行那个操作。但同时，该数据结构的所有其他操作都要考虑这个标记。<br>6-7：复杂的链式数据结构往往较容易写错。在包含多道题目的算法竞赛中，这一特点可以是选题的依据之一。<br>6-8：测试的任务就是检查一份代码是否正确。如果找到了错误，最好还能提供一个让它出错的数据；调试的任务是找到错误原因并改正。改正一个错误之后有可能引入新的错误，因此调试和测试往往要交替进行。<br>6-9：测试数据结构程序的常用方法是对拍：写一个功能相同但速度较慢的简易版本，再写一个数据生成器，不停对比快慢两个程序的输出。简易版本的代码越简单越好，因为重点不在效率，而在正确性。<br>6-10：数据的复杂性会大大影响调试的难度，因此在找到让程序出错的数据之后最好别急着调试，而应尝试简化数据，或者直接用更小的参数调用数据生成器，以找到更简单的错误数据。<br>6-11：给定一棵包含2d个结点（其中d为树的高度）的完全二叉树，如果把结点从上到下从左到右编号为1,2,3……，则结点k的左右子结点编号分别为2k和2k+1。<br>6-12：如果要定义一棵二叉树，一般是定义一个“结点”类型的struct（如叫Node），然后保存树根的指针（如Node* root）。<br>6-13：可以用new运算符申请空间并执行构造函数。如果返回值为NULL，说明空间不足，申请失败。<br>6-14：可以用队列实现二叉树的层次遍历。这个方法还有一个名字，叫做宽度优先遍历（Breadth-First Search，BFS）。<br>6-15：如果程序动态申请内存，请注意内存泄漏。程序执行完毕后，操作系统会回收该程序申请的所有内存（包括泄漏的），所以在算法竞赛中内存泄漏往往不会造成什么影响。但是，从专业素养的角度考虑，请从现在开始养成好习惯，对内存泄漏保持警惕。<br>6-16：可以用数组来实现二叉树，方法是用整数表示结点编号，left[u]和right[u]分别表示u的左右子结点的编号。<br>6-17：可以用静态数组配合空闲列表来实现一个简单的内存池。虽然在大多数算法竞赛题目中用不上，但是内存池技术在高水平竞赛以及工程实践中都极为重要。<br>6-18：二叉树有3种深度优先遍历：先序遍历、中序遍历和后序遍历。<br>6-19：给定二叉树的中序遍历和后序遍历，可以构造出这棵二叉树。方法是根据后序遍历找到树根，然后在中序遍历中找到树根，从而找出左右子树的结点列表，然后递归构造左右子树。<br>6-20：当题目比较复杂时，建议先手算样例或者至少把样例的图示画出来，以免误解题意。<br>6-21：图也有DFS遍历和BFS遍历，其中前者用递归实现，后者用队列实现。求多维数组连通块的过程也称为种子填充（floodfill）。<br>6-22：很多复杂的迷宫问题都可以转化为最短路问题，然后用BFS求解。在套用BFS框架之前，需要先搞清楚图中的“结点”包含哪些内容。<br>6-23：使用BFS求出图的最短路之后，可以用递归方式打印最短路的具体路径。如果最短路非常长，递归可能会引起栈溢出，此时可以改用循环，用vector保存路径。<br>6-24：可以用DFS求出有向无环图（DAG）的拓扑排序。如果排序失败，说明该有向图存在有向环，不是DAG。<br>6-25：根据连通性和度数可以判断出无向图和有向图是否存在欧拉道路和欧拉回路。可以用DFS构造欧拉回路和欧拉道路。  </p>
+<p>7-1：即使采用暴力法求解问题，对问题进行一定的分析往往会让算法更简洁、高效。<br>7-2：如果某问题的解可以由多个步骤得到，而每个步骤都有若干种选择（这些候选方案集可能会依赖于先前作出的选择），且可以用递归枚举法实现，则它的工作方式可以用解答树来描述。<br>7-3：枚举排列的常见方法有两种：一是递归枚举，二是用STL中的next_permutation。<br>7-4：在枚举子集的增量法中，需要使用定序的技巧，避免同一个集合枚举两次。<br>7-5：在枚举子集的位向量法中，解答树的结点数略多，但在多数情况下仍然够快。<br>7-6：可以用二进制表示子集，其中从右往左第i位（从0开始编号）表示元素i是否在集合中（1表示“在”，0表示“不在”）。<br>7-7：当用二进制表示子集时，位运算中的按位与、或、异或对应集合的交、并和对称差。<br>7-8：从代码量看，枚举子集的最简单方法是二进制法。<br>7-9：在编写递归枚举程序之前，需要深入分析问题，对模型精雕细琢。一般还应对解答树的结点数有一个粗略的估计，作为评价模型的重要依据，如图7-5所示。<br>7-10：当把问题分成若干步骤并递归求解时，如果当前步骤没有合法选择，则函数将返回上一级递归调用，这种现象称为回溯。正是因为这个原因，递归枚举算法常被称为回溯法，应用十分普遍。<br>7-11：如果在回溯法中使用了辅助的全局变量，则一定要及时把它们恢复原状。特别地，若函数有多个出口，则需在每个出口处恢复被修改的值。<br>7-12：如果最坏情况下的枚举量很大，应该使用回溯法而不是生成-测试法。<br>7-13：在回溯法中，应注意避免不必要的判断，就像在八皇后问题中那样，只需判断新皇后和之前的皇后是否冲突，而不必判断以前的皇后是否相互冲突。<br>7-14：在求最优解的问题中，应尽量考虑最优性剪枝。这往往需要记录下当前最优解，并且想办法“预测”一下从当前结点出发是否可以扩展到更好的方案。具体来说，先计算一下最理想情况可以得到怎样的解，如果连理想情况都无法得到比当前最优解更好的方案，则剪枝。<br>7-15：路径寻找问题可以归结为隐式图的遍历，它的任务是找到一条从初始状态到终止状态的最优路径，而不是像回溯法那样找到一个符合某些要求的解。<br>7-16：隐式图遍历需要用一个结点查找表来判重。一般来说，使用STL集合实现的代码最简单，但效率也较低。如果题目对时间要求很高，可以先把STL集合版的程序调试通过，然后转化为哈希表甚至完美哈希表。<br>7-17：对于可以用回溯法求解但解答树的深度没有明显上限的题目，可以考虑使用迭代加深搜索（iterative deepening）。<br>7-18：如果可以设计出一个乐观估价函数，预测从当前结点至少还需要扩展几层结点才有可能得到解，则迭代加深搜索变成了IDA*算法。<br>：要事先判断结点1是否可以到达结点k，否则会超时。</p>
+<p>8-1：统计程序中“基本操作”的数量，可以排除机器速度的影响，衡量算法本身的优劣程度。<br>8-2：基本操作的数量往往可以写成关于“输入规模”的表达式，保留最大项并忽略系数后的简单表达式称为算法的渐进时间复杂度，用于衡量算法中基本操作数随规模的增长情况。<br>8-3：渐进时间复杂度忽略了很多因素，因而分析结果只能作为参考，并不是精确的。尽管如此，如果成功抓住了最主要的运算量所在，算法分析的结果常常十分有用。<br>8-4：在算法设计中，常常不进行精确分析，而是假定各种最坏情况同时取到，得到上界。在很多情况下，这个上界和实际情况同阶（称为“紧”的上界），但也有可能会因为分析方法不够好，得到“松”的上界。<br>8-5：在算法分析中，往往可以忽略“除法结果是否为整数”，而直接按照实数除法分析。这样的近似对最终结果影响很小，一般不会改变渐进时间复杂度。<br>8-6：递归方程$T(n)&#x3D;2T(n&#x2F;2)+\Theta(n); T(1)&#x3D;1$的解为$T(n)&#x3D;\Theta(n\log n)$。<br>8-7：归并排序的时间复杂度为O(nlogn)。对该算法稍加修改，可以统计序列中的逆序对的个数，时间复杂度不变。<br>8-8：快速排序的时间复杂度为：最坏情况O(n^2)，平均情况O(nlogn)，但实践中几乎不可能达到最坏情况，效率非常高。根据快速排序思想，可以在平均O(n)时间内选出数组中第k大的元素。<br>8-9：逐步缩小范围法是一种常见的思维方法。二分查找便是基于这种思路，它遵循分治三步法，把原序列划分成元素个数尽量接近的两个子序列，然后递归查找。二分查找只适用于有序序列，时间复杂度为O(logn)。<br>8-10：二分查找一般写成非递归形式。<br>8-11：用“上下界”函数求解范围统计问题的技巧非常有用，建议读者用心体会左闭右开区间的使用方法和上下界函数的实现细节。  </p>
+<p>9-1：动态规划的核心是状态和状态转移方程。<br>9-2：用直接递归的方法计算状态转移方程，效率往往十分低下。其原因是相同的子问题被重复计算了多次。<br>9-3：可以用递推法计算状态转移方程。递推的关键是边界和计算顺序。在多数情况下，递推法的时间复杂度是：状态总数×每个状态的决策个数×决策时间。如果不同状态的决策个数不同，需具体问题具体分析。<br>9-4：可以用记忆化搜索的方法计算状态转移方程。当采用记忆化搜索时，不必事先确定各状态的计算顺序，但需要记录每个状态“是否已经计算过”。<br>9-5：在记忆化搜索中，可以为正在处理的表项声明一个引用，简化对它的读写操作。<br>9-6：根据各个状态的指标值可以依次确定各个最优决策，从而构造出完整方案。由于决策是依次确定的，所以很容易按照字典序打印出所有方案。<br>9-7：当程序中需要用到特殊值时，应确保该值在正常情况下不会被取到。这不仅意味着特殊值不能有“正常的理解方式”，而且也不能在正常运算中“意外得到”。<br>9-8：在记忆化搜索中，如果用特殊值表示“还没算过”，则必须将其和其他特殊值（如无解）区分开。<br>9-9：在记忆化搜索中，可以用vis数组记录每个状态是否计算过，以占用一些内存为代价增强程序的可读性，同时减少出错的可能。<br>9-10：当用递推法计算出各个状态的指标之后，可以用与记忆化搜索完全相同的方式打印方案。<br>9-11：无论是用记忆化搜索还是递推，如果在计算最优值的同时“顺便”算出各个状态下的第一次最优决策，则往往能让打印方案的过程更加简单、高效。这是一个典型的“用空间换时间”的例子。<br>9-12：传统的递推法可以表示成“对于每个状态i，计算f(i)”，或者称为“填表法”。这需要对于每个状态i，找到f(i)依赖的所有状态，在某些时候并不方便。另一种方法是“对于每个状态i，更新f(i)所影响到的状态”，或者称为“刷表法”，有时比填表法方便。但需要注意的是，只有当每个状态所依赖的状态对它的影响相互独立时才能用刷表法。<br>9-13：多阶段决策的最优化问题往往可以用动态规划解决，其中，状态及其转移类似于回溯法中的解答树。解答树中的“层数”，也就是递归函数中的“当前填充位置”cur，描述的是即将完成的决策序号，在动态规划中被称为“阶段”。<br>9-14：动态规划的适用性很广。不少可以用动态规划解决的题目，在条件稍微变化后只需对状态转移方程做少量修改即可解决新问题。<br>9-15：学习动态规划的题解，除了要理解状态表示及其转移方程外，最好思考一下为什么会想到这样的状态表示。<br>9-16：在多阶段决策问题中，阶段定义了天然的计算顺序。<br>9-17：在递推法中，如果计算顺序很特殊，而且计算新状态所用到的原状态不多，可以尝试用滚动数组减少内存开销。<br>9-18：在使用滚动数组后，解的打印变得困难了，所以在需要打印方案甚至要求字典序最小方案的场合，应慎用滚动数组。<br>9-19：位运算的优先级往往比较低。如果不确定表达式的计算顺序，应多用括号。<br>9-20：如果用二进制表示子集并进行动态规划，集合中的元素就隐含了阶段信息。例如，可以把集合中的最大元素想象成“阶段”。<br>9-21：即使状态定义相同，过多地考虑不必要的决策仍可能会导致时间复杂度上升。<br>9-22：如果S’是S的真子集，则一定有S’&lt;S。在用递推法实现子集的动态规划时，该规则往往可以确定计算顺序。<br>9-23：枚举1～n的每个集合S的所有子集的总时间复杂度为O(3n)。    </p>
+<p>10-1：设a, b, c为任意整数。若方程ax+by&#x3D;c的一组整数解为(x0,y0)，则它的任意整数解都可以写成(x0+kb’, y0-ka’)，其中a’&#x3D;a&#x2F;gcd(a,b)，b’&#x3D;b&#x2F;gcd(a,b)，k取任意整数。<br>10-2：设a, b, c为任意整数，g&#x3D;gcd(a,b)，方程ax+by&#x3D;g的一组解是(x0,y0)，则当c是g的倍数时ax+by&#x3D;c的一组解是(x0c&#x2F;g, y0c&#x2F;g)；当c不是g的倍数时无整数解。<br>10-3：a≡b(mod n)的含义是“a和b除以n的余数相同”，其充要条件是“a-b是n的整数倍”。<br>10-4：方程ax≡1(mod n)的解称为a关于模n的逆。当gcd(a,n)&#x3D;1时，该方程有唯一解；否则，该方程无解。<br>10-5：如果样本空间由有限个等概率的简单事件组成，事件E的概率可以用组合计数的方法得到:$P(E)&#x3D;\frac{|E|}{|S|}$<br>10-6：数学归纳法是一种利用递归的思想证明的方法。如果要讨论的对象具有某种递归性质（如正整数），可以考虑用数学归纳法。<br>10-7：满足$F_1, F_2&#x3D;1，F_n&#x3D;F_n-1+F_n-2$的数列称为Fibonacci数列，它的前若干项是1, 1, 2, 3, 5, 8, 13, 21, 34, 55,…。<br>10-8：在建立递推式时，经常会用到乘法原理，其核心是分步计数。如果可以把计数分成独立的两个步骤，则总数量等于两步计数之乘积。  </p>
+<p>11-1：建立表达式树的一种方法是每次找到最后计算的运算符，然后递归建树。“最后计算”的运算符是在括号外的、优先级最低的运算符。如果有多个，根据结合性来选择：左结合的（如加、减、乘、除）选最右边；右结合的（如乘方）选最左边。根据规定，优先级相同的运算符的结合性总是相同。<br>11-2：在最大流问题中，容量c和流量&gt;f满足3个性质：容量限制（$f(u,v)≤c(u,v)$）、斜对称性（$f(u,v)&#x3D;-f(v,u)$）和流量平衡（对于除了结点s和t外的任意结点u，$\sum\limits_{(u,v)\in E} f(u,v)&#x3D;0$。问题的目标是最大化$|f|&#x3D;\sum\limits_{(s,v)\in E} f(s,v)&#x3D;\sum\limits_{(u,t)\in E} f(u,t)$，即从s点流出的净流量（它也等于流入t点的净流量）。<br>11-3：当且仅当残量网络中不存在s-t有向道路（增广路）时，此时的流是从s到t的最大流。<br>11-4：增广路算法结束时，令已标号结点（a[u]&gt;0的结点）集合为S，其他结点集合为T&#x3D;V-S，则(S, T)是图的s-t最小割。</p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">首页</a></li>
+         
+          <li><a href="/about">关于</a></li>
+         
+          <li><a href="/archives/">归档</a></li>
+         
+          <li><a href="/categories/">分类</a></li>
+         
+          <li><a href="/tags">标签</a></li>
+         
+          <li><a href="/search">搜索</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/&text=刘汝佳算法竞赛指南-hints"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/&title=刘汝佳算法竞赛指南-hints"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/&is_video=false&description=刘汝佳算法竞赛指南-hints"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=刘汝佳算法竞赛指南-hints&body=Check out this article: https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/&title=刘汝佳算法竞赛指南-hints"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/&title=刘汝佳算法竞赛指南-hints"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/&title=刘汝佳算法竞赛指南-hints"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/&title=刘汝佳算法竞赛指南-hints"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/&name=刘汝佳算法竞赛指南-hints&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://rochero.github.io/2018/08/09/%E5%88%98%E6%B1%9D%E4%BD%B3%E7%AE%97%E6%B3%95%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97hints/&t=刘汝佳算法竞赛指南-hints"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      <a id="dark-mobile" class="icon"><i class="fa fa-sun" id="dark-btn" aria-hidden="true"></i> 切换</a>
+      <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> 菜单</a>
+      <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> 目录</a>
+      <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> 分享</a>
+      <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> 回到顶部</a>
+    </div>
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    版权 &copy;
+    
+    
+    2022
+    PJ Zhang
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">首页</a></li><!--
+     --><!--
+       --><li><a href="/about">关于</a></li><!--
+     --><!--
+       --><li><a href="/archives/">归档</a></li><!--
+     --><!--
+       --><li><a href="/categories/">分类</a></li><!--
+     --><!--
+       --><li><a href="/tags">标签</a></li><!--
+     --><!--
+       --><li><a href="/search">搜索</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script> 
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"复制到粘贴板\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    // set language label
+    $(".btn-copy").attr("aria-label", function(){return $(this).parent(".highlight").attr("class").replace("highlight ","")+": 复制到粘贴板"})
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "复制成功");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
