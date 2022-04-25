@@ -46,7 +46,7 @@
     
     
 	<!-- mathjax -->
-	
+	<!--  -->
 <meta name="generator" content="Hexo 6.1.0"><link rel="alternate" href="/atom.xml" title="PJ Zhang" type="application/atom+xml">
 </head>
 
@@ -203,9 +203,42 @@
 
 <!-- Umami Analytics -->
 
+
+<!-- Gitalk Comments -->
+
+  
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    <script type="text/javascript">
+        (function(){
+            var clientID = "01b653c1f8961e8e94be";
+            var clientSecret = "83869c82a1eaa87622d63b59bf388a2ebf690889";
+            var repo = "rochero.github.io";
+            var owner = "rochero";
+            var admin = "rochero";
+            var id = "分类";
+            var gitalk = new Gitalk({
+              clientID: clientID,
+              clientSecret: clientSecret,
+              repo: repo,
+              owner: owner,
+              admin: admin,
+              id: id
+            });
+            gitalk.render('gitalk-container');
+        }());
+    </script>
+
+
 <!-- Disqus Comments -->
 
 <!-- utterances Comments -->
+
+
+<!-- mathjax -->
 
 </body>
 </html>
