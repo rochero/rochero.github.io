@@ -1,0 +1,114 @@
+# Hexo 配置
+## 文档: https://hexo.io/docs/configuration.html
+## 源代码: https://github.com/hexojs/hexo/
+
+# 网站
+title: PJ Zhang
+subtitle: ''
+description: ''
+keywords:
+author: PJ Zhang
+language: zh-Hans
+timezone: ''
+
+# URL
+url: https://<username>.github.io
+root: /
+permalink: :year/:month/:day/:title/ # https://hexo.io/zh-cn/docs/permalinks
+permalink_defaults:
+pretty_urls:
+  trailing_index: true
+  trailing_html: true
+
+# 目录
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render: # 匹配路径语法：https://github.com/micromatch/micromatch#extended-globbing
+
+# 文章
+new_post_name: :title.md
+default_layout: post
+auto_spacing: true
+titlecase: false
+external_link:
+  enable: true
+  field: site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: true # https://hexo.io/zh-cn/docs/asset-folders
+relative_link: false
+future: true
+highlight: # https://hexo.io/docs/syntax-highlight#Highlight-js
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+prismjs: # https://hexo.io/docs/syntax-highlight#PrismJS
+  enable: false
+  preprocess: true
+  line_number: true
+  tab_replace: ''
+
+# 分类与标签
+default_category: uncategorized
+category_map:
+tag_map:
+
+# 日期/时间 格式
+## http://momentjs.com/docs
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+updated_option: 'mtime'
+
+# 分页
+per_page: 5
+pagination_dir: page
+
+# 扩展
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+
+## 首页设置
+# path: 首页根路径(默认为 '')
+# per_page: 每页显示的文章数量 (0 代表不分页)
+# order_by: 文章排序(默认按时间降序)
+index_generator:
+  path: ''
+  per_page: 5
+  order_by: -date
+
+## 元数据元素
+### https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/meta#属性
+meta_generator: true
+
+## 包括/排除 文件
+include:
+exclude:
+ignore:
+
+## 主题
+theme: cactus # https://github.com/probberechts/hexo-theme-cactus
+# theme_config:
+
+## RSS
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+
+## 部署
+### https://hexo.io/zh-cn/docs/one-command-deployment
+deploy:
+  type: git
+  repo: git@github.com:<username>/<username>.github.io.git
+  branch: main

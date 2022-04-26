@@ -1,0 +1,26 @@
+<!-- gitalk comments container -->
+<% if(page.comments && theme.gitalk.enabled){ %>
+    <div class="blog-post-comments">
+        <div id="gitalk-container">
+            <noscript><%= __('comments.no_js') %></noscript>
+        </div>
+    </div>
+<% } %>
+
+<!-- disqus comments container -->
+<% if(page.comments && theme.disqus.enabled){ %>
+    <div class="blog-post-comments">
+        <div id="disqus_thread">
+            <noscript><%= __('comments.no_js') %></noscript>
+        </div>
+    </div>
+<% } %>
+
+<!-- utterances comments container -->
+<% if(page.comments && theme.utterances.enabled){ %>
+    <div class="blog-post-comments">
+        <div id="utterances_thread">
+            <noscript><%= __('comments.no_js') %></noscript>
+        </div>
+    </div>
+<% } %>
