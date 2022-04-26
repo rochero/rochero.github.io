@@ -37,30 +37,24 @@
         
       
     
+
     <!-- title -->
     <title>三角函数常用公式</title>
+
     <!-- styles -->
     
 <link rel="stylesheet" href="/css/style.css">
 
+
+    <!-- dark mode -->
     <script>localStorage.getItem("dark_mode")==="dark"&&document.write(`<link rel="stylesheet" href="${location.origin}/css/dark.css">`)</script>
+
     <!-- persian styles -->
     
+
     <!-- rss -->
     
     
-	<!-- mathjax -->
-	<!-- 
-		<script type="text/x-mathjax-config">
-		  MathJax.Hub.Config({
-			tex2jax: {
-			  skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-			  inlineMath: [['$','$']]
-			}
-		  });
-		</script>
-		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
-	 -->
 <meta name="generator" content="Hexo 6.1.0"><link rel="alternate" href="/atom.xml" title="PJ Zhang" type="application/atom+xml">
 </head>
 
@@ -159,9 +153,8 @@
       
     <div class="article-category">
         <i class="fas fa-archive"></i>
-        <a class="category-link" href="/categories/%E4%BD%8E%E5%88%9B/">低创</a> › <a class="category-link" href="/categories/%E4%BD%8E%E5%88%9B/%E7%AC%94%E8%AE%B0/">笔记</a> › <a class="category-link" href="/categories/%E8%AE%B0%E4%BA%8B/">记事</a>
+        <a class="category-link" href="/categories/%E4%BD%8E%E5%88%9B/">低创</a>, <a class="category-link" href="/categories/%E4%BD%8E%E5%88%9B/%E7%AC%94%E8%AE%B0/">笔记</a>, <a class="category-link" href="/categories/%E8%AE%B0%E4%BA%8B/">记事</a>
     </div>
-
 
       
     <div class="article-tag">
@@ -186,6 +179,7 @@
 
   </div>
 </article>
+<!-- gitalk comments container -->
 
     <div class="blog-post-comments">
         <div id="gitalk-container">
@@ -194,6 +188,10 @@
     </div>
 
 
+<!-- disqus comments container -->
+
+
+<!-- utterances comments container -->
 
 
         
@@ -307,7 +305,7 @@
     btn += '</span>'; 
     // mount it!
     $(".highlight table").before(btn);
-    // set language label
+    // set code label
     $(".btn-copy").attr("aria-label", function(){return $(this).parent(".highlight").attr("class").replace("highlight ","")+": 复制到粘贴板"})
     var clip = new ClipboardJS('.btn-copy', {
       text: function(trigger) {
@@ -322,15 +320,21 @@
   </script>
 
 
+
 <script src="/js/main.js"></script>
+
 
 <!-- search -->
 
+
 <!-- Google Analytics -->
+
 
 <!-- Baidu Analytics -->
 
+
 <!-- Cloudflare Analytics -->
+
 
 <!-- Umami Analytics -->
 
@@ -351,6 +355,7 @@
             var owner = "rochero";
             var admin = "rochero";
             var id = "三角函数常用公式";
+            var distractionFreeMode = true;
             var gitalk = new Gitalk({
               clientID: clientID,
               clientSecret: clientSecret,
@@ -366,17 +371,18 @@
 
 <!-- Disqus Comments -->
 
-<!-- utterances Comments -->
+
+<!-- Utterances Comments -->
 
 
-<!-- mathjax -->
+<!-- MathJax -->
 
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
-    tex2jax: {
-      skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-      inlineMath: [['$','$']]
-    }
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
     });
   </script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML' async></script>
