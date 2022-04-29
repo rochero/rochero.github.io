@@ -1,11 +1,7 @@
 ---
 title: 刘汝佳算法竞赛指南-hints
-layout: post
 date: 2018-08-09
-categories:
-    - [转载]
-    - [记事, 指南]
-tags: [算法, C/C++, 书]
+tags: [搬运, 编程, 算法, C/C++, 书]
 mathjax: true
 ---
 1-1：整数值用%d输出，实数用%f输出。  

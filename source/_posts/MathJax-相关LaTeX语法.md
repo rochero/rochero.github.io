@@ -1,9 +1,6 @@
 ---
-title: mathjax-LaTeX 语法
-categories:
-    - [低创, 笔记]
-    - [记事, 规则]
-tags: [数学, 工具, LaTeX, mathjax]
+title: MathJax-LaTeX 语法
+tags: [笔记, 数学, LaTeX, MathJax]
 mathjax: true
 ---
 ## 常见符号的写法
