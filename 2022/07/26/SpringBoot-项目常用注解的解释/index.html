@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="Spring@Component用于创建当前类的对象，并由Spring容器中统一管理。@Controller、@Service、@Repository的作用与@Component一样，但是能更好地区分Spring框架的三层结构。 @Autowired自动按照类型注入Bean。只要容器中有唯一的一个bean对象类型和要注入的变量类型匹配，就可以注入成功。可以作用在变量或者方法上。 @Resource">
+<meta property="og:type" content="article">
+<meta property="og:title" content="SpringBoot-项目常用注解的解释">
+<meta property="og:url" content="https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/index.html">
+<meta property="og:site_name" content="PJ Zhang">
+<meta property="og:description" content="Spring@Component用于创建当前类的对象，并由Spring容器中统一管理。@Controller、@Service、@Repository的作用与@Component一样，但是能更好地区分Spring框架的三层结构。 @Autowired自动按照类型注入Bean。只要容器中有唯一的一个bean对象类型和要注入的变量类型匹配，就可以注入成功。可以作用在变量或者方法上。 @Resource">
+<meta property="og:locale">
+<meta property="article:published_time" content="2022-07-26T11:47:54.000Z">
+<meta property="article:modified_time" content="2022-07-26T12:20:10.113Z">
+<meta property="article:author" content="PJ Zhang">
+<meta name="twitter:card" content="summary">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+
+    <!-- title -->
+    <title>SpringBoot-项目常用注解的解释</title>
+
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- dark mode -->
+    <script>localStorage.getItem("dark_mode")==="dark"&&document.write(`<link rel="stylesheet" href="${location.origin}/css/dark.css">`)</script>
+
+    <!-- persian styles -->
+    
+
+    <!-- rss -->
+    
+    
+<meta name="generator" content="Hexo 6.1.0"><link rel="alternate" href="/atom.xml" title="PJ Zhang" type="application/atom+xml">
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="菜单"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="菜单"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="顶部" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">首页</a></li><!--
+     --><!--
+       --><li><a href="/about">关于</a></li><!--
+     --><!--
+       --><li><a href="/archives/">归档</a></li><!--
+     --><!--
+       --><li><a href="/tags">标签</a></li><!--
+     --><!--
+       --><li><a href="/search">搜索</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="上一篇" href="/2022/07/26/Linux-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E4%B8%8E%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="下一篇" href="/2022/07/26/Java-%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E6%93%8D%E4%BD%9C/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="回到顶部" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon"><i class="fa fa-moon" id="dark-btn" aria-hidden="true" onmouseover="$('#i-dark').toggle()" onmouseout="$('#i-dark').toggle()"></i></a></li>
+        <li><a class="icon" target="_blank" rel="noopener" href="/atom.xml" aria-label="订阅博客"><i class="fas fa-rss"></i></a></li>
+        <li><a class="icon" aria-label="分享文章" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">上一篇</span>
+      <span id="i-next" class="info" style="display:none;">下一篇</span>
+      <span id="i-top" class="info" style="display:none;">回到顶部</span>
+      <span id="i-dark" class="info" style="display: none;">切换模式</span>
+      <span id="i-share" class="info" style="display:none;">分享文章</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/&text=SpringBoot-项目常用注解的解释"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/&title=SpringBoot-项目常用注解的解释"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/&is_video=false&description=SpringBoot-项目常用注解的解释"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=SpringBoot-项目常用注解的解释&body=Check out this article: https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/&title=SpringBoot-项目常用注解的解释"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/&title=SpringBoot-项目常用注解的解释"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/&title=SpringBoot-项目常用注解的解释"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/&title=SpringBoot-项目常用注解的解释"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/&name=SpringBoot-项目常用注解的解释&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/&t=SpringBoot-项目常用注解的解释"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Spring"><span class="toc-number">1.</span> <span class="toc-text">Spring</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Component"><span class="toc-number">1.1.</span> <span class="toc-text">@Component</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Autowired"><span class="toc-number">1.2.</span> <span class="toc-text">@Autowired</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Resource"><span class="toc-number">1.3.</span> <span class="toc-text">@Resource</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Value"><span class="toc-number">1.4.</span> <span class="toc-text">@Value</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Scheduled"><span class="toc-number">1.5.</span> <span class="toc-text">@Scheduled</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Spring-MVC"><span class="toc-number">2.</span> <span class="toc-text">Spring MVC</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#RequestMapping"><span class="toc-number">2.1.</span> <span class="toc-text">@RequestMapping</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RequestBody"><span class="toc-number">2.2.</span> <span class="toc-text">@RequestBody</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ResponseBody"><span class="toc-number">2.3.</span> <span class="toc-text">@ResponseBody</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RequestParam"><span class="toc-number">2.4.</span> <span class="toc-text">@RequestParam</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#PathVariable"><span class="toc-number">2.5.</span> <span class="toc-text">@PathVariable</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Spring-Security"><span class="toc-number">3.</span> <span class="toc-text">Spring Security</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#PreAuthorize"><span class="toc-number">3.1.</span> <span class="toc-text">@PreAuthorize</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Spring-Boot"><span class="toc-number">4.</span> <span class="toc-text">Spring Boot</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#SpringBootApplication"><span class="toc-number">4.1.</span> <span class="toc-text">@SpringBootApplication</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#LomBok"><span class="toc-number">5.</span> <span class="toc-text">LomBok</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Data"><span class="toc-number">5.1.</span> <span class="toc-text">@Data</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Builder"><span class="toc-number">5.2.</span> <span class="toc-text">@Builder</span></a></li></ol></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        SpringBoot-项目常用注解的解释
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">PJ Zhang</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2022-07-26T11:47:54.000Z" itemprop="datePublished">2022-07-26</time>
+        
+      
+    </div>
+
+
+      
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <h2 id="Spring"><a href="#Spring" class="headerlink" title="Spring"></a>Spring</h2><h3 id="Component"><a href="#Component" class="headerlink" title="@Component"></a>@Component</h3><p>用于创建当前类的对象，并由Spring容器中统一管理。<br><code>@Controller</code>、<code>@Service</code>、<code>@Repository</code>的作用与<code>@Component</code>一样，但是能更好地区分Spring框架的三层结构。</p>
+<h3 id="Autowired"><a href="#Autowired" class="headerlink" title="@Autowired"></a>@Autowired</h3><p>自动按照类型注入Bean。只要容器中有唯一的一个bean对象类型和要注入的变量类型匹配，就可以注入成功。可以作用在变量或者方法上。</p>
+<h3 id="Resource"><a href="#Resource" class="headerlink" title="@Resource"></a>@Resource</h3><p>直接按照bean的id注入Bean，可以独立使用。</p>
+<h3 id="Value"><a href="#Value" class="headerlink" title="@Value"></a>@Value</h3><p>用于注入基本类型和String类型的数据。</p>
+<h3 id="Scheduled"><a href="#Scheduled" class="headerlink" title="@Scheduled"></a>@Scheduled</h3><p>在Spring Boot中使用定时任务，只需要@EnableScheduling开启定时任务支持，在需要调度的方法上添加@Scheduled注解，支持通过cron、fixedRate、fixedDelay等灵活的控制执行周期和频率。</p>
+<h2 id="Spring-MVC"><a href="#Spring-MVC" class="headerlink" title="Spring MVC"></a>Spring MVC</h2><h3 id="RequestMapping"><a href="#RequestMapping" class="headerlink" title="@RequestMapping"></a>@RequestMapping</h3><p>注解为控制器指定可以处理哪些 URL 请求。</p>
+<h3 id="RequestBody"><a href="#RequestBody" class="headerlink" title="@RequestBody"></a>@RequestBody</h3><p>用于读取Request请求的body部分数据，使用系统默认配置的HttpMessageConverter进行解析，然后把相应的数据绑定到要返回的对象上 ,再把HttpMessageConverter返回的对象数据绑定到 controller中方法的参数上</p>
+<h3 id="ResponseBody"><a href="#ResponseBody" class="headerlink" title="@ResponseBody"></a>@ResponseBody</h3><p>该注解用于将Controller的方法返回的对象，通过适当的HttpMessageConverter转换为指定格式后，写入到Response对象的body数据区。</p>
+<h3 id="RequestParam"><a href="#RequestParam" class="headerlink" title="@RequestParam"></a>@RequestParam</h3><p>在处理方法入参处使用，可以把请求参数传递给请求方法。</p>
+<h3 id="PathVariable"><a href="#PathVariable" class="headerlink" title="@PathVariable"></a>@PathVariable</h3><p>绑定 URL 占位符到入参。</p>
+<h2 id="Spring-Security"><a href="#Spring-Security" class="headerlink" title="Spring Security"></a>Spring Security</h2><h3 id="PreAuthorize"><a href="#PreAuthorize" class="headerlink" title="@PreAuthorize"></a>@PreAuthorize</h3><p>进入方法前验证权限。<br>使用：</p>
+<ol>
+<li>在启动类或配置内开启注解<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">@EnableGlobalMethodSecurity(securedEnabled = true,prePostEnabled = true)</span></span><br></pre></td></tr></table></figure></li>
+<li>在controller的方法上添加注解</li>
+</ol>
+<h2 id="Spring-Boot"><a href="#Spring-Boot" class="headerlink" title="Spring Boot"></a>Spring Boot</h2><h3 id="SpringBootApplication"><a href="#SpringBootApplication" class="headerlink" title="@SpringBootApplication"></a>@SpringBootApplication</h3><p>这个注解是Spring Boot最核心的注解，用在 Spring Boot的主类上，标识这是一个 Spring Boot 应用，用来开启 Spring Boot 的各项能力。实际上这个注解是@Configuration,@EnableAutoConfiguration,@ComponentScan三个注解的组合。由于这些注解一般都是一起使用，所以Spring Boot提供了一个统一的注解@SpringBootApplication。</p>
+<h2 id="LomBok"><a href="#LomBok" class="headerlink" title="LomBok"></a>LomBok</h2><h3 id="Data"><a href="#Data" class="headerlink" title="@Data"></a>@Data</h3><p>注解在类上，提供类所有属性的 getting 和 setting 方法，此外还提供了equals、canEqual、hashCode、toString 方法和@RequiredArgsConstructor注解。</p>
+<h3 id="Builder"><a href="#Builder" class="headerlink" title="@Builder"></a>@Builder</h3><p>注解在类上，被注解的类加上构造者模式（链式赋值）。</p>
+
+  </div>
+</article>
+<!-- gitalk comments container -->
+
+    <div class="blog-post-comments">
+        <div id="gitalk-container">
+            <noscript>无脚本</noscript>
+        </div>
+    </div>
+
+
+<!-- disqus comments container -->
+
+
+<!-- utterances comments container -->
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">首页</a></li>
+         
+          <li><a href="/about">关于</a></li>
+         
+          <li><a href="/archives/">归档</a></li>
+         
+          <li><a href="/tags">标签</a></li>
+         
+          <li><a href="/search">搜索</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Spring"><span class="toc-number">1.</span> <span class="toc-text">Spring</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Component"><span class="toc-number">1.1.</span> <span class="toc-text">@Component</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Autowired"><span class="toc-number">1.2.</span> <span class="toc-text">@Autowired</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Resource"><span class="toc-number">1.3.</span> <span class="toc-text">@Resource</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Value"><span class="toc-number">1.4.</span> <span class="toc-text">@Value</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Scheduled"><span class="toc-number">1.5.</span> <span class="toc-text">@Scheduled</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Spring-MVC"><span class="toc-number">2.</span> <span class="toc-text">Spring MVC</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#RequestMapping"><span class="toc-number">2.1.</span> <span class="toc-text">@RequestMapping</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RequestBody"><span class="toc-number">2.2.</span> <span class="toc-text">@RequestBody</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#ResponseBody"><span class="toc-number">2.3.</span> <span class="toc-text">@ResponseBody</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RequestParam"><span class="toc-number">2.4.</span> <span class="toc-text">@RequestParam</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#PathVariable"><span class="toc-number">2.5.</span> <span class="toc-text">@PathVariable</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Spring-Security"><span class="toc-number">3.</span> <span class="toc-text">Spring Security</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#PreAuthorize"><span class="toc-number">3.1.</span> <span class="toc-text">@PreAuthorize</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Spring-Boot"><span class="toc-number">4.</span> <span class="toc-text">Spring Boot</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#SpringBootApplication"><span class="toc-number">4.1.</span> <span class="toc-text">@SpringBootApplication</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#LomBok"><span class="toc-number">5.</span> <span class="toc-text">LomBok</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Data"><span class="toc-number">5.1.</span> <span class="toc-text">@Data</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Builder"><span class="toc-number">5.2.</span> <span class="toc-text">@Builder</span></a></li></ol></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/&text=SpringBoot-项目常用注解的解释"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/&title=SpringBoot-项目常用注解的解释"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/&is_video=false&description=SpringBoot-项目常用注解的解释"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=SpringBoot-项目常用注解的解释&body=Check out this article: https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/&title=SpringBoot-项目常用注解的解释"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/&title=SpringBoot-项目常用注解的解释"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/&title=SpringBoot-项目常用注解的解释"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/&title=SpringBoot-项目常用注解的解释"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/&name=SpringBoot-项目常用注解的解释&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://rochero.github.io/2022/07/26/SpringBoot-%E9%A1%B9%E7%9B%AE%E5%B8%B8%E7%94%A8%E6%B3%A8%E8%A7%A3%E7%9A%84%E8%A7%A3%E9%87%8A/&t=SpringBoot-项目常用注解的解释"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      <a id="dark-mobile" class="icon"><i class="fa fa-sun" id="dark-btn" aria-hidden="true"></i> 切换</a>
+      <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> 菜单</a>
+      <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> 目录</a>
+      <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> 分享</a>
+      <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> 回到顶部</a>
+    </div>
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    版权 &copy;
+    
+    
+    2022
+    PJ Zhang
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">首页</a></li><!--
+     --><!--
+       --><li><a href="/about">关于</a></li><!--
+     --><!--
+       --><li><a href="/archives/">归档</a></li><!--
+     --><!--
+       --><li><a href="/tags">标签</a></li><!--
+     --><!--
+       --><li><a href="/search">搜索</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script> 
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"复制到粘贴板\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    // set code label
+    $(".btn-copy").attr("aria-label", function(){return $(this).parent(".highlight").attr("class").replace("highlight ","")+": 复制到粘贴板"})
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "复制成功");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+
+<script src="/js/main.js"></script>
+
+
+<!-- search -->
+
+
+<!-- Google Analytics -->
+
+
+<!-- Baidu Analytics -->
+
+
+<!-- Cloudflare Analytics -->
+
+
+<!-- Umami Analytics -->
+
+
+<!-- Gitalk Comments -->
+
+  
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    <script type="text/javascript">
+        (function(){
+            var clientID = "01b653c1f8961e8e94be";
+            var clientSecret = "83869c82a1eaa87622d63b59bf388a2ebf690889";
+            var repo = "rochero.github.io";
+            var owner = "rochero";
+            var admin = "rochero";
+            var id = "SpringBoot-项目常用注解的解释";
+            var distractionFreeMode = true;
+            var gitalk = new Gitalk({
+              clientID: clientID,
+              clientSecret: clientSecret,
+              repo: repo,
+              owner: owner,
+              admin: admin,
+              id: id
+            });
+            gitalk.render('gitalk-container');
+        }());
+    </script>
+
+
+<!-- Disqus Comments -->
+
+
+<!-- Utterances Comments -->
+
+
+<!-- MathJax -->
+
+</body>
+</html>
