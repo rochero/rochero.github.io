@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang=zh>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="新特性的优势 速度更快 代码更少（新语法：Lambda 表达式） 强大的Stream API 便于并行 最大化减少空指针异常Optional  一、lambda 表达式背景：用“λ演算法”去理解，为什么函数式编程会有更少的bugLambda 是匿名函数，可以把 Lambda 表达式理解为是一段可以当作数据去传递的代码，从而可以写出更简洁、更灵活的代码。 Lambda 表达式的专用操作符为-&gt;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="java 8 新特性">
+<meta property="og:url" content="https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/index.html">
+<meta property="og:site_name" content="PJ Zhang">
+<meta property="og:description" content="新特性的优势 速度更快 代码更少（新语法：Lambda 表达式） 强大的Stream API 便于并行 最大化减少空指针异常Optional  一、lambda 表达式背景：用“λ演算法”去理解，为什么函数式编程会有更少的bugLambda 是匿名函数，可以把 Lambda 表达式理解为是一段可以当作数据去传递的代码，从而可以写出更简洁、更灵活的代码。 Lambda 表达式的专用操作符为-&gt;">
+<meta property="og:locale">
+<meta property="og:image" content="https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/2022-08-22-15-38-05.png">
+<meta property="article:published_time" content="2022-08-21T08:33:26.000Z">
+<meta property="article:modified_time" content="2022-08-22T08:06:48.984Z">
+<meta property="article:author" content="PJ Zhang">
+<meta property="article:tag" content="note">
+<meta property="article:tag" content="java">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/2022-08-22-15-38-05.png">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/images/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+        
+      
+    
+
+    <!-- title -->
+    <title>java 8 新特性</title>
+
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- dark mode -->
+    <script>localStorage.getItem("dark_mode")==="dark"&&document.write(`<link rel="stylesheet" href="${location.origin}/css/dark.css">`)</script>
+
+    <!-- persian styles -->
+    
+
+    <!-- rss -->
+    
+    
+<meta name="generator" content="Hexo 6.1.0"><link rel="alternate" href="/atom.xml" title="PJ Zhang" type="application/atom+xml">
+</head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="菜单"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="菜单"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="顶部" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">首页</a></li><!--
+     --><!--
+       --><li><a href="/about">关于</a></li><!--
+     --><!--
+       --><li><a href="/archives/">归档</a></li><!--
+     --><!--
+       --><li><a href="/tags">标签</a></li><!--
+     --><!--
+       --><li><a href="/search">搜索</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        
+        <li><a class="icon" aria-label="下一篇" href="/2022/07/26/Linux-%E8%99%9A%E6%8B%9F%E6%9C%BA%E5%AE%89%E8%A3%85%E4%B8%8E%E9%A1%B9%E7%9B%AE%E9%83%A8%E7%BD%B2/"><i class="fas fa-chevron-right" aria-hidden="true" onmouseover="$('#i-next').toggle();" onmouseout="$('#i-next').toggle();"></i></a></li>
+        
+        <li><a class="icon" aria-label="回到顶部" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon"><i class="fa fa-moon" id="dark-btn" aria-hidden="true" onmouseover="$('#i-dark').toggle()" onmouseout="$('#i-dark').toggle()"></i></a></li>
+        <li><a class="icon" target="_blank" rel="noopener" href="/atom.xml" aria-label="订阅博客"><i class="fas fa-rss"></i></a></li>
+        <li><a class="icon" aria-label="分享文章" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">上一篇</span>
+      <span id="i-next" class="info" style="display:none;">下一篇</span>
+      <span id="i-top" class="info" style="display:none;">回到顶部</span>
+      <span id="i-dark" class="info" style="display: none;">切换模式</span>
+      <span id="i-share" class="info" style="display:none;">分享文章</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/&text=java 8 新特性"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/&title=java 8 新特性"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/&is_video=false&description=java 8 新特性"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=java 8 新特性&body=Check out this article: https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/&title=java 8 新特性"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/&title=java 8 新特性"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/&title=java 8 新特性"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/&title=java 8 新特性"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/&name=java 8 新特性&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/&t=java 8 新特性"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%B0%E7%89%B9%E6%80%A7%E7%9A%84%E4%BC%98%E5%8A%BF"><span class="toc-number">1.</span> <span class="toc-text">新特性的优势</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81lambda-%E8%A1%A8%E8%BE%BE%E5%BC%8F"><span class="toc-number">2.</span> <span class="toc-text">一、lambda 表达式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%83%8C%E6%99%AF%EF%BC%9A%E7%94%A8%E2%80%9C%CE%BB%E6%BC%94%E7%AE%97%E6%B3%95%E2%80%9D%E5%8E%BB%E7%90%86%E8%A7%A3%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%E4%BC%9A%E6%9C%89%E6%9B%B4%E5%B0%91%E7%9A%84bug"><span class="toc-number">2.1.</span> <span class="toc-text">背景：用“λ演算法”去理解，为什么函数式编程会有更少的bug</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%BD%E6%95%B0%E5%BC%8F%E6%8E%A5%E5%8F%A3"><span class="toc-number">2.2.</span> <span class="toc-text">函数式接口</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9B%E7%A7%8D%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E5%87%BD%E6%95%B0%E5%BC%8F%E6%8E%A5%E5%8F%A3"><span class="toc-number">2.2.1.</span> <span class="toc-text">四种基本类型函数式接口</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%B3%95%E5%BC%95%E7%94%A8"><span class="toc-number">2.3.</span> <span class="toc-text">方法引用</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81Stream-API%EF%BC%88java-util-stream-%EF%BC%89"><span class="toc-number">3.</span> <span class="toc-text">二、Stream API（java.util.stream.*）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%B9%E6%80%A7"><span class="toc-number">3.1.</span> <span class="toc-text">特性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%88%9B%E5%BB%BA%E6%B5%81"><span class="toc-number">3.2.</span> <span class="toc-text">1. 创建流</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%B8%B8%E7%94%A8%E4%B8%AD%E9%97%B4%E6%93%8D%E4%BD%9C"><span class="toc-number">3.3.</span> <span class="toc-text">2. 常用中间操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E5%B8%B8%E7%94%A8%E6%9C%80%E7%BB%88%E6%93%8D%E4%BD%9C"><span class="toc-number">3.4.</span> <span class="toc-text">3. 常用最终操作</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%96%B0%E6%97%A5%E6%9C%9F%E6%97%B6%E9%97%B4-API%EF%BC%88Java-time-%EF%BC%89"><span class="toc-number">4.</span> <span class="toc-text">三、新日期时间 API（Java.time.*）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%8E%A5%E5%8F%A3%E4%B8%AD%E7%9A%84%E9%BB%98%E8%AE%A4%E6%96%B9%E6%B3%95%E4%B8%8E%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95"><span class="toc-number">5.</span> <span class="toc-text">四、接口中的默认方法与静态方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%94%E3%80%81Optional-%E5%AE%B9%E5%99%A8%E7%B1%BB%EF%BC%88java-util-Optional%EF%BC%89"><span class="toc-number">6.</span> <span class="toc-text">五、Optional 容器类（java.util.Optional）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E9%87%8D%E5%A4%8D%E6%B3%A8%E8%A7%A3%E4%B8%8E%E7%B1%BB%E5%9E%8B%E6%B3%A8%E8%A7%A3"><span class="toc-number">7.</span> <span class="toc-text">六、重复注解与类型注解</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        java 8 新特性
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">PJ Zhang</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2022-08-21T08:33:26.000Z" itemprop="datePublished">2022-08-21</time>
+        
+      
+    </div>
+
+
+      
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link-link" href="/tags/java/" rel="tag">java</a>, <a class="tag-link-link" href="/tags/note/" rel="tag">note</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <h2 id="新特性的优势"><a href="#新特性的优势" class="headerlink" title="新特性的优势"></a>新特性的优势</h2><ul>
+<li>速度更快</li>
+<li>代码更少（新语法：<strong>Lambda 表达式</strong>）</li>
+<li>强大的<strong>Stream API</strong></li>
+<li>便于并行</li>
+<li>最大化减少空指针异常Optional</li>
+</ul>
+<h2 id="一、lambda-表达式"><a href="#一、lambda-表达式" class="headerlink" title="一、lambda 表达式"></a>一、lambda 表达式</h2><h3 id="背景：用“λ演算法”去理解，为什么函数式编程会有更少的bug"><a href="#背景：用“λ演算法”去理解，为什么函数式编程会有更少的bug" class="headerlink" title="背景：用“λ演算法”去理解，为什么函数式编程会有更少的bug"></a>背景：<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1d34y1v7xr">用“λ演算法”去理解，为什么函数式编程会有更少的bug</a></h3><p>Lambda 是匿名函数，可以把 Lambda 表达式理解为是一段可以当作数据去传递的代码，从而可以写出更简洁、更灵活的代码。</p>
+<p>Lambda 表达式的专用操作符为<code>-&gt;</code>。它将 Lambda 分为两个部分：</p>
+<ul>
+<li>左侧：指定参数（只书写符号，编译器会自动推断参数类型）</li>
+<li>右侧：指定了 Lambda 体。</li>
+</ul>
+<h3 id="函数式接口"><a href="#函数式接口" class="headerlink" title="函数式接口"></a>函数式接口</h3><p>函数式接口只包含一个抽象方法。<br>函数式接口可以指向一个由Lambda表达式创建的对象。<br>函数式接口建议加上@FunctionalInterface注解，该注解用于检查接口是否为函数式接口。<br>如果将 Lambda 表达式作为参数传递，接收 Lambda 表达式的参数类型必须是与该 Lambda 表达式兼容的函数式接口的类型。</p>
+<h4 id="四种基本类型函数式接口"><a href="#四种基本类型函数式接口" class="headerlink" title="四种基本类型函数式接口"></a>四种基本类型函数式接口</h4><table>
+<thead>
+<tr>
+<th>接口</th>
+<th>参数</th>
+<th>返回</th>
+<th>方法</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>Consumer&lt;T&gt;</code></td>
+<td><code>T</code></td>
+<td><code>void</code></td>
+<td><code>void accept(T t)</code></td>
+</tr>
+<tr>
+<td><code>Supplier&lt;T&gt;</code></td>
+<td></td>
+<td><code>T</code></td>
+<td><code>T get()</code></td>
+</tr>
+<tr>
+<td><code>Function&lt;T, R&gt;</code></td>
+<td><code>T</code></td>
+<td><code>R</code></td>
+<td><code>R apply(T t)</code></td>
+</tr>
+<tr>
+<td><code>Predicate&lt;T&gt;</code></td>
+<td><code>T</code></td>
+<td><code>boolean</code></td>
+<td><code>boolean test(T t)</code></td>
+</tr>
+</tbody></table>
+<h3 id="方法引用"><a href="#方法引用" class="headerlink" title="方法引用"></a>方法引用</h3><p>方法引用可以简写lambda表达式中已经存在的方法。<br>使用操作符<code>::</code>将方法名和对象或类的名字分隔开来。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">Consumer</span> <span class="variable">con</span> <span class="operator">=</span> (x) -&gt; System.out.println(x);</span><br><span class="line"><span class="comment">// 等价于</span></span><br><span class="line">c = System.out::println;</span><br><span class="line"></span><br><span class="line">Binary&lt;Double&gt; bin = (x, y) -&gt; Math.pow(x, y);</span><br><span class="line"><span class="comment">// 等价于</span></span><br><span class="line">b = Math::pow;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 实例方法引用</span></span><br><span class="line">Comparator&lt;String&gt; cmp = String::compareTo;</span><br><span class="line">System.out.println(cmp.compare(<span class="string">&quot;aa&quot;</span>, <span class="string">&quot;ab&quot;</span>));</span><br><span class="line"></span><br><span class="line"><span class="comment">// 构造器引用 ClassName::new</span></span><br><span class="line">Function&lt;Integer, MyClass&gt; f1 = MyClass::<span class="keyword">new</span>;</span><br><span class="line"><span class="type">MyClass</span> <span class="variable">myclass</span> <span class="operator">=</span> func.apply(<span class="number">1</span>);</span><br><span class="line"></span><br><span class="line"><span class="comment">// 数组引用 type[]::new</span></span><br><span class="line">Function&lt;Integer, Integer[]&gt; f2 = Integer[]::<span class="keyword">new</span>;</span><br></pre></td></tr></table></figure>
+
+<h2 id="二、Stream-API（java-util-stream-）"><a href="#二、Stream-API（java-util-stream-）" class="headerlink" title="二、Stream API（java.util.stream.*）"></a>二、Stream API（java.util.stream.*）</h2><p>Stream 是根据数据源（集合、数组等）生成的元素序列。<br>Stream 用于处理集合，比如查询、过滤和映射数据，类似于SQL。</p>
+<h3 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h3><ul>
+<li>Stream 不存储数据，它是数据源的一个视图。</li>
+<li>Stream 不改变源数据，而是返回一个持有结果的新Stream。</li>
+<li>Stream 操作不会立即执行，只有等到用户真正需要结果的时候才会执行。</li>
+<li>Stream 遍历一次后就失效，如果要再次遍历需要重新生成。</li>
+<li>Stream API 支持并行执行操作。</li>
+</ul>
+<h3 id="1-创建流"><a href="#1-创建流" class="headerlink" title="1. 创建流"></a>1. 创建流</h3><ol>
+<li><p>通过已有集合创建流</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">List&lt;String&gt; strings = Arrays.asList(<span class="string">&quot;A&quot;</span>, <span class="string">&quot;B&quot;</span>, <span class="string">&quot;C&quot;</span>, <span class="string">&quot;D&quot;</span>, <span class="string">&quot;E&quot;</span>, <span class="string">&quot;F&quot;</span>);</span><br><span class="line">Stream&lt;String&gt; stream = strings.stream();</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>通过Stream创建流</p>
+</li>
+</ol>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Stream&lt;String&gt; stream = Stream.of(<span class="string">&quot;A&quot;</span>, <span class="string">&quot;B&quot;</span>, <span class="string">&quot;C&quot;</span>, <span class="string">&quot;D&quot;</span>, <span class="string">&quot;E&quot;</span>, <span class="string">&quot;F&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-常用中间操作"><a href="#2-常用中间操作" class="headerlink" title="2. 常用中间操作"></a>2. 常用中间操作</h3><ul>
+<li>filter<br>filter 方法用于通过设置的条件过滤出元素。</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">List&lt;String&gt; strings = Arrays.asList(<span class="string">&quot;A&quot;</span>, <span class="string">&quot;&quot;</span>, <span class="string">&quot;B&quot;</span>, <span class="string">&quot;C&quot;</span>, <span class="string">&quot;D&quot;</span>);</span><br><span class="line"><span class="comment">// 过滤空字符串</span></span><br><span class="line">strings.stream()</span><br><span class="line">        .filter(string -&gt; !string.isEmpty())</span><br><span class="line">        .forEach(System.out::println);</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>map<br>map 方法用于映射每个元素到对应的结果。</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">List&lt;Integer&gt; numbers = Arrays.asList(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>);</span><br><span class="line"><span class="comment">// 输出每个数字的平方</span></span><br><span class="line">numbers.stream()</span><br><span class="line">        .map(i -&gt; i*i)</span><br><span class="line">        .forEach(System.out::println);</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>limit&#x2F;skip<br>limit 返回 Stream 的前 n 个元素；skip 则是跳过前 n 个元素。</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">List&lt;Integer&gt; numbers = Arrays.asList(<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>);</span><br><span class="line"><span class="comment">// 输出前4个数字</span></span><br><span class="line">numbers.stream()</span><br><span class="line">        .limit(<span class="number">4</span>)</span><br><span class="line">        .forEach(System.out::println);</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>sorted<br>sorted 方法用于对流进行排序。</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">List&lt;Integer&gt; numbers = Arrays.asList(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>);</span><br><span class="line"><span class="comment">// 降序输出数字</span></span><br><span class="line">numbers.stream()</span><br><span class="line">        .sorted((a, b) -&gt; b - a)</span><br><span class="line">        .forEach(System.out::println);</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>distinct<br>distinct 方法给流中的元素去重。</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">List&lt;Integer&gt; numbers = Arrays.asList(<span class="number">1</span>, <span class="number">1</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">4</span>, <span class="number">4</span>);</span><br><span class="line"><span class="comment">// 去除重复数字</span></span><br><span class="line">numbers.stream()</span><br><span class="line">        .distinct()</span><br><span class="line">        .forEach(System.out::println);</span><br></pre></td></tr></table></figure>
+
+<p>stream 中间操作的图示：<br><img src="/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/2022-08-22-15-38-05.png" alt="stream中间操作的图示"></p>
+<h3 id="3-常用最终操作"><a href="#3-常用最终操作" class="headerlink" title="3. 常用最终操作"></a>3. 常用最终操作</h3><p>Stream的中间操作得到新Stream，最终操作则把新的Stream转换成需要的类型。<br>最终操作会消耗流，产生一个最终结果，所以最终操作后无法再使用流。</p>
+<ul>
+<li><p>forEach<br>forEach 来迭代流中的每个数据。</p>
+</li>
+<li><p>count<br>count 对数据计数。</p>
+</li>
+<li><p>collect<br>collect 就是一个归约操作，可以接受各种做法作为参数，将流中的元素累积成一个汇总结果。</p>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">List&lt;String&gt; strings = Arrays.asList(<span class="string">&quot;A&quot;</span>, <span class="string">&quot;B&quot;</span>, <span class="string">&quot;C&quot;</span>, <span class="string">&quot;d&quot;</span>, <span class="string">&quot;D&quot;</span>, <span class="string">&quot;e&quot;</span>, <span class="string">&quot;f&quot;</span>);</span><br><span class="line"><span class="comment">// 字符串转大写并且去重最后返回列表</span></span><br><span class="line">strings = strings.stream()</span><br><span class="line">        .map(string -&gt; string.toUpperCase())</span><br><span class="line">        .distinct()</span><br><span class="line">        .collect(Collectors.toList());</span><br><span class="line"></span><br><span class="line">System.out.println(strings);</span><br></pre></td></tr></table></figure>
+
+<h2 id="三、新日期时间-API（Java-time-）"><a href="#三、新日期时间-API（Java-time-）" class="headerlink" title="三、新日期时间 API（Java.time.*）"></a>三、新日期时间 API（Java.time.*）</h2><h2 id="四、接口中的默认方法与静态方法"><a href="#四、接口中的默认方法与静态方法" class="headerlink" title="四、接口中的默认方法与静态方法"></a>四、接口中的默认方法与静态方法</h2><h2 id="五、Optional-容器类（java-util-Optional）"><a href="#五、Optional-容器类（java-util-Optional）" class="headerlink" title="五、Optional 容器类（java.util.Optional）"></a>五、Optional 容器类（java.util.Optional）</h2><h2 id="六、重复注解与类型注解"><a href="#六、重复注解与类型注解" class="headerlink" title="六、重复注解与类型注解"></a>六、重复注解与类型注解</h2>
+  </div>
+</article>
+<!-- gitalk comments container -->
+
+    <div class="blog-post-comments">
+        <div id="gitalk-container">
+            <noscript>无脚本</noscript>
+        </div>
+    </div>
+
+
+<!-- disqus comments container -->
+
+
+<!-- utterances comments container -->
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">首页</a></li>
+         
+          <li><a href="/about">关于</a></li>
+         
+          <li><a href="/archives/">归档</a></li>
+         
+          <li><a href="/tags">标签</a></li>
+         
+          <li><a href="/search">搜索</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%B0%E7%89%B9%E6%80%A7%E7%9A%84%E4%BC%98%E5%8A%BF"><span class="toc-number">1.</span> <span class="toc-text">新特性的优势</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%E3%80%81lambda-%E8%A1%A8%E8%BE%BE%E5%BC%8F"><span class="toc-number">2.</span> <span class="toc-text">一、lambda 表达式</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%83%8C%E6%99%AF%EF%BC%9A%E7%94%A8%E2%80%9C%CE%BB%E6%BC%94%E7%AE%97%E6%B3%95%E2%80%9D%E5%8E%BB%E7%90%86%E8%A7%A3%EF%BC%8C%E4%B8%BA%E4%BB%80%E4%B9%88%E5%87%BD%E6%95%B0%E5%BC%8F%E7%BC%96%E7%A8%8B%E4%BC%9A%E6%9C%89%E6%9B%B4%E5%B0%91%E7%9A%84bug"><span class="toc-number">2.1.</span> <span class="toc-text">背景：用“λ演算法”去理解，为什么函数式编程会有更少的bug</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%87%BD%E6%95%B0%E5%BC%8F%E6%8E%A5%E5%8F%A3"><span class="toc-number">2.2.</span> <span class="toc-text">函数式接口</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%9B%9B%E7%A7%8D%E5%9F%BA%E6%9C%AC%E7%B1%BB%E5%9E%8B%E5%87%BD%E6%95%B0%E5%BC%8F%E6%8E%A5%E5%8F%A3"><span class="toc-number">2.2.1.</span> <span class="toc-text">四种基本类型函数式接口</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%B3%95%E5%BC%95%E7%94%A8"><span class="toc-number">2.3.</span> <span class="toc-text">方法引用</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E3%80%81Stream-API%EF%BC%88java-util-stream-%EF%BC%89"><span class="toc-number">3.</span> <span class="toc-text">二、Stream API（java.util.stream.*）</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%B9%E6%80%A7"><span class="toc-number">3.1.</span> <span class="toc-text">特性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%88%9B%E5%BB%BA%E6%B5%81"><span class="toc-number">3.2.</span> <span class="toc-text">1. 创建流</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E5%B8%B8%E7%94%A8%E4%B8%AD%E9%97%B4%E6%93%8D%E4%BD%9C"><span class="toc-number">3.3.</span> <span class="toc-text">2. 常用中间操作</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E5%B8%B8%E7%94%A8%E6%9C%80%E7%BB%88%E6%93%8D%E4%BD%9C"><span class="toc-number">3.4.</span> <span class="toc-text">3. 常用最终操作</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%E3%80%81%E6%96%B0%E6%97%A5%E6%9C%9F%E6%97%B6%E9%97%B4-API%EF%BC%88Java-time-%EF%BC%89"><span class="toc-number">4.</span> <span class="toc-text">三、新日期时间 API（Java.time.*）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%9B%E3%80%81%E6%8E%A5%E5%8F%A3%E4%B8%AD%E7%9A%84%E9%BB%98%E8%AE%A4%E6%96%B9%E6%B3%95%E4%B8%8E%E9%9D%99%E6%80%81%E6%96%B9%E6%B3%95"><span class="toc-number">5.</span> <span class="toc-text">四、接口中的默认方法与静态方法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%94%E3%80%81Optional-%E5%AE%B9%E5%99%A8%E7%B1%BB%EF%BC%88java-util-Optional%EF%BC%89"><span class="toc-number">6.</span> <span class="toc-text">五、Optional 容器类（java.util.Optional）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%85%AD%E3%80%81%E9%87%8D%E5%A4%8D%E6%B3%A8%E8%A7%A3%E4%B8%8E%E7%B1%BB%E5%9E%8B%E6%B3%A8%E8%A7%A3"><span class="toc-number">7.</span> <span class="toc-text">六、重复注解与类型注解</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/&text=java 8 新特性"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/&title=java 8 新特性"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/&is_video=false&description=java 8 新特性"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=java 8 新特性&body=Check out this article: https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/&title=java 8 新特性"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/&title=java 8 新特性"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/&title=java 8 新特性"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/&title=java 8 新特性"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/&name=java 8 新特性&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://rochero.github.io/2022/08/21/java-8-%E6%96%B0%E7%89%B9%E6%80%A7/&t=java 8 新特性"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      <a id="dark-mobile" class="icon"><i class="fa fa-sun" id="dark-btn" aria-hidden="true"></i> 切换</a>
+      <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> 菜单</a>
+      <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> 目录</a>
+      <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> 分享</a>
+      <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> 回到顶部</a>
+    </div>
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    版权 &copy;
+    
+    
+    2022
+    PJ Zhang
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">首页</a></li><!--
+     --><!--
+       --><li><a href="/about">关于</a></li><!--
+     --><!--
+       --><li><a href="/archives/">归档</a></li><!--
+     --><!--
+       --><li><a href="/tags">标签</a></li><!--
+     --><!--
+       --><li><a href="/search">搜索</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script> 
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"复制到粘贴板\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    // set code label
+    $(".btn-copy").attr("aria-label", function(){return $(this).parent(".highlight").attr("class").replace("highlight ","")+": 复制到粘贴板"})
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "复制成功");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+
+<script src="/js/main.js"></script>
+
+
+<!-- search -->
+
+
+<!-- Google Analytics -->
+
+
+<!-- Baidu Analytics -->
+
+
+<!-- Cloudflare Analytics -->
+
+
+<!-- Umami Analytics -->
+
+
+<!-- Gitalk Comments -->
+
+  
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+
+    <script type="text/javascript">
+        (function(){
+            var clientID = "01b653c1f8961e8e94be";
+            var clientSecret = "83869c82a1eaa87622d63b59bf388a2ebf690889";
+            var repo = "rochero.github.io";
+            var owner = "rochero";
+            var admin = "rochero";
+            var id = "java 8 新特性";
+            var distractionFreeMode = true;
+            var gitalk = new Gitalk({
+              clientID: clientID,
+              clientSecret: clientSecret,
+              repo: repo,
+              owner: owner,
+              admin: admin,
+              id: id
+            });
+            gitalk.render('gitalk-container');
+        }());
+    </script>
+
+
+<!-- Disqus Comments -->
+
+
+<!-- Utterances Comments -->
+
+
+<!-- MathJax -->
+
+</body>
+</html>
